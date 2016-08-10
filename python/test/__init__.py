@@ -1,0 +1,2 @@
+import test_module.myunittest
+import test_module.mydoctest
