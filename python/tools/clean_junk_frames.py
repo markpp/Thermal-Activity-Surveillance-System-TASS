@@ -7,6 +7,7 @@ import csv
 import cv2
 
 if __name__ == "__main__":
+    #python clean_junk_frames.py -p /Volumes/WD1TBNTFS/MTBdata/test -e 8
     # construct the argument parser and parse the arguments
     ap = argparse.ArgumentParser()
     ap.add_argument("-p", "--path", type=str,
@@ -20,13 +21,13 @@ if __name__ == "__main__":
     end_num = args["end"]
 
     for filename in os.listdir(path):
-        print filename
+        #print filename
         #prefix, num = filename[:-4].split('_')
         name, postfix = filename[:].split('.')
         if (postfix == 'png'):
             prefix, num =name[:].split('_')
             if(int(num) > end_num):
-                print num
+                print "removing frame: {}".format(num)
                 os.remove(os.path.join(path, filename))
                 #new_filename = "frame_" + num.zfill(6) + ".png"
                 #os.rename(os.path.join(path, filename), os.path.join(path, new_filename))
