@@ -70,7 +70,7 @@ def convert(csv_path, xml_path, scaling):
     next(csvData)  # Skip header line
     for line in csvData:
 
-        if(ped_annotation_check(line)):
+        if(mtb_annotation_check(line)):
             frame_nr = line[0].split('_')[1].split('.')[0]
             #print frame_nr
             if frame_nr != prev_nr:
@@ -78,7 +78,7 @@ def convert(csv_path, xml_path, scaling):
                     xmlData.write('  ' + '<' + '/image' + '>' + "\n")
                 first = False
 
-                xmlData.write('  ' + '<' + 'image' + ' ' + 'file' + '=' + '"' + line[0].split(';')[0] + '"' + '>' + "\n")
+                xmlData.write('  ' + '<' + 'image' + ' ' + 'file' + '=' + '"' + "4x/" + line[0].split(';')[0] + '"' + '>' + "\n")
                 prev_nr = frame_nr
 
             xmlData.write('    ' + '<' + 'box' + ' ' + 'top' + '=' + '"' + str(int(line[0].split(';')[4])*scaling) + '"' + ' ' +

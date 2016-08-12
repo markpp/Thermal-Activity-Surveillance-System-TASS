@@ -44,7 +44,7 @@ def annotation_preview(frames_dir, annotations, start_frame):
     # Showing only frames with annotated objects
 
     frame_list = sorted(annotations)
-    output_dir = "/Users/markpp/Desktop/code/VAPprojects/PythonHoG/bikes/images4x"
+    output_dir = "/Users/markpp/Desktop/code/my_repos/MTB/data/training/4x"
     # Sort the unordered dictionary and used the sorted keys to find relevant frames
     #for frame_nr in sorted(annotations):
     #for frame_nr in frame_list:
@@ -90,8 +90,8 @@ def annotation_preview(frames_dir, annotations, start_frame):
 def detect_hog(frames_dir, annotations):
     # Showing only frames with annotated objects
 
-    hog_detector = detection.detector.detector("../data/models/detector.svm")
-
+    hog_detector = detection.detector.detector()
+    hog_detector.load_dlib_detector()
     frame_list = sorted(annotations)
     # Sort the unordered dictionary and used the sorted keys to find relevant frames
     index = 0
@@ -112,7 +112,7 @@ def detect_hog(frames_dir, annotations):
                 #img2 = cv2.imread("/Users/markpp/Desktop/code/VAPprojects/PythonHoG/bikes/images8x/frame_004297.png", -1)
                 #presentation.presenter.show_hog(frame)
                 #cv2.imshow('Preview', presentation.presenter.scale_draw_annotations(img, frame_nr, annotations, 4.0))
-                detections = hog_detector.dlib_detector(frame)
+                detections = hog_detector.execute_dlib_detector(frame)
                 cv2.imshow('Preview', presentation.presenter.draw_detections(frame, frame_nr, detections, 4.0))
 
             else:
@@ -134,6 +134,17 @@ def detect_hog(frames_dir, annotations):
                 print "Paused."
                 cv2.waitKey()
                 print "Unpaused."
+
+
+def train_detector():
+
+    hog_detector = detection.detector.detector()
+
+    #hog_detector.load_dlib_detector()
+    #hog_detector.show_learned_hog_filter()
+
+    hog_detector.train_dlib_detector()
+    hog_detector.evaluate_dlib_detector()
 
 
 if __name__ == "__main__":
@@ -175,8 +186,9 @@ if __name__ == "__main__":
 
     start_frame = args["frame"]
 
-    #detection.detector.show_learned_hog_filter("../data/models/")
-    detect_hog(frames_dir, annotations)
+    train_detector()
+
+    #detect_hog(frames_dir, annotations)
     #annotation_preview(frames_dir, annotations, start_frame)
     #test(frames_dir, annotations)
     #continous_preview(frames_dir, annotations)

@@ -11,15 +11,15 @@ startTimes = []
 Converts the frame-based CSV timeseries annotations into a useful UTC formated time for first frame with activity
 '''
 if __name__ == "__main__":
-    #path = sys.argv[1]
-    startSeconds = calendar.timegm(time.strptime('Sep 29, 2015 @ 11:00:00 UTC', '%b %d, %Y @ %H:%M:%S UTC'))
-    path = '/Volumes/WD1TBNTFS/output/output27sep.csv'
+    path = sys.argv[1]
+    startSeconds = calendar.timegm(time.strptime('Oct 5, 2015 @ 11:00:00 UTC', '%b %d, %Y @ %H:%M:%S UTC'))
+    #path = '/Volumes/WD1TBNTFS/output/output27sep.csv'
     with open(path) as inputfile:
         for line in inputfile:
             #print line
             startPoints.append(line[:-4].split('_')[1].split('.')[0])
 
-    with open('/Users/markpp/Desktop/test/output.txt', 'wb') as text_file:
+    with open('/Users/markpp/Desktop/output.txt', 'wb') as text_file:
         for point in startPoints:
             timePointSec = startSeconds + float(int(point)) / 9
             #print timePoint
