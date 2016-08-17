@@ -1,0 +1,2479 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="image_metadata_stylesheet.xsl"?>
+<dataset>
+<name>Training faces</name>
+<comment>These are images from my thermal MTB dataset.</comment>
+<images>
+  <image file="4x/frame_000722.png">
+    <box top="16" left="0" width="52" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_000723.png">
+    <box top="12" left="0" width="68" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_000724.png">
+    <box top="12" left="28" width="68" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_000725.png">
+    <box top="12" left="48" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_000726.png">
+    <box top="12" left="68" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_000727.png">
+    <box top="12" left="96" width="76" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_000728.png">
+    <box top="16" left="128" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_000729.png">
+    <box top="16" left="156" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_000730.png">
+    <box top="24" left="188" width="80" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_000731.png">
+    <box top="32" left="220" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_000732.png">
+    <box top="40" left="248" width="68" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_017330.png">
+    <box top="12" left="96" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_017331.png">
+    <box top="12" left="120" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_017332.png">
+    <box top="16" left="148" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_017333.png">
+    <box top="20" left="172" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_017334.png">
+    <box top="24" left="204" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_017335.png">
+    <box top="32" left="236" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_017336.png">
+    <box top="40" left="264" width="52" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_025242.png">
+    <box top="12" left="0" width="48" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_025243.png">
+    <box top="12" left="4" width="60" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_025244.png">
+    <box top="12" left="24" width="64" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_025245.png">
+    <box top="12" left="44" width="64" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_025246.png">
+    <box top="12" left="64" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_025247.png">
+    <box top="16" left="92" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_025248.png">
+    <box top="16" left="116" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_025249.png">
+    <box top="20" left="140" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_025250.png">
+    <box top="24" left="168" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_025251.png">
+    <box top="28" left="196" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_025252.png">
+    <box top="32" left="224" width="76" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_025253.png">
+    <box top="40" left="252" width="64" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_026299.png">
+    <box top="16" left="0" width="48" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_026300.png">
+    <box top="16" left="0" width="64" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_026301.png">
+    <box top="12" left="24" width="68" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_026302.png">
+    <box top="12" left="44" width="68" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_026303.png">
+    <box top="16" left="68" width="76" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_026304.png">
+    <box top="16" left="92" width="84" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_026309.png">
+    <box top="40" left="240" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031309.png">
+    <box top="16" left="0" width="52" height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031310.png">
+    <box top="16" left="12" width="56" height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031311.png">
+    <box top="16" left="28" width="56" height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031312.png">
+    <box top="16" left="40" width="60" height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031313.png">
+    <box top="16" left="56" width="64" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031314.png">
+    <box top="16" left="72" width="60" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031315.png">
+    <box top="16" left="88" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031316.png">
+    <box top="16" left="108" width="60" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031317.png">
+    <box top="20" left="124" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031318.png">
+    <box top="20" left="140" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031319.png">
+    <box top="20" left="156" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031320.png">
+    <box top="24" left="172" width="80" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031321.png">
+    <box top="24" left="192" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031322.png">
+    <box top="28" left="216" width="76" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031323.png">
+    <box top="36" left="236" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031324.png">
+    <box top="36" left="252" width="64" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031327.png">
+    <box top="8" left="0" width="56" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031328.png">
+    <box top="8" left="8" width="60" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031329.png">
+    <box top="8" left="16" width="64" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031330.png">
+    <box top="8" left="32" width="64" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031331.png">
+    <box top="8" left="48" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031332.png">
+    <box top="8" left="60" width="72" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031333.png">
+    <box top="8" left="80" width="72" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031334.png">
+    <box top="8" left="96" width="72" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031335.png">
+    <box top="8" left="112" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031336.png">
+    <box top="12" left="132" width="80" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031337.png">
+    <box top="16" left="152" width="80" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031338.png">
+    <box top="16" left="172" width="80" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031339.png">
+    <box top="20" left="188" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031340.png">
+    <box top="20" left="208" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031341.png">
+    <box top="24" left="224" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_031342.png">
+    <box top="28" left="248" width="68" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_045904.png">
+    <box top="16" left="128" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_045905.png">
+    <box top="16" left="156" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_045906.png">
+    <box top="24" left="184" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_045907.png">
+    <box top="32" left="216" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_045908.png">
+    <box top="36" left="244" width="72" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_046408.png">
+    <box top="16" left="0" width="44" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_046409.png">
+    <box top="12" left="4" width="56" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_046410.png">
+    <box top="12" left="20" width="60" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_046411.png">
+    <box top="12" left="36" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_046412.png">
+    <box top="16" left="60" width="68" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_046413.png">
+    <box top="16" left="80" width="68" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_046414.png">
+    <box top="16" left="104" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_046415.png">
+    <box top="20" left="128" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_046416.png">
+    <box top="20" left="148" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_046417.png">
+    <box top="20" left="172" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_046418.png">
+    <box top="28" left="200" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_046419.png">
+    <box top="32" left="228" width="80" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_046420.png">
+    <box top="32" left="256" width="60" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050450.png">
+    <box top="8" left="0" width="44" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050451.png">
+    <box top="4" left="0" width="52" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050452.png">
+    <box top="4" left="8" width="60" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050453.png">
+    <box top="4" left="16" width="60" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050454.png">
+    <box top="4" left="24" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050455.png">
+    <box top="4" left="32" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050456.png">
+    <box top="8" left="40" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050457.png">
+    <box top="8" left="52" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050458.png">
+    <box top="8" left="64" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050459.png">
+    <box top="8" left="72" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050460.png">
+    <box top="8" left="80" width="80" height="84">
+      <label>MTB</label>
+    </box>
+    <box top="16" left="0" width="60" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050461.png">
+    <box top="8" left="92" width="84" height="88">
+      <label>MTB</label>
+    </box>
+    <box top="16" left="0" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050462.png">
+    <box top="8" left="100" width="88" height="92">
+      <label>MTB</label>
+    </box>
+    <box top="12" left="0" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050463.png">
+    <box top="8" left="112" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050464.png">
+    <box top="8" left="124" width="92" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050465.png">
+    <box top="12" left="136" width="92" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050466.png">
+    <box top="12" left="148" width="96" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050467.png">
+    <box top="12" left="164" width="96" height="100">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050468.png">
+    <box top="12" left="176" width="92" height="104">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050469.png">
+    <box top="12" left="192" width="92" height="108">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050470.png">
+    <box top="16" left="204" width="92" height="108">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050471.png">
+    <box top="16" left="216" width="96" height="112">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050472.png">
+    <box top="20" left="228" width="88" height="108">
+      <label>MTB</label>
+    </box>
+    <box top="12" left="92" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050473.png">
+    <box top="24" left="244" width="72" height="108">
+      <label>MTB</label>
+    </box>
+    <box top="12" left="100" width="92" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050474.png">
+    <box top="12" left="112" width="92" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050475.png">
+    <box top="12" left="120" width="96" height="100">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050476.png">
+    <box top="12" left="132" width="100" height="104">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050477.png">
+    <box top="12" left="144" width="100" height="104">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050478.png">
+    <box top="16" left="160" width="100" height="100">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050479.png">
+    <box top="16" left="168" width="104" height="108">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050480.png">
+    <box top="16" left="180" width="104" height="104">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050481.png">
+    <box top="16" left="192" width="108" height="108">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050483.png">
+    <box top="20" left="220" width="96" height="108">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_050484.png">
+    <box top="24" left="236" width="80" height="104">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064357.png">
+    <box top="16" left="0" width="60" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064358.png">
+    <box top="12" left="12" width="64" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064359.png">
+    <box top="12" left="36" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064360.png">
+    <box top="12" left="56" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064361.png">
+    <box top="12" left="76" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064362.png">
+    <box top="12" left="96" width="72" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064363.png">
+    <box top="16" left="120" width="72" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064364.png">
+    <box top="16" left="136" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064365.png">
+    <box top="16" left="160" width="88" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064366.png">
+    <box top="24" left="184" width="92" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064367.png">
+    <box top="28" left="212" width="92" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064368.png">
+    <box top="32" left="244" width="72" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064377.png">
+    <box top="12" left="4" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064378.png">
+    <box top="12" left="20" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064379.png">
+    <box top="12" left="44" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064380.png">
+    <box top="12" left="64" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064381.png">
+    <box top="12" left="92" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064382.png">
+    <box top="16" left="116" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064383.png">
+    <box top="20" left="140" width="80" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064384.png">
+    <box top="20" left="172" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064385.png">
+    <box top="28" left="200" width="88" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064386.png">
+    <box top="32" left="232" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_064387.png">
+    <box top="36" left="260" width="56" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074347.png">
+    <box top="12" left="0" width="48" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074348.png">
+    <box top="12" left="0" width="56" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074349.png">
+    <box top="8" left="4" width="64" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074350.png">
+    <box top="8" left="8" width="76" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074351.png">
+    <box top="8" left="16" width="76" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074352.png">
+    <box top="8" left="24" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074353.png">
+    <box top="8" left="36" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074354.png">
+    <box top="8" left="48" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074355.png">
+    <box top="8" left="56" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074356.png">
+    <box top="8" left="68" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074357.png">
+    <box top="8" left="80" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074358.png">
+    <box top="8" left="92" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074359.png">
+    <box top="8" left="104" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074360.png">
+    <box top="12" left="120" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074361.png">
+    <box top="16" left="136" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074362.png">
+    <box top="16" left="148" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074363.png">
+    <box top="16" left="160" width="92" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074364.png">
+    <box top="20" left="176" width="92" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074365.png">
+    <box top="20" left="192" width="92" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074366.png">
+    <box top="20" left="208" width="100" height="108">
+      <label>MTB</label>
+    </box>
+    <box top="16" left="0" width="56" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074367.png">
+    <box top="24" left="224" width="92" height="104">
+      <label>MTB</label>
+    </box>
+    <box top="16" left="4" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074368.png">
+    <box top="28" left="244" width="72" height="104">
+      <label>MTB</label>
+    </box>
+    <box top="12" left="16" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074369.png">
+    <box top="16" left="24" width="72" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074370.png">
+    <box top="12" left="40" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074371.png">
+    <box top="12" left="52" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074372.png">
+    <box top="12" left="68" width="80" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074373.png">
+    <box top="12" left="80" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074374.png">
+    <box top="12" left="96" width="88" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074375.png">
+    <box top="12" left="116" width="84" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074376.png">
+    <box top="12" left="132" width="84" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074377.png">
+    <box top="16" left="148" width="84" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074378.png">
+    <box top="16" left="164" width="88" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074379.png">
+    <box top="20" left="184" width="84" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074380.png">
+    <box top="24" left="200" width="92" height="100">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074381.png">
+    <box top="24" left="224" width="84" height="104">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074382.png">
+    <box top="28" left="240" width="76" height="108">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074500.png">
+    <box top="12" left="0" width="48" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074501.png">
+    <box top="8" left="4" width="60" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074502.png">
+    <box top="8" left="8" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074503.png">
+    <box top="8" left="24" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074504.png">
+    <box top="8" left="40" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074505.png">
+    <box top="8" left="52" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074506.png">
+    <box top="8" left="64" width="80" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074507.png">
+    <box top="8" left="84" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074508.png">
+    <box top="12" left="100" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074509.png">
+    <box top="8" left="112" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074510.png">
+    <box top="12" left="128" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074511.png">
+    <box top="12" left="140" width="92" height="100">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074512.png">
+    <box top="12" left="164" width="88" height="104">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074513.png">
+    <box top="12" left="180" width="92" height="108">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074514.png">
+    <box top="20" left="196" width="96" height="104">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074515.png">
+    <box top="20" left="216" width="88" height="104">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074516.png">
+    <box top="24" left="236" width="80" height="108">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_074517.png">
+    <box top="28" left="256" width="60" height="104">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076015.png">
+    <box top="8" left="0" width="56" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076016.png">
+    <box top="8" left="8" width="64" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076017.png">
+    <box top="8" left="24" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076018.png">
+    <box top="8" left="40" width="72" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076019.png">
+    <box top="8" left="56" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076020.png">
+    <box top="8" left="76" width="76" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076021.png">
+    <box top="12" left="96" width="80" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076022.png">
+    <box top="12" left="116" width="80" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076023.png">
+    <box top="12" left="132" width="84" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076024.png">
+    <box top="16" left="156" width="84" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076025.png">
+    <box top="20" left="176" width="84" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076026.png">
+    <box top="20" left="204" width="84" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076027.png">
+    <box top="24" left="224" width="84" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076028.png">
+    <box top="28" left="248" width="68" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076073.png">
+    <box top="12" left="8" width="76" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076074.png">
+    <box top="16" left="20" width="84" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076075.png">
+    <box top="16" left="32" width="84" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076076.png">
+    <box top="16" left="48" width="84" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076077.png">
+    <box top="16" left="64" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076078.png">
+    <box top="16" left="76" width="88" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076079.png">
+    <box top="16" left="92" width="92" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076080.png">
+    <box top="16" left="104" width="92" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076081.png">
+    <box top="16" left="120" width="96" height="96">
+      <label>MTB</label>
+    </box>
+    <box top="20" left="0" width="52" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076082.png">
+    <box top="20" left="144" width="92" height="96">
+      <label>MTB</label>
+    </box>
+    <box top="20" left="0" width="64" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076083.png">
+    <box top="16" left="156" width="96" height="104">
+      <label>MTB</label>
+    </box>
+    <box top="20" left="8" width="68" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076084.png">
+    <box top="20" left="176" width="92" height="100">
+      <label>MTB</label>
+    </box>
+    <box top="20" left="16" width="76" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076085.png">
+    <box top="20" left="188" width="104" height="104">
+      <label>MTB</label>
+    </box>
+    <box top="20" left="24" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076086.png">
+    <box top="24" left="208" width="100" height="104">
+      <label>MTB</label>
+    </box>
+    <box top="20" left="40" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076087.png">
+    <box top="28" left="224" width="92" height="100">
+      <label>MTB</label>
+    </box>
+    <box top="20" left="52" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076088.png">
+    <box top="32" left="244" width="72" height="96">
+      <label>MTB</label>
+    </box>
+    <box top="20" left="64" width="92" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076089.png">
+    <box top="20" left="80" width="92" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076090.png">
+    <box top="20" left="96" width="96" height="100">
+      <label>MTB</label>
+    </box>
+    <box top="12" left="0" width="48" height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076091.png">
+    <box top="20" left="108" width="100" height="100">
+      <label>MTB</label>
+    </box>
+    <box top="12" left="0" width="60" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076092.png">
+    <box top="20" left="124" width="100" height="104">
+      <label>MTB</label>
+    </box>
+    <box top="12" left="8" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076093.png">
+    <box top="20" left="144" width="100" height="108">
+      <label>MTB</label>
+    </box>
+    <box top="12" left="20" width="68" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076094.png">
+    <box top="12" left="32" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076095.png">
+    <box top="28" left="176" width="104" height="108">
+      <label>MTB</label>
+    </box>
+    <box top="12" left="44" width="68" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076096.png">
+    <box top="28" left="196" width="104" height="112">
+      <label>MTB</label>
+    </box>
+    <box top="8" left="52" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076097.png">
+    <box top="32" left="208" width="108" height="116">
+      <label>MTB</label>
+    </box>
+    <box top="8" left="64" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076098.png">
+    <box top="36" left="232" width="84" height="116">
+      <label>MTB</label>
+    </box>
+    <box top="8" left="80" width="72" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076099.png">
+    <box top="40" left="252" width="64" height="104">
+      <label>MTB</label>
+    </box>
+    <box top="12" left="96" width="68" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076100.png">
+    <box top="12" left="112" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076101.png">
+    <box top="12" left="116" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076102.png">
+    <box top="12" left="132" width="80" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076103.png">
+    <box top="16" left="148" width="80" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076104.png">
+    <box top="16" left="164" width="80" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076105.png">
+    <box top="16" left="176" width="88" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076106.png">
+    <box top="20" left="192" width="88" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076107.png">
+    <box top="20" left="208" width="88" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076108.png">
+    <box top="24" left="224" width="88" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076109.png">
+    <box top="28" left="244" width="72" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076110.png">
+    <box top="32" left="260" width="56" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076111.png">
+    <box top="8" left="64" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076112.png">
+    <box top="8" left="84" width="76" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076113.png">
+    <box top="12" left="108" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076114.png">
+    <box top="12" left="128" width="84" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076115.png">
+    <box top="16" left="156" width="84" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076116.png">
+    <box top="20" left="176" width="84" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076117.png">
+    <box top="24" left="200" width="84" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076118.png">
+    <box top="28" left="220" width="92" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_076119.png">
+    <box top="32" left="248" width="68" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_101797.png">
+    <box top="12" left="0" width="60" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_101798.png">
+    <box top="12" left="16" width="60" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_101799.png">
+    <box top="12" left="32" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_101800.png">
+    <box top="12" left="52" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_101801.png">
+    <box top="12" left="68" width="72" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_101802.png">
+    <box top="12" left="92" width="72" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_101803.png">
+    <box top="16" left="116" width="72" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_101804.png">
+    <box top="16" left="140" width="72" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_101805.png">
+    <box top="20" left="164" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_101806.png">
+    <box top="24" left="188" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_101807.png">
+    <box top="28" left="212" width="84" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_101808.png">
+    <box top="36" left="240" width="76" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_102414.png">
+    <box top="16" left="0" width="44" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_102415.png">
+    <box top="12" left="0" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_102416.png">
+    <box top="12" left="16" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_102417.png">
+    <box top="12" left="36" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_102418.png">
+    <box top="12" left="52" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_102419.png">
+    <box top="12" left="68" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_102420.png">
+    <box top="12" left="92" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_102421.png">
+    <box top="16" left="116" width="84" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_102422.png">
+    <box top="20" left="140" width="84" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_102423.png">
+    <box top="20" left="160" width="88" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_102424.png">
+    <box top="24" left="188" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_102425.png">
+    <box top="28" left="212" width="92" height="100">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_102426.png">
+    <box top="32" left="236" width="80" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_103556.png">
+    <box top="12" left="0" width="56" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_103557.png">
+    <box top="12" left="16" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_103558.png">
+    <box top="12" left="40" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_103559.png">
+    <box top="12" left="68" width="84" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_103560.png">
+    <box top="16" left="100" width="84" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_104906.png">
+    <box top="12" left="16" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_104907.png">
+    <box top="12" left="40" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_104908.png">
+    <box top="12" left="68" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_104909.png">
+    <box top="16" left="100" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_104910.png">
+    <box top="20" left="128" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_104911.png">
+    <box top="24" left="156" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_104912.png">
+    <box top="28" left="188" width="92" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_104913.png">
+    <box top="36" left="224" width="92" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_104943.png">
+    <box top="12" left="0" width="68" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_104944.png">
+    <box top="12" left="16" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_104945.png">
+    <box top="12" left="40" width="80" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_104946.png">
+    <box top="12" left="64" width="80" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_104947.png">
+    <box top="12" left="88" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_104948.png">
+    <box top="16" left="116" width="84" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_104951.png">
+    <box top="28" left="196" width="96" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_104952.png">
+    <box top="32" left="232" width="84" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105201.png">
+    <box top="12" left="84" width="76" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105202.png">
+    <box top="12" left="104" width="80" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105203.png">
+    <box top="16" left="132" width="80" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105204.png">
+    <box top="20" left="156" width="88" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105205.png">
+    <box top="24" left="184" width="88" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105206.png">
+    <box top="28" left="216" width="92" height="100">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105207.png">
+    <box top="36" left="248" width="68" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105221.png">
+    <box top="12" left="0" width="60" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105222.png">
+    <box top="12" left="12" width="64" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105223.png">
+    <box top="12" left="36" width="72" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105224.png">
+    <box top="12" left="56" width="72" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105225.png">
+    <box top="12" left="80" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105226.png">
+    <box top="12" left="104" width="76" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105227.png">
+    <box top="16" left="132" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105228.png">
+    <box top="20" left="160" width="84" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105229.png">
+    <box top="24" left="188" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105230.png">
+    <box top="28" left="216" width="88" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_105231.png">
+    <box top="32" left="252" width="64" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_113576.png">
+    <box top="8" left="60" width="72" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_113577.png">
+    <box top="8" left="80" width="76" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_113578.png">
+    <box top="12" left="104" width="80" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_113579.png">
+    <box top="16" left="124" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_113580.png">
+    <box top="16" left="152" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_113581.png">
+    <box top="20" left="176" width="84" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_113582.png">
+    <box top="24" left="204" width="88" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_113583.png">
+    <box top="32" left="232" width="84" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115378.png">
+    <box top="16" left="0" width="60" height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115379.png">
+    <box top="16" left="16" width="68" height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115381.png">
+    <box top="16" left="60" width="72" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115382.png">
+    <box top="16" left="80" width="76" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115388.png">
+    <box top="36" left="256" width="60" height="88">
+      <label>MTB</label>
+    </box>
+    <box top="8" left="0" width="56" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115389.png">
+    <box top="8" left="8" width="68" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115390.png">
+    <box top="8" left="28" width="68" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115391.png">
+    <box top="12" left="44" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115392.png">
+    <box top="12" left="64" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115393.png">
+    <box top="16" left="88" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115394.png">
+    <box top="16" left="108" width="80" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115395.png">
+    <box top="20" left="136" width="80" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115399.png">
+    <box top="36" left="236" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115441.png">
+    <box top="16" left="0" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115442.png">
+    <box top="16" left="16" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115443.png">
+    <box top="16" left="36" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115444.png">
+    <box top="16" left="56" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115445.png">
+    <box top="16" left="80" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115446.png">
+    <box top="16" left="100" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115447.png">
+    <box top="20" left="124" width="84" height="88">
+      <label>MTB</label>
+    </box>
+    <box top="16" left="0" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115448.png">
+    <box top="24" left="148" width="80" height="88">
+      <label>MTB</label>
+    </box>
+    <box top="16" left="16" width="72" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115449.png">
+    <box top="24" left="172" width="80" height="96">
+      <label>MTB</label>
+    </box>
+    <box top="16" left="40" width="68" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115450.png">
+    <box top="32" left="200" width="84" height="92">
+      <label>MTB</label>
+    </box>
+    <box top="20" left="60" width="72" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115451.png">
+    <box top="36" left="228" width="84" height="92">
+      <label>MTB</label>
+    </box>
+    <box top="16" left="84" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115452.png">
+    <box top="40" left="256" width="60" height="88">
+      <label>MTB</label>
+    </box>
+    <box top="20" left="104" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115453.png">
+    <box top="20" left="128" width="80" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115454.png">
+    <box top="24" left="152" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115455.png">
+    <box top="28" left="180" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115456.png">
+    <box top="32" left="212" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_115457.png">
+    <box top="36" left="244" width="72" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_117768.png">
+    <box top="16" left="0" width="44" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_117769.png">
+    <box top="16" left="4" width="60" height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_117770.png">
+    <box top="16" left="24" width="68" height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_117771.png">
+    <box top="16" left="44" width="72" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_117772.png">
+    <box top="16" left="64" width="76" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_117773.png">
+    <box top="20" left="88" width="76" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_117774.png">
+    <box top="24" left="116" width="76" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_117775.png">
+    <box top="28" left="144" width="80" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_117776.png">
+    <box top="28" left="176" width="80" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_117777.png">
+    <box top="36" left="208" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_117778.png">
+    <box top="44" left="240" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121606.png">
+    <box top="20" left="0" width="48" height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121607.png">
+    <box top="16" left="4" width="56" height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121608.png">
+    <box top="16" left="24" width="60" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121609.png">
+    <box top="16" left="40" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121610.png">
+    <box top="20" left="60" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121611.png">
+    <box top="20" left="80" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121612.png">
+    <box top="20" left="96" width="76" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121613.png">
+    <box top="24" left="124" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121614.png">
+    <box top="28" left="144" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121615.png">
+    <box top="28" left="164" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121616.png">
+    <box top="32" left="192" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121617.png">
+    <box top="36" left="220" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121618.png">
+    <box top="44" left="248" width="68" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121635.png">
+    <box top="20" left="4" width="60" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121636.png">
+    <box top="20" left="24" width="68" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121637.png">
+    <box top="20" left="44" width="76" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121638.png">
+    <box top="20" left="72" width="76" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121639.png">
+    <box top="20" left="96" width="84" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121640.png">
+    <box top="24" left="124" width="84" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121643.png">
+    <box top="36" left="216" width="88" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121644.png">
+    <box top="44" left="244" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121653.png">
+    <box top="16" left="0" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121654.png">
+    <box top="12" left="16" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121655.png">
+    <box top="12" left="36" width="72" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121656.png">
+    <box top="12" left="60" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121657.png">
+    <box top="12" left="84" width="80" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121658.png">
+    <box top="16" left="108" width="84" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121659.png">
+    <box top="16" left="136" width="84" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121660.png">
+    <box top="24" left="164" width="84" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121661.png">
+    <box top="28" left="192" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121662.png">
+    <box top="32" left="220" width="92" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_121663.png">
+    <box top="40" left="252" width="64" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_126985.png">
+    <box top="16" left="0" width="56" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_126986.png">
+    <box top="16" left="4" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_126987.png">
+    <box top="16" left="24" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_126988.png">
+    <box top="16" left="40" width="68" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_126989.png">
+    <box top="16" left="60" width="72" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_126990.png">
+    <box top="16" left="80" width="72" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_126991.png">
+    <box top="20" left="100" width="76" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_126992.png">
+    <box top="20" left="120" width="80" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_126993.png">
+    <box top="24" left="144" width="80" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_126994.png">
+    <box top="24" left="164" width="88" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_126995.png">
+    <box top="28" left="192" width="88" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_126996.png">
+    <box top="32" left="216" width="88" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_126997.png">
+    <box top="40" left="240" width="76" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128176.png">
+    <box top="16" left="0" width="48" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128177.png">
+    <box top="12" left="4" width="60" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128178.png">
+    <box top="12" left="20" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128179.png">
+    <box top="12" left="40" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128180.png">
+    <box top="12" left="64" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128181.png">
+    <box top="16" left="84" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128182.png">
+    <box top="16" left="108" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128186.png">
+    <box top="36" left="224" width="88" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128187.png">
+    <box top="40" left="260" width="56" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128218.png">
+    <box top="12" left="0" width="52" height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128219.png">
+    <box top="12" left="16" width="60" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128220.png">
+    <box top="12" left="40" width="64" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128221.png">
+    <box top="16" left="64" width="68" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128222.png">
+    <box top="16" left="92" width="68" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128223.png">
+    <box top="20" left="120" width="72" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128224.png">
+    <box top="24" left="152" width="72" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128225.png">
+    <box top="28" left="180" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128226.png">
+    <box top="32" left="212" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_128227.png">
+    <box top="44" left="248" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135219.png">
+    <box top="16" left="0" width="40" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135220.png">
+    <box top="12" left="4" width="56" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135221.png">
+    <box top="12" left="16" width="60" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135222.png">
+    <box top="16" left="32" width="60" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135223.png">
+    <box top="16" left="48" width="60" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135224.png">
+    <box top="16" left="56" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135225.png">
+    <box top="16" left="72" width="72" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135226.png">
+    <box top="16" left="96" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135227.png">
+    <box top="16" left="112" width="76" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135228.png">
+    <box top="20" left="128" width="76" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135229.png">
+    <box top="20" left="148" width="76" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135230.png">
+    <box top="24" left="168" width="76" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135231.png">
+    <box top="28" left="184" width="84" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135232.png">
+    <box top="28" left="204" width="88" height="92">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135305.png">
+    <box top="16" left="0" width="48" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135306.png">
+    <box top="12" left="4" width="60" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135307.png">
+    <box top="12" left="20" width="60" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135308.png">
+    <box top="16" left="36" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135309.png">
+    <box top="16" left="56" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135310.png">
+    <box top="16" left="72" width="68" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135311.png">
+    <box top="16" left="88" width="72" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135312.png">
+    <box top="16" left="108" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135313.png">
+    <box top="20" left="128" width="76" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135314.png">
+    <box top="20" left="148" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135315.png">
+    <box top="24" left="168" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135316.png">
+    <box top="28" left="196" width="80" height="88">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135317.png">
+    <box top="28" left="216" width="84" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_135318.png">
+    <box top="36" left="240" width="76" height="96">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_153236.png">
+    <box top="16" left="0" width="44" height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_153237.png">
+    <box top="16" left="8" width="56" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_153238.png">
+    <box top="16" left="28" width="56" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_153239.png">
+    <box top="16" left="48" width="60" height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_153240.png">
+    <box top="16" left="72" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_153241.png">
+    <box top="16" left="96" width="64" height="76">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_153242.png">
+    <box top="20" left="124" width="64" height="80">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_153243.png">
+    <box top="20" left="148" width="68" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_153244.png">
+    <box top="24" left="176" width="68" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_153245.png">
+    <box top="32" left="208" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="4x/frame_153246.png">
+    <box top="40" left="240" width="72" height="84">
+      <label>MTB</label>
+    </box>
+  </image>
+</images>
+</dataset>

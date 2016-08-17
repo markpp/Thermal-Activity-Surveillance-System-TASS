@@ -23,3 +23,7 @@
 *.png
 
 *.avi
+
+*.gif
+
+bin/

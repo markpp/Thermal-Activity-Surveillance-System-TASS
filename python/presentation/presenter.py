@@ -19,13 +19,42 @@ def draw_grid(frame, scaling, spacing=10):
                                  int(60 * scaling)), (255, 0, 0), 1)
 
 
+def draw_rects(frame, frame_number, rects, scaling):
+    cv2.putText(frame, str(frame_number), (int(60 * scaling), 20),
+            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1, cv2.LINE_AA)
+
+    for rect_index, rect in enumerate(rects):
+        #print("Detection {}: Left: {} Top: {} Right: {} Bottom: {}".format(k, d.left(), d.top(), d.right(), d.bottom()))
+        frame = cv2.rectangle(frame, (rect.left(), rect.top()), (rect.right(), rect.bottom()), (255, 255, 0), 1)
+    return frame
+
+
 def draw_detections(frame, frame_number, detections, scaling):
     cv2.putText(frame, str(frame_number), (int(60 * scaling), 20),
             cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1, cv2.LINE_AA)
 
-    for k, d in enumerate(detections):
+    for det_index, det in enumerate(detections):
         #print("Detection {}: Left: {} Top: {} Right: {} Bottom: {}".format(k, d.left(), d.top(), d.right(), d.bottom()))
-        frame = cv2.rectangle(frame, (d.left(), d.top()), (d.right(), d.bottom()), (255, 255, 0), 1)
+        frame = cv2.rectangle(frame, (det.x_min, det.y_min), (det.x_max, det.y_max), (255, 255, 0), 1)
+
+    return frame
+
+
+def draw_tracks(frame, frame_number, tracks, scaling):
+    cv2.putText(frame, str(frame_number), (int(60 * scaling), 20),
+            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1, cv2.LINE_AA)
+
+    for track_index, track in enumerate(tracks):
+        cv2.putText(frame, str(track.det_num), (int(track.p_predict[-1][0]), int(track.p_predict[-1][1])-10),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1, cv2.LINE_AA)
+        cv2.putText(frame, str(track.track_num), (int(track.p_predict[-1][0]), int(track.p_predict[-1][1]) + 10),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1, cv2.LINE_AA)
+        frame = cv2.rectangle(frame, (track.x_min, track.y_min), (track.x_max, track.y_max), (255, 255, 0), 1)
+        center_predict = (int(track.p_predict[-1][0]), int(track.p_predict[-1][1]))
+        frame = cv2.circle(frame, center_predict, 6, (255, 255, 0), thickness=1, lineType=8, shift=0)
+        center_detect = (int(track.p_detect[-1][0]), int(track.p_detect[-1][1]))
+        frame = cv2.circle(frame, center_detect, 4, (255, 255, 0), thickness=1, lineType=8, shift=0)
+
     return frame
 
 

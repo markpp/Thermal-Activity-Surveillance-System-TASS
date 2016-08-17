@@ -12,7 +12,8 @@ import cv2
 import tools
 import presentation
 import detection
-
+import persons
+import tracking
 
 def continous_preview(frames_dir, annotations):
     # Consecutive preview of frames
@@ -89,8 +90,9 @@ def annotation_preview(frames_dir, annotations, start_frame):
 
 def detect_hog(frames_dir, annotations):
     # Showing only frames with annotated objects
+    mtb_tracker = tracking.tracker.Tracker()
 
-    hog_detector = detection.detector.detector()
+    hog_detector = detection.fhog_detector.detector()
     hog_detector.load_dlib_detector()
     frame_list = sorted(annotations)
     # Sort the unordered dictionary and used the sorted keys to find relevant frames
@@ -112,8 +114,20 @@ def detect_hog(frames_dir, annotations):
                 #img2 = cv2.imread("/Users/markpp/Desktop/code/VAPprojects/PythonHoG/bikes/images8x/frame_004297.png", -1)
                 #presentation.presenter.show_hog(frame)
                 #cv2.imshow('Preview', presentation.presenter.scale_draw_annotations(img, frame_nr, annotations, 4.0))
-                detections = hog_detector.execute_dlib_detector(frame)
-                cv2.imshow('Preview', presentation.presenter.draw_detections(frame, frame_nr, detections, 4.0))
+                detections = []
+                rects, scores = hog_detector.execute_dlib_detector(frame)
+                for det_num, (rect, score) in enumerate(zip(rects, scores)):
+                    #print str(rect.left()) + " " + str(score)
+                    current_det = persons.person.Person(det_num, rect.left(), rect.top(), rect.right(), rect.bottom(), score)
+                    detections.append(current_det)
+
+                mtb_tracker.update(detections, frame_nr)
+                #print "Number of tracks: " + str(len(mtb_tracker.tracks))
+                #cv2.imshow('Preview', presentation.presenter.draw_detections(frame, frame_nr, detections, 4.0))
+
+                cv2.imshow('Preview', presentation.presenter.draw_tracks(frame, frame_nr, mtb_tracker.tracks, 4.0))
+
+
 
             else:
                 print 'read failed for: '
@@ -135,10 +149,12 @@ def detect_hog(frames_dir, annotations):
                 cv2.waitKey()
                 print "Unpaused."
 
+            print '\n'
+
 
 def train_detector():
 
-    hog_detector = detection.detector.detector()
+    hog_detector = detection.fhog_detector.detector()
 
     #hog_detector.load_dlib_detector()
     #hog_detector.show_learned_hog_filter()
@@ -186,9 +202,9 @@ if __name__ == "__main__":
 
     start_frame = args["frame"]
 
-    train_detector()
+    #train_detector()
 
-    #detect_hog(frames_dir, annotations)
+    detect_hog(frames_dir, annotations)
     #annotation_preview(frames_dir, annotations, start_frame)
     #test(frames_dir, annotations)
     #continous_preview(frames_dir, annotations)

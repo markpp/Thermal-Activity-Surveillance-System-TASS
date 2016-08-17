@@ -1,2 +1,3 @@
 import detection.segmentation
-import detection.detector
+import detection.fhog_detector
+import detection.simple_detector

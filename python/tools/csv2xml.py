@@ -16,11 +16,13 @@ def mtb_annotation_check(annotation):
     # width check
     width = int(annotation[0].split(';')[5])-int(annotation[0].split(';')[3])
     if(width < 10):
+        print "Annotation: {}, failed width check - {}".format(annotation[0].split(';')[0], width)
         return False
 
     # height check
     height = int(annotation[0].split(';')[6])-int(annotation[0].split(';')[4])
     if(height < 10):
+        print "Annotation: {}, failed height check - {}".format(annotation[0].split(';')[0], height)
         return False
 
     # aspect ratio check
@@ -28,6 +30,7 @@ def mtb_annotation_check(annotation):
     if(ratio >= 0.5 and ratio <= 1.0): # MTB
         return True
     else:
+        print "Annotation: {}, failed ratio check - {}".format(annotation[0].split(';')[0], ratio)
         return False
 
 
@@ -40,18 +43,21 @@ def ped_annotation_check(annotation):
     # width check
     width = int(annotation[0].split(';')[5])-int(annotation[0].split(';')[3])
     if(width < 5):
+        print "Annotation: {}, failed width check - {}".format(annotation[0].split(';')[0], width)
         return False
 
     # height check
     height = int(annotation[0].split(';')[6])-int(annotation[0].split(';')[4])
     if(height < 10):
+        print "Annotation: {}, failed height check - {}".format(annotation[0].split(';')[0], height)
         return False
 
     # aspect ratio check
     ratio = float(width)/float(height)
-    if(ratio < 0.4): # PED
+    if(ratio < 0.55): # PED
         return True
     else:
+        print "Annotation: {}, failed ratio check - {}".format(annotation[0].split(';')[0], ratio)
         return False
 
 
@@ -69,8 +75,8 @@ def convert(csv_path, xml_path, scaling):
     first = True
     next(csvData)  # Skip header line
     for line in csvData:
-
-        if(mtb_annotation_check(line)):
+        #if(mtb_annotation_check(line)):
+        if(ped_annotation_check(line)):
             frame_nr = line[0].split('_')[1].split('.')[0]
             #print frame_nr
             if frame_nr != prev_nr:

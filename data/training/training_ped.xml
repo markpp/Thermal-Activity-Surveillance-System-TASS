@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="image_metadata_stylesheet.xsl"?>
+<dataset>
+<name>Training faces</name>
+<comment>These are images from my thermal MTB dataset.</comment>
+<images>
+  <image file="4x/frame_100966.png">
+    <box top="84" left="276" width="40" height="104">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100967.png">
+    <box top="80" left="272" width="40" height="108">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100968.png">
+    <box top="76" left="260" width="40" height="112">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100969.png">
+    <box top="76" left="244" width="52" height="112">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100970.png">
+    <box top="76" left="240" width="52" height="112">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100971.png">
+    <box top="72" left="236" width="48" height="108">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100972.png">
+    <box top="68" left="228" width="40" height="112">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100973.png">
+    <box top="68" left="216" width="40" height="112">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100974.png">
+    <box top="64" left="204" width="52" height="116">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100975.png">
+    <box top="64" left="196" width="52" height="116">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100976.png">
+    <box top="60" left="196" width="44" height="116">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100977.png">
+    <box top="56" left="184" width="40" height="116">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100978.png">
+    <box top="56" left="160" width="56" height="120">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100980.png">
+    <box top="52" left="144" width="64" height="120">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100981.png">
+    <box top="48" left="144" width="44" height="120">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100982.png">
+    <box top="48" left="128" width="44" height="120">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100983.png">
+    <box top="48" left="108" width="56" height="120">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100984.png">
+    <box top="48" left="104" width="60" height="120">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100985.png">
+    <box top="44" left="100" width="52" height="116">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100986.png">
+    <box top="40" left="96" width="36" height="120">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100987.png">
+    <box top="40" left="76" width="44" height="120">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100988.png">
+    <box top="40" left="56" width="60" height="120">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100989.png">
+    <box top="40" left="52" width="64" height="120">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100990.png">
+    <box top="36" left="52" width="48" height="120">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100991.png">
+    <box top="32" left="44" width="36" height="120">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100992.png">
+    <box top="32" left="28" width="48" height="120">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100993.png">
+    <box top="32" left="12" width="56" height="120">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100994.png">
+    <box top="32" left="8" width="56" height="112">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100995.png">
+    <box top="28" left="4" width="40" height="112">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100996.png">
+    <box top="28" left="0" width="36" height="112">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100965.png">
+    <box top="88" left="280" width="36" height="100">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_100997.png">
+    <box top="28" left="0" width="28" height="108">
+      <label>PED</label>
+    </box>
+  </image>
+</images>
+</dataset>
