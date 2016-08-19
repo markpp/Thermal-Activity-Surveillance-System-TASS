@@ -18,7 +18,14 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 ADD_EXECUTABLE(main
 			         main.cpp
                src/Tools/FileHandler.cpp
+							 src/Tools/StringTools.cpp
 							 src/Detectors/dlib_fhog.cpp
+							 src/Detectors/nms.cpp
+							 src/Candidates/person.cpp
+							 src/Tracking/TKalmanFilter.cpp
+							 src/Tracking/HungarianAlg.cpp
+							 src/Tracking/CTracker.cpp
+							 src/Presentation/presenter.cpp
               )
 target_link_libraries(main dlib ${OpenCV_LIBS} ${PNG_LIBRARY})
 
@@ -26,6 +33,5 @@ target_link_libraries(main dlib ${OpenCV_LIBS} ${PNG_LIBRARY})
 
 ADD_DEFINITIONS(
     -std=c++11 # Or -std=c++0x
-		-DLIB_PNG_SUPPORT
     # Other flags
 )

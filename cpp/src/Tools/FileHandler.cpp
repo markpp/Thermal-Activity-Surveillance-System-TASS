@@ -19,8 +19,13 @@ std::vector<std::vector<std::string> > load_annotations(std::string annotation_p
           anno.push_back(cell);
           //std::cout << cell[0] << std::endl;
       }
+
+      // Fix possible repeat of frames
       annotations.push_back(anno);
-      //std::cout << anno[1] << std::endl;
+
+
+
+
       //while (1) { }
   }
   return annotations;

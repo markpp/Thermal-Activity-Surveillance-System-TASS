@@ -202,9 +202,9 @@ if __name__ == "__main__":
 
     start_frame = args["frame"]
 
-    #train_detector()
+    train_detector()
 
-    detect_hog(frames_dir, annotations)
+    #detect_hog(frames_dir, annotations)
     #annotation_preview(frames_dir, annotations, start_frame)
     #test(frames_dir, annotations)
     #continous_preview(frames_dir, annotations)
