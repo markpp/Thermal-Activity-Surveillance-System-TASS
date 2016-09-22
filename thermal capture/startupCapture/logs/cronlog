@@ -1,0 +1,7 @@
+/home/pi/startupCapture/capture.py: 3: /home/pi/startupCapture/capture.py: import: not found
+/home/pi/startupCapture/capture.py: 4: /home/pi/startupCapture/capture.py: import: not found
+/home/pi/startupCapture/capture.py: 5: /home/pi/startupCapture/capture.py: import: not found
+/home/pi/startupCapture/capture.py: 6: /home/pi/startupCapture/capture.py: import: not found
+/home/pi/startupCapture/capture.py: 7: /home/pi/startupCapture/capture.py: import: not found
+from: can't read /var/mail/pylepton
+/home/pi/startupCapture/capture.py: 10: /home/pi/startupCapture/capture.py: Syntax error: "(" unexpected
