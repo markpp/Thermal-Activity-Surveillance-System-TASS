@@ -1,14 +1,14 @@
 # MTB
 
 To start user interface, type:
-'''bash
+```bash
 startx
-'''
+```
 
 The capture program is executede from a script that runs when booting up. To enable/disable automatic capture on boot up: 
-'''bash
-sudo nano /etc/profile
-'''
+
+- $ `sudo nano /etc/profile`
+
 comment/uncomment last line “sudo python /home/pi/startupCapture/capture.py
 
 
