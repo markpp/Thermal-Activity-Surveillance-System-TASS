@@ -1,6 +1,13 @@
 # MTB
 A project for recognizing and counting mountain bikers and people walking in the forrest using a small thermal camera.
 
+![box_content](data/setup/box.png "Content of bird box")  
+
+![setup_example](data/setup/marked_box.png "Bird box placed in tree with view of path")  
+
+![output_example](data/setup/Intensity2.png "Example of a captured thermal image(mapped to fit 8bit)")  
+
+## Getting up and running
 NB: A few things are out of data and needs to be updated
 
 To start user interface, type:
@@ -8,19 +15,18 @@ To start user interface, type:
 startx
 ```
 
-The capture program is executede from a script that runs when booting up. To enable/disable automatic capture on boot up: 
+The capture program is executed from a script that runs when booting up. To enable/disable automatic capture on boot up:
 
 - $ `sudo nano /etc/profile`
 
 comment/uncomment last line “sudo python /home/pi/startupCapture/capture.py
 
-
-When transfering files, use filezilla. The large number of files cannot be transfered to usb stick or compressed to e.g. .zip
+When transferring files, use filezilla. The large number of files cannot be transferred to usb stick or compressed to e.g. .zip
 
 ## Software
 "thermal capture" for capturing and storing 16 bit 80x60 images at 7 fps to sd card
 
-"python" for detection and evaluation
+"data processing" for detection and evaluation
 
 
 ## Hardware
