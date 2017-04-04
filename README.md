@@ -24,5 +24,7 @@ When transfering files, use filezilla. The large number of files cannot be trans
 
 ## Hardware
 Computer: Raspberry Pi 2
+
 Thermal camera: Lepton LWIR 80 × 60
+
 Power: 10.400mAh
