@@ -1,4 +1,5 @@
 # MTB
+A project for recognizing and counting mountain bikers and people walking in the forrest using a small thermal camera.
 
 NB: A few things are out of data and needs to be updated
 
