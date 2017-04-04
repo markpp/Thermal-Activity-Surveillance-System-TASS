@@ -1,11 +1,11 @@
 # MTB
 A project for recognizing and counting mountain bikers and people walking in the forrest using a small thermal camera.
 
-![box_content](data/setup/box.png "Content of bird box")  
+![box_content](data/examples/box.png "Content of bird box")  
 
-![setup_example](data/setup/marked_box.png "Bird box placed in tree with view of path")  
+![setup_example](data/examples/marked_box.png "Bird box placed in tree with view of path")  
 
-![output_example](data/setup/Intensity2.png "Example of a captured thermal image(mapped to fit 8bit)")  
+![output_example](data/examples/Intensity2.png "Example of a captured thermal image(mapped to fit 8bit)")  
 
 ## Getting up and running
 NB: A few things are out of data and needs to be updated
