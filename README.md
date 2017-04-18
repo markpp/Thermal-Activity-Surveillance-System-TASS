@@ -24,6 +24,9 @@ When transferring files, use filezilla. The large number of files cannot be tran
 
 "data processing" for detection and evaluation
 
+Event annotation using [RUBA](https://bitbucket.org/aauvap/ruba/downloads/)
+
+BB annotation using [BBA](https://bitbucket.org/aauvap/bounding-box-annotator/downloads/)
 
 ## Hardware
 Computer: Raspberry Pi 2
