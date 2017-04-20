@@ -9,6 +9,8 @@ The zipped frames must be extracted :sleepy:
 
 The frames may happen to be oriented wrongly or single frames may be corrupted. Scripts for fixing stuff like this should be available in /data processing/tools/
 
+The first and last part of each clip should be discarded because it contains the person that put up and take down the camera. These parts of the clips can usually be found using the find activity script.
+
 To run the program:
 ```bash
 main.py -p ../data/testing/2016-08-09-14-58-testing/ -a ../data/annotations/bb/2016-08-09-14-58_bb.csv -f 723
