@@ -5,7 +5,7 @@ A project for recognizing and counting mountain bikers and people walking in the
 
 ## TODO
 This overall todo list is prioritized accoring to what needs to be done first.
-1) Contributing to scientific paper writing(deadline 12/5 2017)
+1) Contributing to scientific paper writing(deadline 12/5 2017)[AVSS](http://mivia.unisa.it/sav/)
 2) Capturing and annotating data
 3) Bringing the HW and SW of the prototype to a stage where the system can easily be used by non-technical persons
 4) Implement improvements to e.g. the detection and tracking
@@ -16,33 +16,25 @@ This overall todo list is prioritized accoring to what needs to be done first.
 The project is primarily written in python, originally some parts were written in c++ but later every component should now be available in python.
 
 ## Getting up and running
+More details on using either of the two primary groups of code is described in detail in their respective readmes.
 
 ### Data capture
-"thermal capture" for capturing and storing 16 bit 80x60 images at 7 fps to sd card
-
-NB: A few things are out of date and needs to be updated
-
-To start user interface, type:
-```bash
-startx
-```
-
-The capture program is executed from a script that runs when booting up. To enable/disable automatic capture on boot up:
-
-- $ `sudo nano /etc/profile`
-
-comment/uncomment last line “sudo python /home/pi/startupCapture/capture.py
-
-When transferring files, use filezilla. The large number of files cannot be transferred to usb stick or compressed to e.g. .zip
+"thermal capture" contains the program and scripts that runs on the raspberry pi for capturing and storing 16 bit 80x60 images at 7 fps to sd card.
 
 ### Data processing
+"data processing" contains code for preparing and processing the frames after they have been captured on the raspberry pi.
 
-"data processing" for detection and evaluation
+detection
+
+evaluation
+
+#### Annotations
+The annotations are located under /data/annotations/ in this repository. 
+TODO: annotate events in remaining clips(4)
 
 Event annotation using [RUBA](https://bitbucket.org/aauvap/ruba/downloads/)
 
 BB annotation using [BBA](https://bitbucket.org/aauvap/bounding-box-annotator/downloads/)
-
 
 # Hardware
 Computer: Raspberry Pi 2
