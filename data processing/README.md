@@ -16,3 +16,27 @@ python main.py -p ...
 
 To execute experimental code(e.g. unfinished or extra visualization):
 python experiment.py -p ...
+
+
+Allmost everything is run from main.py, in the bottom of the file you can call different functions that, e.g. train a detector, run the detector on a number of frames, preview bounding box annotations.
+
+There is currently a problem with the tracker ...
+
+## Install
+
+### MacOS
+
+Since the detector is from dlib it must be installed along with dependencies:
+brew install boost --with-python
+
+brew install boost-python
+
+clone https://github.com/davisking/dlib
+
+python setup.py install --yes USE_AVX_INSTRUCTIONS
+
+Kalman filter:
+pip install filterpy
+
+tracker:
+pip install munkres
