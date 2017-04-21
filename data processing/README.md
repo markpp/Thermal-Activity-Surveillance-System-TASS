@@ -5,11 +5,12 @@ The current detector is implemented in [dlib](https://github.com/davisking/dlib)
 
 # TODO
 1. Try to get an overview of what each program/script does(especially those located under tools). Write it down in short in this README file and in the file it self.
-    * see /data processing/tools/copyActivityFrames.py for an example of what the comment in if `__name__ == "__main__":` should look like.
+    * see `/data processing/tools/copyActivityFrames.py` for an example of what the comment in if `__name__ == "__main__":` could look like.
 2. Use my findFramesOfInterrest cpp program to create list of interesting areas in the clips
     * Better idea: implement the same functionality but using python
 3. Use RUBA to annotate events in the remaining clips using the frame numbers you found in (2.)
 4. Use `data processing/main.py` to preview your annotations on each of the clips
+
 
 # Instructions
 
@@ -26,7 +27,7 @@ main.py -p ../data/testing/2016-08-09-14-58-testing/ -a ../data/annotations/bb/2
 
 Allmost everything is run from main.py, in the bottom of the file you can call different functions that e.g. train a detector, run the detector on a number of frames, preview bounding box annotations.
 
-There is currently a problem with the tracker ...
+There is currently a problem with the tracker, when you have finished the current TODO list we will look at that.
 
 
 
@@ -55,3 +56,9 @@ Kalman filter:
 
 tracker:
 - $ `pip install munkres`
+
+### Linux
+
+use `apt-get install` to install boost, boost-python and possibly pip
+
+use pip to install python dependencies them same way as on MacOS
