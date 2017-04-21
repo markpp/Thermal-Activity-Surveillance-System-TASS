@@ -3,6 +3,14 @@ MTB counting project.
 
 The current detector is implemented in [dlib](https://github.com/davisking/dlib) and is described in this [paper](https://arxiv.org/abs/1502.00046). Because of the special loss function proposed in the paper, the detector can achive great performance using a very limited number training samples. Recently, the same detector has been made available using CNN features instead of HoG. It could be interesting to try the CNN features.
 
+# TODO
+1. Try to get an overview of what each program/script does(especially those located under tools). Write it down in short in this README file and in the file it self.
+    * see /data processing/tools/copyActivityFrames.py for an example of what the comment in if `__name__ == "__main__":` should look like.
+2. Use my findFramesOfInterrest cpp program to create list of interesting areas in the clips
+    * Better idea: implement the same functionality but using python
+3. Use RUBA to annotate events in the remaining clips using the frame numbers you found in (2.)
+4. Use `data processing/main.py` to preview your annotations on each of the clips
+
 # Instructions
 
 The zipped frames must be extracted :sleepy:
