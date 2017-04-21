@@ -6,10 +6,14 @@ The current detector is implemented in [dlib](https://github.com/davisking/dlib)
 # TODO
 1. Try to get an overview of what each program/script does(especially those located under tools). Write it down in short in this README file and in the file it self.
     * see `/data processing/tools/copyActivityFrames.py` for an example of what the comment in if `__name__ == "__main__":` could look like.
-2. Use my findFramesOfInterrest cpp program to create list of interesting areas in the clips
+2. Use my findFramesOfInterrest cpp program to create list of interesting areas(frame numbers) in the clips
     * Better idea: implement the same functionality but using python
+3. Convert the found frame numbers into hours, min and sec after 11.00 using `frame_number2time_stamp.py`
+3. Combine the frames into video clips because that is what RUBA takes
+    * Possibly resize to higher resolution
 3. Use RUBA to annotate events in the remaining clips using the frame numbers you found in (2.)
-4. Use `data processing/main.py` to preview your annotations on each of the clips
+4. Use `data processing/main.py` to preview my bounding box annotations on each of the clips
+
 
 
 # Instructions
