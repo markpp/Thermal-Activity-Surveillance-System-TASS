@@ -7,6 +7,16 @@ import csv
 import cv2
 
 if __name__ == "__main__":
+    """
+    Main function for executing the clean_junk_frames.py script. 
+    
+    Removes all the frames after the frame specified 
+    
+    Command: 
+        -p path/to/images -e last_frame_number
+        -p '/home/louise/Documents/MountainBike/datasets/thermal_mtb/2015-09-02-12-44/' -e 5034
+            
+    """
     #python clean_junk_frames.py -p /Volumes/WD1TBNTFS/MTBdata/test -e 8
     # construct the argument parser and parse the arguments
     ap = argparse.ArgumentParser()

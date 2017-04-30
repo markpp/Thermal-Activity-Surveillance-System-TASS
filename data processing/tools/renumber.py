@@ -7,8 +7,17 @@ import csv
 import cv2
 
 if __name__ == "__main__":
-    #python renumber.py -p /Users/markpp/Desktop/code/data/test -s 12 -e 18
-    # construct the argument parser and parse the arguments
+    
+    """
+    Main function for executing the renumber.py script. 
+    
+    Rename files to start from 0 starting from a given frame and ending at the given frame 
+        
+    Command: 
+        -p path/to/images -s startFrame -e endFrame 
+        -p /Users/markpp/Desktop/code/data/test -s 12 -e 18
+    """
+    
     ap = argparse.ArgumentParser()
     ap.add_argument("-p", "--path", type=str,
                     help="Path to frames")
