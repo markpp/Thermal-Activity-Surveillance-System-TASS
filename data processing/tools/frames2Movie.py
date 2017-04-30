@@ -31,6 +31,19 @@ def check_path(path):
         return path
 
 if __name__ == "__main__":
+    """
+    Main function for executing the scale_up.py script. 
+    
+    Convert image frames to video, and optionally show it. 
+        
+    Command: 
+        -p path/to/images [-v path/to/output -s y/n] 
+        -p '/home/louise/Documents/MountainBike/datasets/thermal_mtb/2015-09-02-12-44/vid.avi' -v y
+            
+    Note:
+        Default file output is "../../data/new_vid.avi", and default value for showing is no.
+
+    """
     ap = argparse.ArgumentParser()
     ap.add_argument("-p", "--path", type=str,
                   help="Path to frames")
