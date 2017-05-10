@@ -37,8 +37,6 @@ Allmost everything is run from main.py, in the bottom of the file you can call d
 
 There is currently a problem with the tracker, when you have finished the current TODO list we will look at that.
 
-
-
 ## Install
 
 ### MacOS
