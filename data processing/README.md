@@ -14,8 +14,6 @@ The current detector is implemented in [dlib](https://github.com/davisking/dlib)
 3. Use RUBA to annotate events in the remaining clips using the frame numbers you found in (2.)
 4. Use `data processing/main.py` to preview my bounding box annotations on each of the clips
 
-
-
 # Instructions
 
 The zipped frames must be extracted :sleepy:
@@ -32,8 +30,6 @@ main.py -p ../data/testing/2016-08-09-14-58-testing/ -a ../data/annotations/bb/2
 Allmost everything is run from main.py, in the bottom of the file you can call different functions that e.g. train a detector, run the detector on a number of frames, preview bounding box annotations.
 
 There is currently a problem with the tracker, when you have finished the current TODO list we will look at that.
-
-
 
 ## Install
 
