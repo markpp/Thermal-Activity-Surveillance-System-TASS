@@ -1,10 +1,10 @@
 # MTB
-A project for recognizing and counting mountain bikers and people walking in the forrest using a small thermal camera.
+A project for detecting and counting mountain bikers and people walking in the forrest using a small bird house looking box, containing a low resolution thermal camera and a Raspberry Pi 2. The recording time is limited by the battery capacity, which currently provides us with around 12 hours of recordings.
 
 ![box_content](data/examples/box.png "Content of bird box") ![setup_example](data/examples/marked_box.png "Bird box placed in tree with view of path") ![output_example](data/examples/Intensity2.png "Example of a captured thermal image(mapped to fit 8bit)")  
 
 ## TODO
-This overall todo list is prioritized accoring to what needs to be done first.
+This overall todo list is prioritized according to what needs to be done first.
 1) Contributing to scientific paper writing(deadline 12/5 2017)[AVSS](http://mivia.unisa.it/sav/)
 2) Capturing and annotating data
 3) Bringing the HW and SW of the prototype to a stage where the system can easily be used by non-technical persons
@@ -42,7 +42,7 @@ detection
 evaluation
 
 #### Annotations
-The annotations are located under /data/annotations/ in this repository. 
+The annotations are located under /data/annotations/ in this repository.
 TODO: annotate events in remaining clips(4)
 
 Event annotation using [RUBA](https://bitbucket.org/aauvap/ruba/downloads/)

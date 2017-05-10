@@ -26,3 +26,15 @@
 *.gif
 
 bin/
+
+*.make
+
+*.includecache
+
+data processing/tools/findFramesOfInterrest/.goutputstream-PZSEGY
+
+data processing/tools/findFramesOfInterrest/build/
+
+data processing/tools/findFramesOfInterrest/flipFrames/CMakeFiles/
+
+data/training/

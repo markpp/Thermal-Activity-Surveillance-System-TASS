@@ -32,7 +32,7 @@ if __name__ == "__main__":
     #path = '/Volumes/WD1TBNTFS/output/output27sep.csv'
     with open(path) as inputfile:
         for line in inputfile:
-            #print line
+            print line
             startPoints.append(line[:-4].split('_')[1].split('.')[0])
 
     with open(outpath, 'wb') as text_file:

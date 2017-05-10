@@ -4,6 +4,7 @@ import glob
 
 import dlib
 from skimage import io
+import nms
 
 class detector:
 
@@ -13,7 +14,7 @@ class detector:
 
     def load_dlib_detector(self):
         print "Loading detector..."
-        self.detector = dlib.fhog_object_detector("../data/models/detector_mtb.svm")
+        self.detectors = [dlib.fhog_object_detector("../data/models/detector_mtb.svm"), dlib.fhog_object_detector("../data/models/detector_ped.svm")]
 
     def show_learned_hog_filter(self):
         # Now let's use the detector as you would in a normal application.  First we
@@ -28,20 +29,20 @@ class detector:
         dlib.hit_enter_to_continue()
 
     def execute_dlib_detector(self, img):
-        # Now let's use the detector as you would in a normal application.  First we
-        # will load it from disk.
-        #detector = dlib.simple_object_detector("../data/models/detector.svm")
 
-        # Now let's run the detector over the images in the faces folder and display the
-        # results.
-        #win = dlib.image_window()
-
-        #dets = self.detector(img)
         #http://dlib.net/python/index.html#dlib.fhog_object_detector
-        dets, scores, weights =  self.detector.run(img)
+        #dets, scores, weights = self.detectors[0].run(img)
+        #dets, scores, weights = self.detectors[1].run(img)
+        dets, scores, weights = dlib.fhog_object_detector.run_multiple(self.detectors, img, upsample_num_times=0, adjust_threshold=0.1)
 
-        print("Number of objects detected: {}".format(len(dets)))
+        if len(dets) > 1:
+            nms_dets, nms_scores, nms_det_types = nms.non_max_suppression_fast(dets, scores, weights, overlapThresh=0.5)
+        else:
+            nms_dets, nms_scores, nms_det_types = dets, scores, weights
 
+        print("Number of objects detected: {}".format(len(nms_dets)))
+
+        #print new_dets
         #win.clear_overlay()
         #win.set_image(img)
         #win.add_overlay(dets)
@@ -49,7 +50,7 @@ class detector:
 
         #io.imshow(img)
         #io.show()
-        return dets, scores
+        return nms_dets, nms_scores, nms_det_types
 
     def train_dlib_detector(self):
         # Now let's do the training.  The train_simple_object_detector() function has a
