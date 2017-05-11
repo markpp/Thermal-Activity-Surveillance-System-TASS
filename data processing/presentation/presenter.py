@@ -121,5 +121,3 @@ def show_hog(frame):
     ax2.set_title('Histogram of Oriented Gradients')
     ax1.set_adjustable('box-forced')
     plt.show()
-
-

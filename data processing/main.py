@@ -29,7 +29,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("-p", "--path", type=str,
                     help="Path to frames")
-    ap.add_argument("-a", "--anno", type=str,
+    ap.add_argument("-a", "--anno", type=str, default='',
                     help="(optional) path to annotations")
     ap.add_argument("-f", "--frame", type=int, default=0,
                     help="(optional) start frame number")
@@ -59,7 +59,11 @@ if __name__ == "__main__":
     # detection.detect.train_detector()
 
     # Run the detectors on the provided data
-    detection.detect.detect_hog(frames_dir, annotations, start_frame)
+    # detection.detect.detect_hog(frames_dir, start_frame, sorted(annotations))
+    detection.detect.detect_hog(frames_dir, start_frame, tools.list_frames_in_dir.list_frames(frames_dir))
+
+    # Run detctor with tracking enabled
+    # detection.detect.detect_hog_tracked(frames_dir, start_frame, tools.list_frames_in_dir.list_frames(frames_dir))
 
     # Previews only frames with annotations
     # presentation.preview.annotation_preview(frames_dir, annotations, start_frame)

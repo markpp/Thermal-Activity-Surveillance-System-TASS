@@ -25,6 +25,8 @@
 
 *.gif
 
+*.zip
+
 bin/
 
 *.make
@@ -38,3 +40,5 @@ data processing/tools/findFramesOfInterrest/build/
 data processing/tools/findFramesOfInterrest/flipFrames/CMakeFiles/
 
 data/training/
+
+data/testing/
