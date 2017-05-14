@@ -15,12 +15,12 @@ This overall todo list is prioritized according to what needs to be done first.
 
 | Name             | Time(wrong) | Place         |Start time| BB anno            | Event anno         | Comments | Usage |
 | ---------------- |:-----------:|:-------------:|:--------:|:------------------:|:------------------:|:--------:|------:|
-| 2015-09-02-12-44 | Sat 29 Sep  | Hammer Bakker | 11:00:00 | :heavy_check_mark: | :heavy_check_mark: | ok       |       |
-| 2015-09-28-12-39 | Sun 30 Sep  | Kongshøj      | 11:00:00 | :heavy_check_mark: | :heavy_check_mark: | ok       |       |
+| 2015-09-02-12-44 | Sat 29 Sep  | Hammer Bakker | 11:00:00 | :heavy_check_mark: | :heavy_check_mark: | ok       | train |
+| 2015-09-28-12-39 | Sun 30 Sep  | Kongshøj      | 11:00:00 | :heavy_check_mark: | :heavy_check_mark: | ok       | train |
 | 2015-09-29-12-43 |             | Kongshøj      |          |                    |                    | Poor view|       |
 | 2015-09-30-06-23 | Fri 2 Oct   |               | 11:00:00 |                    |                    | ok       |       |
 | 2015-09-30-11-17 | Sat 3 Oct   | Hammer Bakker | 11:00:00 |                    |                    | difficult|       |
-| 2015-10-05-15-56 | Man 5 Oct   | Kongshøj      | 11:00:00 |                    |                    | ok       |       |
+| 2015-10-05-15-56 | Man 5 Oct   | Kongshøj      | 11:00:00 |                    |                    | ok       | test  |
 | 2016-08-08-11-00 | Man 8 Aug   | Hammer Bakker | 11:00:00 | :heavy_check_mark: | :heavy_check_mark: | ok       | train | 
 | 2016-08-09-14-58 | Wed 10 Aug  | Hammer Bakker | 11:00:00 | :heavy_check_mark: | :heavy_check_mark: | ok       | test  |
 |                  | Sun 14 Aug  | Månedalen     | 11:00:00 |                    |                    |          |       |
