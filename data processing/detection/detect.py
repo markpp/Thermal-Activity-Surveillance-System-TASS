@@ -21,9 +21,13 @@ def detect_hog(frames_dir, start_frame, frame_list):
     index = 0
     with open('../data/tracks/tracks.csv', 'wb') as csvfile:
         track_writer = csv.writer(csvfile, delimiter=';')
-        track_writer.writerow(['frame_nr', 'type', 'score', 'left', 'top', 'height', 'width'])
+        # track_writer.writerow(['frame_nr', 'type', 'score', 'left', 'top', 'height', 'width'])
+        track_writer.writerow(['frame_nr', 'type', 'score', 'center_x', 'center_y'])
 
-        while index < frame_list[-1]:
+        while index < len(frame_list):
+            # print("frame_list[-1]: {}".format(frame_list[-1]))
+            # print("index: {}".format(index))
+            # print("frame_list[index]: {}".format(frame_list[index]))
             frame_nr = frame_list[index]
             if int(frame_nr) < start_frame:
                 index = index+1
@@ -47,7 +51,9 @@ def detect_hog(frames_dir, start_frame, frame_list):
                         # Sort tracks
                         # track_writer.writerow([int(frame_nr), -1, rect.left(), rect.top(), rect.height(), rect.width(), score, -1, -1])
 
-                        track_writer.writerow([int(frame_nr), int(det_type), score, rect.left(), rect.top(), rect.height(), rect.width()])
+                        track_writer.writerow([int(frame_nr), int(det_type), score, int(rect.center().x/4), int(rect.center().y/4)])
+
+
                         #print("frame_nr: {:d}; type: {:d}; score: {:0.2f}; center_x: {:d}; center_y: {:d}; height: {:d}; width: {:d}".format(int(frame_nr), int(det_type), score, rect.left()+rect.width()/2, rect.top()+rect.height()/2, rect.height(), rect.width()))
 
                     cv2.imshow('Preview', presentation.presenter.draw_detections(frame, frame_nr, detections, 4.0))
@@ -56,7 +62,7 @@ def detect_hog(frames_dir, start_frame, frame_list):
                     print frame_path
                 # For continous processing
                 k = 32
-                cv2.waitKey(50)
+                cv2.waitKey(30)
                 # For stepping through
                 # k = cv2.waitKey()
                 if k == 32:

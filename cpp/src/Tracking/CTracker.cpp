@@ -188,7 +188,9 @@ void CTracker::Update(std::vector<Person> detections, size_t frameNumber, ofstre
         {
   					std::cout << "ID: " << tracks[i].track_id << "; exit: " <<
 												 tracks[i].departureLocation << "; tag: " << tracks[i].type_tag << std::endl;
-  					csv_file << "frame_" << frameNumber << ".png" << ";" << tracks[i].type_tag << "\n";
+  					csv_file << frameNumber << ";"
+						         << tracks[i].type_tag << ";"
+										 << tracks[i].departureLocation << "\n";
             remove = true;
         }
 

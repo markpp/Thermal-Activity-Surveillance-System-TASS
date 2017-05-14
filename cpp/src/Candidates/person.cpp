@@ -5,8 +5,9 @@ size_t Person::NextDetectionID=0;
 // Track constructor.
 // The track begins from initial point (pt)
 // ---------------------------------------------------------------------------
-Person::Person(cv::Rect candidate_rect)
+Person::Person(cv::Rect candidate_rect, size_t frame_nr)
 {
+  detection_frame_nr = frame_nr;
   detection_id = NextDetectionID;
   rect_detection = candidate_rect;
   p_detection = cv::Point(rect_detection.x+rect_detection.width/2, rect_detection.y+rect_detection.height/2);

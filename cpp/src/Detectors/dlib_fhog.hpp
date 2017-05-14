@@ -26,7 +26,7 @@ public:
   void train_dlib_detector();
   void load_dlib_detector();
 
-  std::vector<Person> execute_dlib_detector(cv::Mat input_img);
+  std::vector<Person> execute_dlib_detector(size_t frame_nr, cv::Mat input_img);
 
 
 private:

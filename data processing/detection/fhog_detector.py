@@ -28,12 +28,23 @@ class detector:
         win_det.set_image(self.detector)
         dlib.hit_enter_to_continue()
 
+    # '''
+    def det_bound_check(self, dets):
+        output_dets = []
+        for det in dets:
+            if det.left() > 0 and det.top() > 0 and det.right() < 80*4 and det.bottom() < 60*4:
+                output_dets.append(det)
+        return output_dets
+    # '''
+
     def execute_dlib_detector(self, img):
 
         #http://dlib.net/python/index.html#dlib.fhog_object_detector
         #dets, scores, weights = self.detectors[0].run(img)
         #dets, scores, weights = self.detectors[1].run(img)
         dets, scores, weights = dlib.fhog_object_detector.run_multiple(self.detectors, img, upsample_num_times=0, adjust_threshold=0.1)
+
+        # dets = self.det_bound_check(dets)
 
         if len(dets) > 1:
             nms_dets, nms_scores, nms_det_types = nms.non_max_suppression_fast(dets, scores, weights, overlapThresh=0.5)

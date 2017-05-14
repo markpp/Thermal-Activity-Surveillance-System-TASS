@@ -14,6 +14,11 @@
       <label>PED</label>
     </box>
   </image>
+  <image file="4x/frame_134681.png">
+    <box top="12" left="0" width="32" height="76">
+      <label>PED</label>
+    </box>
+  </image>
   <image file="4x/frame_134682.png">
     <box top="12" left="4" width="28" height="76">
       <label>PED</label>
@@ -24,17 +29,31 @@
       <label>PED</label>
     </box>
   </image>
+  <image file="4x/frame_134684.png">
+    <box top="12" left="8" width="36" height="76">
+      <label>PED</label>
+    </box>
+  </image>
   <image file="4x/frame_134685.png">
+    <box top="12" left="12" width="36" height="76">
+      <label>PED</label>
+    </box>
     <box top="20" left="0" width="20" height="80">
       <label>PED</label>
     </box>
   </image>
   <image file="4x/frame_134686.png">
+    <box top="12" left="16" width="32" height="72">
+      <label>PED</label>
+    </box>
     <box top="20" left="0" width="24" height="76">
       <label>PED</label>
     </box>
   </image>
   <image file="4x/frame_134687.png">
+    <box top="12" left="16" width="32" height="72">
+      <label>PED</label>
+    </box>
     <box top="16" left="0" width="28" height="80">
       <label>PED</label>
     </box>
@@ -72,6 +91,9 @@
     </box>
   </image>
   <image file="4x/frame_134692.png">
+    <box top="12" left="40" width="32" height="76">
+      <label>PED</label>
+    </box>
     <box top="16" left="20" width="24" height="84">
       <label>PED</label>
     </box>
@@ -157,6 +179,21 @@
       <label>PED</label>
     </box>
   </image>
+  <image file="4x/frame_134705.png">
+    <box top="12" left="84" width="40" height="96">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_134706.png">
+    <box top="12" left="88" width="44" height="100">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_134707.png">
+    <box top="12" left="88" width="40" height="100">
+      <label>PED</label>
+    </box>
+  </image>
   <image file="4x/frame_134708.png">
     <box top="12" left="100" width="36" height="96">
       <label>PED</label>
@@ -177,6 +214,11 @@
       <label>PED</label>
     </box>
   </image>
+  <image file="4x/frame_134712.png">
+    <box top="12" left="116" width="44" height="104">
+      <label>PED</label>
+    </box>
+  </image>
   <image file="4x/frame_134713.png">
     <box top="20" left="132" width="32" height="96">
       <label>PED</label>
@@ -184,6 +226,16 @@
   </image>
   <image file="4x/frame_134714.png">
     <box top="20" left="140" width="28" height="96">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_134715.png">
+    <box top="16" left="140" width="40" height="100">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_134716.png">
+    <box top="16" left="144" width="40" height="100">
       <label>PED</label>
     </box>
   </image>
@@ -204,6 +256,11 @@
   </image>
   <image file="4x/frame_134720.png">
     <box top="20" left="172" width="28" height="96">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_134721.png">
+    <box top="20" left="176" width="40" height="100">
       <label>PED</label>
     </box>
   </image>
@@ -242,21 +299,33 @@
     </box>
   </image>
   <image file="4x/frame_134727.png">
+    <box top="24" left="208" width="44" height="100">
+      <label>PED</label>
+    </box>
     <box top="16" left="184" width="28" height="92">
       <label>PED</label>
     </box>
   </image>
   <image file="4x/frame_134728.png">
+    <box top="24" left="212" width="44" height="100">
+      <label>PED</label>
+    </box>
     <box top="16" left="188" width="28" height="96">
       <label>PED</label>
     </box>
   </image>
   <image file="4x/frame_134729.png">
+    <box top="24" left="220" width="40" height="100">
+      <label>PED</label>
+    </box>
     <box top="16" left="192" width="28" height="96">
       <label>PED</label>
     </box>
   </image>
   <image file="4x/frame_134730.png">
+    <box top="24" left="224" width="40" height="100">
+      <label>PED</label>
+    </box>
     <box top="16" left="196" width="32" height="96">
       <label>PED</label>
     </box>
@@ -273,6 +342,9 @@
     <box top="24" left="236" width="36" height="100">
       <label>PED</label>
     </box>
+    <box top="16" left="196" width="40" height="96">
+      <label>PED</label>
+    </box>
   </image>
   <image file="4x/frame_134733.png">
     <box top="28" left="240" width="36" height="100">
@@ -283,17 +355,78 @@
     </box>
   </image>
   <image file="4x/frame_134734.png">
+    <box top="28" left="248" width="40" height="100">
+      <label>PED</label>
+    </box>
     <box top="20" left="212" width="36" height="96">
       <label>PED</label>
     </box>
   </image>
   <image file="4x/frame_134735.png">
+    <box top="28" left="252" width="40" height="100">
+      <label>PED</label>
+    </box>
     <box top="20" left="216" width="36" height="100">
       <label>PED</label>
     </box>
   </image>
   <image file="4x/frame_134736.png">
     <box top="24" left="240" width="36" height="100">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_134737.png">
+    <box top="24" left="240" width="40" height="100">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_134738.png">
+    <box top="24" left="240" width="40" height="100">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_134739.png">
+    <box top="24" left="244" width="44" height="100">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_134740.png">
+    <box top="24" left="244" width="48" height="104">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_134741.png">
+    <box top="24" left="252" width="52" height="104">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_134742.png">
+    <box top="24" left="256" width="52" height="104">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_134743.png">
+    <box top="28" left="260" width="52" height="104">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_134744.png">
+    <box top="28" left="260" width="52" height="104">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_134745.png">
+    <box top="32" left="264" width="52" height="104">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_134746.png">
+    <box top="32" left="264" width="52" height="104">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_134747.png">
+    <box top="32" left="268" width="48" height="104">
       <label>PED</label>
     </box>
   </image>
@@ -307,6 +440,16 @@
       <label>PED</label>
     </box>
   </image>
+  <image file="4x/frame_135903.png">
+    <box top="28" left="268" width="44" height="104">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_135904.png">
+    <box top="28" left="264" width="44" height="108">
+      <label>PED</label>
+    </box>
+  </image>
   <image file="4x/frame_135905.png">
     <box top="24" left="260" width="36" height="104">
       <label>PED</label>
@@ -314,6 +457,16 @@
   </image>
   <image file="4x/frame_135906.png">
     <box top="24" left="252" width="32" height="104">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_135907.png">
+    <box top="24" left="232" width="48" height="104">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_135908.png">
+    <box top="28" left="224" width="44" height="96">
       <label>PED</label>
     </box>
   </image>
@@ -382,9 +535,15 @@
     <box top="16" left="156" width="36" height="100">
       <label>PED</label>
     </box>
+    <box top="20" left="192" width="36" height="88">
+      <label>PED</label>
+    </box>
   </image>
   <image file="4x/frame_135918.png">
     <box top="16" left="156" width="36" height="100">
+      <label>PED</label>
+    </box>
+    <box top="16" left="184" width="36" height="88">
       <label>PED</label>
     </box>
   </image>
@@ -408,9 +567,15 @@
     <box top="16" left="132" width="32" height="100">
       <label>PED</label>
     </box>
+    <box top="16" left="164" width="36" height="88">
+      <label>PED</label>
+    </box>
   </image>
   <image file="4x/frame_135922.png">
     <box top="16" left="124" width="32" height="96">
+      <label>PED</label>
+    </box>
+    <box top="12" left="156" width="36" height="88">
       <label>PED</label>
     </box>
   </image>
@@ -450,6 +615,9 @@
     <box top="16" left="92" width="28" height="92">
       <label>PED</label>
     </box>
+    <box top="12" left="120" width="36" height="84">
+      <label>PED</label>
+    </box>
   </image>
   <image file="4x/frame_135928.png">
     <box top="16" left="88" width="24" height="92">
@@ -471,9 +639,15 @@
     <box top="16" left="76" width="28" height="92">
       <label>PED</label>
     </box>
+    <box top="12" left="104" width="36" height="84">
+      <label>PED</label>
+    </box>
   </image>
   <image file="4x/frame_135931.png">
     <box top="16" left="64" width="32" height="92">
+      <label>PED</label>
+    </box>
+    <box top="12" left="96" width="36" height="84">
       <label>PED</label>
     </box>
   </image>
@@ -489,14 +663,23 @@
     <box top="16" left="56" width="32" height="88">
       <label>PED</label>
     </box>
+    <box top="12" left="84" width="32" height="80">
+      <label>PED</label>
+    </box>
   </image>
   <image file="4x/frame_135934.png">
     <box top="16" left="52" width="28" height="88">
       <label>PED</label>
     </box>
+    <box top="12" left="80" width="36" height="80">
+      <label>PED</label>
+    </box>
   </image>
   <image file="4x/frame_135935.png">
     <box top="16" left="44" width="28" height="88">
+      <label>PED</label>
+    </box>
+    <box top="12" left="76" width="32" height="80">
       <label>PED</label>
     </box>
   </image>
@@ -520,14 +703,23 @@
     <box top="16" left="28" width="28" height="84">
       <label>PED</label>
     </box>
+    <box top="12" left="56" width="32" height="80">
+      <label>PED</label>
+    </box>
   </image>
   <image file="4x/frame_135939.png">
     <box top="16" left="24" width="28" height="84">
       <label>PED</label>
     </box>
+    <box top="12" left="52" width="32" height="80">
+      <label>PED</label>
+    </box>
   </image>
   <image file="4x/frame_135940.png">
     <box top="16" left="16" width="28" height="84">
+      <label>PED</label>
+    </box>
+    <box top="12" left="44" width="32" height="80">
       <label>PED</label>
     </box>
   </image>
@@ -551,14 +743,43 @@
     <box top="16" left="4" width="28" height="80">
       <label>PED</label>
     </box>
+    <box top="12" left="32" width="32" height="80">
+      <label>PED</label>
+    </box>
   </image>
   <image file="4x/frame_135944.png">
     <box top="16" left="0" width="28" height="76">
       <label>PED</label>
     </box>
+    <box top="12" left="24" width="32" height="76">
+      <label>PED</label>
+    </box>
   </image>
   <image file="4x/frame_135945.png">
     <box top="16" left="0" width="20" height="76">
+      <label>PED</label>
+    </box>
+    <box top="12" left="20" width="32" height="76">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_135946.png">
+    <box top="12" left="12" width="32" height="76">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_135947.png">
+    <box top="12" left="8" width="32" height="76">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_135948.png">
+    <box top="12" left="4" width="32" height="76">
+      <label>PED</label>
+    </box>
+  </image>
+  <image file="4x/frame_135949.png">
+    <box top="12" left="0" width="32" height="76">
       <label>PED</label>
     </box>
   </image>

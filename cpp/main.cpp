@@ -36,7 +36,7 @@ bool train = false;
 int outputScale = 8;
 int startAtFrame = 0;
 
-int frameNumber = 4200;
+size_t frameNumber = 700;
 
 /*
 cv::Mat read_image(std::string img_path)
@@ -67,10 +67,13 @@ int main( int argc, char** argv )
   CTracker tracker;
 
   cv::VideoWriter outputVideo; //CV_FOURCC('M','J','P','G')
-  outputVideo.open( "/Users/markpp/Desktop/outputVideo.avi", CV_FOURCC('M','J','P','G'), 9, cv::Size (IMAGEWIDTH_SCALE, IMAGEHEIGHT_SCALE), true );
+  outputVideo.open( "../../data/video/output.avi", CV_FOURCC('M','J','P','G'), 7, cv::Size (IMAGEWIDTH_SCALE, IMAGEHEIGHT_SCALE), true );
 
-  ofstream myfile;
-  myfile.open ("/Users/markpp/Desktop/log.csv");
+  ofstream track_file;
+  track_file.open ("../../data/tracks/log.csv");
+
+  ofstream det_file;
+  det_file.open ("../../data/detections/log.csv");
 
   cv::Mat in_img;
 
@@ -117,13 +120,23 @@ int main( int argc, char** argv )
 
       cv::resize(in_img, in_img, cv::Size(IMAGEWIDTH_SCALE, IMAGEHEIGHT_SCALE), CV_INTER_LINEAR);
 
-      std::vector<Person> dets = dlib_fhog.execute_dlib_detector(in_img);
+      std::vector<Person> dets = dlib_fhog.execute_dlib_detector(frameNumber, in_img);
 
       output_img = presenter.draw_frame_number(in_img, frameNumber);
 
       output_img = presenter.draw_detections(output_img, dets);
 
-      tracker.Update(dets, frameNumber, myfile);
+      for(auto & det: dets)
+      {
+        det_file << det.detection_frame_nr << ";"
+                 << det.type_tag << ";"
+                 << det.mtb_score << ";"
+                 << det.ped_score << ";"
+                 << int(det.p_detection.x/4) << ";"
+                 << int(det.p_detection.y/4) << "\n";
+      }
+
+      tracker.Update(dets, frameNumber, track_file);
       output_img = presenter.draw_tracks(output_img, tracker.tracks);
 
       cv::imshow("Intensity", output_img);
@@ -144,7 +157,8 @@ int main( int argc, char** argv )
       }
       frameNumber++;
     }
-    myfile.close();
+    track_file.close();
+    det_file.close();
     outputVideo.release();
   }
 

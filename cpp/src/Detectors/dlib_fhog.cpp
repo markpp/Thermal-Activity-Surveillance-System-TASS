@@ -12,6 +12,7 @@ void Dlib_fhog::train_dlib_detector()
 
   load_image_dataset(mtb_img_train, mtb_anno_train, "../../data/training/training_mtb.xml");
   load_image_dataset(mtb_img_test, mtb_anno_test, "../../data/testing/testing_mtb.xml");
+
   load_image_dataset(ped_img_train, ped_anno_train, "../../data/training/training_ped.xml");
   load_image_dataset(ped_img_test, ped_anno_test, "../../data/testing/testing_ped.xml");
 
@@ -34,8 +35,8 @@ void Dlib_fhog::train_dlib_detector()
   // many object detection tasks.
   add_image_left_right_flips(mtb_img_train, mtb_anno_train);
   add_image_left_right_flips(ped_img_train, ped_anno_train);
-  std::cout << "MTB training images: " << mtb_img_train.size() << "MTB testing images: " << mtb_img_test.size() << std::endl;
-  std::cout << "PED training images: " << ped_img_train.size() << "PED testing images: " << ped_img_test.size() << std::endl;
+  std::cout << "MTB training images: " << mtb_img_train.size() << ", MTB testing images: " << mtb_img_test.size() << std::endl;
+  std::cout << "PED training images: " << ped_img_train.size() << ", PED testing images: " << ped_img_test.size() << std::endl;
   // Finally we get to the training code.  dlib contains a number of
   // object detectors.  This typedef tells it that you want to use the one
   // based on Felzenszwalb's version of the Histogram of Oriented
@@ -72,12 +73,14 @@ void Dlib_fhog::train_dlib_detector()
   // plenty accurate.  Also, when in verbose mode the risk gap is printed on each
   // iteration so you can see how close it is to finishing the training.
   mtb_trainer.set_epsilon(0.02);
-  ped_trainer.set_epsilon(0.01);
+  ped_trainer.set_epsilon(0.02);
 
   // Now we run the trainer.  For this example, it should take on the order of 10
   // seconds to train.
+  cout << "Training MTB filters.." << endl;
   dlib::object_detector<image_scanner_type> mtb_detector = mtb_trainer.train(mtb_img_train, mtb_anno_train);
 
+  cout << "Training PED filters.." << endl;
   dlib::object_detector<image_scanner_type> ped_detector = ped_trainer.train(ped_img_train, ped_anno_train);
 
   // You can see how many separable filters are inside your detector like so:
@@ -112,23 +115,20 @@ void Dlib_fhog::load_dlib_detector()
 
 void Dlib_fhog::evaluate_dlib_detector(dlib::object_detector<image_scanner_type> &detector, dlib::array<dlib::array2d<unsigned char> > &img_train, dlib::array<dlib::array2d<unsigned char> > &img_test, std::vector<std::vector<dlib::rectangle> > &anno_train,  std::vector<std::vector<dlib::rectangle> > &anno_test)
 {
-
   // Now that we have a face detector we can test it.  The first statement tests it
   // on the training data.  It will print the precision, recall, and then average precision.
-  std::cout << "training results: " << dlib::test_object_detection_function(detector, img_train, anno_train) << std::endl;
+  std::cout << "precision, recall, and average precision.." << std::endl;
+  std::cout << "result on trainingset: " << dlib::test_object_detection_function(detector, img_train, anno_train) << std::endl;
   // However, to get an idea if it really worked without overfitting we need to run
   // it on images it wasn't trained on.  The next line does this.  Happily, we see
   // that the object detector works perfectly on the testing images.
-  std::cout << "testing results:  " << dlib::test_object_detection_function(detector, img_test, anno_test) << std::endl;
-
+  std::cout << "result on testset:  " << dlib::test_object_detection_function(detector, img_test, anno_test) << std::endl;
 }
 
-
-std::vector<Person> Dlib_fhog::execute_dlib_detector(cv::Mat input_img)
+std::vector<Person> Dlib_fhog::execute_dlib_detector(size_t frame_nr, cv::Mat input_img)
 {
   dlib::cv_image<unsigned char> cimg(input_img);
   //std::vector<dlib::rectangle> rectangles = mtb_detector(cimg);
-
 
   std::vector<std::pair<double, dlib::rectangle> > mtb_dets;
   mtb_detector(cimg, mtb_dets);
@@ -203,7 +203,8 @@ std::vector<Person> Dlib_fhog::execute_dlib_detector(cv::Mat input_img)
     cv::Rect bounding_box = cv::Rect(check_coordinate(mtb_det.second.left(), mtb_det.second.top()), check_coordinate(mtb_det.second.right(), mtb_det.second.bottom()));
 
     //std::cout << bounding_box  << std::endl;
-    Person new_person = Person(bounding_box);
+    Person new_person = Person(bounding_box, frame_nr);
+    new_person.type_tag = 'b';
     new_person.mtb_score = mtb_det.first;
     persons.push_back(new_person);
   }
@@ -214,7 +215,8 @@ std::vector<Person> Dlib_fhog::execute_dlib_detector(cv::Mat input_img)
     cv::Rect bounding_box = cv::Rect(check_coordinate(ped_det.second.left(), ped_det.second.top()), check_coordinate(ped_det.second.right(), ped_det.second.bottom()));
 
     //std::cout << bounding_box  << std::endl;
-    Person new_person = Person(bounding_box);
+    Person new_person = Person(bounding_box, frame_nr);
+    new_person.type_tag = 'p';
     new_person.ped_score = ped_det.first;
     persons.push_back(new_person);
   }

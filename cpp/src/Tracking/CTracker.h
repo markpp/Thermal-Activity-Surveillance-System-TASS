@@ -18,18 +18,17 @@ class CTracker
 public:
   CTracker();
 
-  float dist_thres = 90.0;
+  float dist_thres = 80.0;
 
 	size_t maximum_allowed_skipped_frames = 3;
 	//
-	size_t max_trace_length = 6;
+	size_t max_trace_length = 8;
 
   static size_t NextTrackID;
   size_t minLifetime = 5;
   std::vector<Person> tracks;
 
 	void Update(std::vector<Person> detections, size_t frameNumber, ofstream& csv_file);
-
 
 	~CTracker();
 private:

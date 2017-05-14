@@ -27,6 +27,8 @@
 
 *.zip
 
+*.gch
+
 bin/
 
 *.make
@@ -42,3 +44,4 @@ data processing/tools/findFramesOfInterrest/flipFrames/CMakeFiles/
 data/training/
 
 data/testing/
+

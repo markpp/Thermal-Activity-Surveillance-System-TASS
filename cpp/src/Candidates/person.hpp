@@ -14,10 +14,12 @@ using namespace std;
 
 class Person {
 public:
-  Person(cv::Rect candidate_rect);
+  Person(cv::Rect candidate_rect, size_t frame_nr);
   static size_t NextDetectionID;
   vector<Point> trace;
   //static size_t NextDetectionID;
+  size_t detection_frame_nr;
+
   size_t track_id, detection_id;
   size_t skipped_frames = 0;
   size_t lifetime = 0;

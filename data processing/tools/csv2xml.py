@@ -27,7 +27,7 @@ def mtb_annotation_check(annotation):
 
     # aspect ratio check
     ratio = float(width)/float(height)
-    if(ratio >= 0.5 and ratio <= 1.0): # MTB
+    if(ratio > 0.5 and ratio < 1.0): # MTB
         return True
     else:
         print "Annotation: {}, failed ratio check - {}".format(annotation[0].split(';')[0], ratio)
@@ -54,29 +54,37 @@ def ped_annotation_check(annotation):
 
     # aspect ratio check
     ratio = float(width)/float(height)
-    if(ratio < 0.55): # PED
+    if(ratio >= 0.3 and ratio < 0.55): # PED
         return True
     else:
         print "Annotation: {}, failed ratio check - {}".format(annotation[0].split(';')[0], ratio)
         return False
+
+# def write_header(csv_file):
+
+# def write_annotation(line, csv_file):
 
 
 def convert(csv_path, xml_path, scaling):
     print "Converting csv to xml..."
     csvData = csv.reader(open(csv_path))
     xmlData = open(xml_path, 'w')
+
+    # Write header
     xmlData.write('<?xml version="1.0" encoding="ISO-8859-1"?>' + "\n")
     xmlData.write('<?xml-stylesheet type="text/xsl" href="image_metadata_stylesheet.xsl"?>' + "\n")
     xmlData.write('<dataset>' + "\n")
     xmlData.write('<name>Training faces</name>' + "\n")
     xmlData.write('<comment>These are images from my thermal MTB dataset.</comment>' + "\n")
     xmlData.write('<images>' + '\n')
+
     prev_nr = -1
     first = True
     next(csvData)  # Skip header line
     for line in csvData:
         #if(mtb_annotation_check(line)):
         if(ped_annotation_check(line)):
+            #write_annotation(line, csv_file_mtb)
             frame_nr = line[0].split('_')[1].split('.')[0]
             #print frame_nr
             if frame_nr != prev_nr:
@@ -84,7 +92,7 @@ def convert(csv_path, xml_path, scaling):
                     xmlData.write('  ' + '<' + '/image' + '>' + "\n")
                 first = False
 
-                xmlData.write('  ' + '<' + 'image' + ' ' + 'file' + '=' + '"' + "4x/" + line[0].split(';')[0] + '"' + '>' + "\n")
+                xmlData.write('  ' + '<' + 'image' + ' ' + 'file' + '=' + '"' + "4x_44/" + line[0].split(';')[0] + '"' + '>' + "\n")
                 prev_nr = frame_nr
 
             xmlData.write('    ' + '<' + 'box' + ' ' + 'top' + '=' + '"' + str(int(line[0].split(';')[4])*scaling) + '"' + ' ' +
@@ -96,6 +104,8 @@ def convert(csv_path, xml_path, scaling):
 
             xmlData.write('    ' + '<' + '/box' + '>' + '\n')
 
+
+    # Finish file
     xmlData.write('  ' + '<' + '/image' + '>' + "\n")
     xmlData.write('</images>' + "\n")
     xmlData.write('</dataset>' + "\n")
@@ -108,6 +118,9 @@ if __name__ == '__main__':
     where data structures are defined and various Mandelbrot implementations are executed:
 
     python csv2xml.py -c /Users/markpp/Desktop/code/my_repos/MTB/data/annotations/2015-09-28-12-39_anno.csv -x /Users/markpp/Desktop/code/my_repos/MTB/data/annotations/2015-09-28-12-39_anno.xml -s 4
+
+    python csv2xml.py -c /Users/markpp/Documents/github/Thermal-Activity-Surveillance-System-TASS/data/annotations/bb/2015-09-02-12-44_bb.csv -x /Users/markpp/Documents/github/Thermal-Activity-Surveillance-System-TASS/data/annotations/bb/2015-09-02-12-44_bb.xml -s 4
+
     """
 
     # construct the argument parser and parse the arguments
