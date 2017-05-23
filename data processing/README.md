@@ -7,10 +7,11 @@ MTB counting project.
 2. Use my findFramesOfInterrest cpp program to create list of interesting areas(frame numbers) in the clips
     * Better idea: implement the same functionality but using python
 3. Convert the found frame numbers into hours, min and sec after 11.00 using `frame_number2time_stamp.py`
-3. Combine the frames into video clips because that is what RUBA takes
+4. Combine the frames into video clips because that is what RUBA takes
     * Possibly resize to higher resolution
-3. Use RUBA to annotate events in the remaining clips using the frame numbers you found in (2.)
-4. Use `data processing/main.py` to preview my bounding box annotations on each of the clips
+5. Use RUBA to annotate events in the remaining clips using the frame numbers you found in (2.)
+6. Use `data processing/main.py` to preview my bounding box annotations on each of the clips
+7. Create a program to preview event annotations, e.g. show frames that are in an interval around events
 
 # Method
 
