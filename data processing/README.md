@@ -13,6 +13,11 @@ MTB counting project.
 6. Use `data processing/main.py` to preview my bounding box annotations on each of the clips
 7. Create a program to preview event annotations, e.g. show frames that are in an interval around events
 
+present results:
+- Confusion matrix
+- Cumulative graph - count vs. frame_nr
+- Prgram timing
+
 # Method
 
 # Detector
