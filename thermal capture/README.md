@@ -34,3 +34,5 @@ Currently I'm unable to get in contract with the camera.
 
 The code is based on this example: https://github.com/groupgets/pylepton try getting that to work. 
 
+Use a guide like this:
+http://ggstaging.kieferware.com/blog/posts/8-installation-guide-for-pure-breakout-board-on-raspberry-pi-2
