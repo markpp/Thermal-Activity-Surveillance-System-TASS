@@ -25,6 +25,20 @@ This overall todo list is prioritized according to what needs to be done first.
 | 2016-08-09-14-58 | Wed 10 Aug  | Hammer Bakker | 11:00:00 | :heavy_check_mark: | :heavy_check_mark: | ok       | test  |
 |                  | Sun 14 Aug  | Månedalen     | 11:00:00 |                    |                    |          |       |
 
+# Data Information
+
+| Name             | Hours     | MTB Count |PED Count | 
+| ---------------- |:---------:|:---------:|:--------:|
+| 2015-09-02-12-44 | 00:00:00  | 0         | 0        | 
+| 2015-09-28-12-39 | 04:07:39  | 64        | 2        |     
+| 2015-09-30-06-23 | 05:17:00  | 42        | 5        | 
+| 2015-10-05-15-56 | 06:33:47  | 47        | 4        |  
+| 2016-08-08-11-00 | 05:39:40  | 29        | 5        | 
+| 2016-08-09-14-58 | 00:00:00  | 0         | 0        | 
+| ---------------- |:---------:|:---------:|:--------:|
+| Totals:          | 00:00:00  | 0         | 0        |
+
+
 # Software
 The project is primarily written in python, originally some parts were written in c++ but later every component should now be available in python.
 
