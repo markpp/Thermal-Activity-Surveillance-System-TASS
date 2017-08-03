@@ -12,6 +12,8 @@ This overall todo list is prioritized according to what needs to be done first.
 5) Automated data collection by use of e.g. data connection + presentation of data
 6) Bringing the HW and SW of the prototype to a stage where the system can easily be used by non-technical persons
 
+- When evaluating the detector extract some correct and some wrong detections for the paper and poster. also try to perform clustering based on the features and visualize the distribution along with labels.
+
 # Data
 
 | Name             | Time(wrong) | Place         |Start time| BB anno            | Event anno         | Comments | Usage |
