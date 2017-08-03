@@ -5,11 +5,12 @@ A project for detecting and counting mountain bikers and people walking in the f
 
 ## TODO
 This overall todo list is prioritized according to what needs to be done first.
-1) Contributing to scientific paper writing(deadline 12/5 2017)[AVSS](http://mivia.unisa.it/sav/)
-2) Capturing and annotating data
-3) Bringing the HW and SW of the prototype to a stage where the system can easily be used by non-technical persons
-4) Implement improvements to e.g. the detection and tracking
+1) Create a poster for september
+2)Contributing to scientific paper writing
+3) Implement improvements to e.g. the detection and tracking
+4) Capturing and annotating data
 5) Automated data collection by use of e.g. data connection + presentation of data
+6) Bringing the HW and SW of the prototype to a stage where the system can easily be used by non-technical persons
 
 # Data
 
