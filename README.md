@@ -14,14 +14,19 @@ This overall todo list is prioritized according to what needs to be done first. 
 unfortunately, we were unable to access the camera and therefore some tasks could not be completed and a lot of time was spend on attempting to get it working
 
 Milestones:
-Implement working Hungarian tracking in python
-Clean up data by removing beginning and end + fix missing frames
-Annotate remaining clips
-Run detector and tracker on all clips e.i. generate results
-Summerize clip information
-Measure detector and tracker performance on raspberry pi 2
-Present detection and tracking results
+- Implement working Hungarian tracking in python
+- Clean up data by removing beginning and end + fix missing frames
+- Annotate remaining clips
+- Run detector and tracker on all clips e.i. generate results
+- Summerize clip information
+- Measure detector and tracker performance on raspberry pi 2
+- Present detection and tracking results
 
+Missing:
+- Optimize detector parameters
+- Evaluate detector https://sourceforge.net/p/dclib/discussion/442518/thread/f7f5a16d/
+- Optimize tracker parameters
+- Evaluate tracker 
 - When evaluating the detector extract some correct and some wrong detections for the paper and poster. also try to perform clustering based on the features and visualize the distribution along with labels.(example: http://cs.stanford.edu/people/karpathy/cnnembed/)
 
 # Data
