@@ -28,6 +28,7 @@ Missing:
 - Optimize tracker parameters
 - Evaluate tracker 
 - When evaluating the detector extract some correct and some wrong detections for the paper and poster. also try to perform clustering based on the features and visualize the distribution along with labels.(example: http://cs.stanford.edu/people/karpathy/cnnembed/)
+- Visualize the tracks along with the frames
 
 # Data
 
