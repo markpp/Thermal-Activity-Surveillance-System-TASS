@@ -4,13 +4,23 @@ A project for detecting and counting mountain bikers and people walking in the f
 ![box_content](data/examples/box.png "Content of bird box") ![setup_example](data/examples/marked_box.png "Bird box placed in tree with view of path") ![output_example](data/examples/Intensity2.png "Example of a captured thermal image(mapped to fit 8bit)")  
 
 ## TODO
-This overall todo list is prioritized according to what needs to be done first.
-1) Create a poster for september
-2)Contributing to scientific paper writing
+This overall todo list is prioritized according to what needs to be done first. The goal in general is to create a poster and then a paper based on the event detection system for monitoring nature trails.
+
 3) Implement improvements to e.g. the detection and tracking
-4) Capturing and annotating data
-5) Automated data collection by use of e.g. data connection + presentation of data
-6) Bringing the HW and SW of the prototype to a stage where the system can easily be used by non-technical persons
+4) ~~Capturing~~ and annotating data
+5) ~~Automated data collection by use of e.g. data connection + presentation of data~~
+6) ~~Bringing the HW and SW of the prototype to a stage where the system can easily be used by non-technical persons~~
+
+unfortunately, we were unable to access the camera and therefore some tasks could not be completed and a lot of time was spend on attempting to get it working
+
+Milestones:
+Implement working Hungarian tracking in python
+Clean up data by removing beginning and end + fix missing frames
+Annotate remaining clips
+Run detector and tracker on all clips e.i. generate results
+Summerize clip information
+Measure detector and tracker performance on raspberry pi 2
+Present detection and tracking results
 
 - When evaluating the detector extract some correct and some wrong detections for the paper and poster. also try to perform clustering based on the features and visualize the distribution along with labels.(example: http://cs.stanford.edu/people/karpathy/cnnembed/)
 
