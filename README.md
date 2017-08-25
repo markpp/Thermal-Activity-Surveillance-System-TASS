@@ -19,10 +19,12 @@ Milestones:
 - Annotate remaining clips
 - Run detector and tracker on all clips e.i. generate results
 - Summerize clip information
-- Measure detector and tracker performance on raspberry pi 2
 - Present detection and tracking results
+- Poster
 
 Missing:
+- Measure detector and tracker performance on raspberry pi 2
+- Verify annotations
 - Optimize detector parameters
 - Evaluate detector https://sourceforge.net/p/dclib/discussion/442518/thread/f7f5a16d/
 - Optimize tracker parameters
