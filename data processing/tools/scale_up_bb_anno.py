@@ -60,7 +60,7 @@ if __name__ == "__main__":
     if args["anno"]:
         annotations = tools.file_handler.read_annotations(args["anno"])
     else:
-        print "No path to annotation file given."
+        print("No path to annotation file given.")
 
     imagePath = ""
 
@@ -72,11 +72,11 @@ if __name__ == "__main__":
     for frame in sorted(annotations):
         frame = "frame_"+ frame + ".png"
         img_path = os.path.join(path, frame)
-        print img_path
+        print(img_path)
         img = cv2.imread(img_path,-1)
         if not hasattr(img, 'astype'):
-          print 'not image'
-          print imagePath
+          print('not image')
+          print(imagePath)
           break
         img = cv2.resize(img, dsize=(0, 0), fx=args["scale"], fy=args["scale"])
         img = np.clip(img, 0, 8191)

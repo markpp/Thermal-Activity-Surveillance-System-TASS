@@ -42,7 +42,7 @@ if __name__ == "__main__":
     # Prepare path to frames
     frames_dir = args["path"]
     if not frames_dir:
-        print "No path to frames given."
+        print("No path to frames given.")
     else:
         frames_dir = tools.path_checker.check_path(frames_dir)
 
@@ -51,7 +51,7 @@ if __name__ == "__main__":
     if args["anno"]:
         annotations = tools.file_handler.read_annotations(args["anno"])
     else:
-        print "No path to annotation file given."
+        print("No path to annotation file given.")
 
     start_frame = args["frame"]
 

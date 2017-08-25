@@ -53,7 +53,7 @@ if __name__ == "__main__":
     imagePath = ""
     dir_list = mylistdir(path)
     imageCount = len(mylistdir(path))
-    print imageCount
+    print(imageCount)
     output_path = path.rsplit('/', 2)[0] + "/4x/"
 
     if not os.path.exists(output_path):
@@ -61,14 +61,18 @@ if __name__ == "__main__":
 
     for frame in dir_list:
         #print frame[:].split('.')
+        
+        if "." not in frame: 
+            continue
+        
         name, postfix = frame[:].split('.')
         if (postfix == 'png'):
           img_path = os.path.join(path, frame)
           img = cv2.imread(img_path,-1)
           if not hasattr(img, 'astype'):
-              print 'not image'
-              print imagePath
-              break
+              print('not image')
+              print(imagePath)
+              continue
           img = cv2.resize(img, dsize=(0, 0), fx=args["scale"], fy=args["scale"])
           img = np.clip(img, 0, 8191)
           img = (img/4).astype(np.uint8)
