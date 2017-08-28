@@ -26,6 +26,10 @@ You might need to delete the captured data using the commandline when cleaning u
 
 When transferring files, use filezilla. The large number of files cannot be transferred to usb stick or compressed to e.g. .zip
 
+# Password
+
+raspberry (even if you want to use VNC Viewer it's raspberry)
+
 # TODO
 
 The camera can be unstable and unreachable. Reasons might be a loose connection or unstable voltage resulting in bad initialization. Current solution reboot or unplug camera and keep trying. If capturing, a green LED will blick with a spacing of a few seconds because of disk activity. This should be improved so the system is more robust and it should be easier to see if things are working.
