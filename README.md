@@ -32,6 +32,14 @@ Missing:
 - When evaluating the detector extract some correct and some wrong detections for the paper and poster. also try to perform clustering based on the features and visualize the distribution along with labels.(example: http://cs.stanford.edu/people/karpathy/cnnembed/)
 - Visualize the tracks along with the frames
 
+Try dlib with neon enabled:
+
+https://gist.github.com/ageitgey/1ac8dbe8572f3f533df6269dab35df65
+
+sudo python3 setup.py install --compiler-flags "-mpfu=neon"
+
+
+
 # Data
 
 | Name             | Time(wrong) | Place         |Start time| BB anno            | Event anno         | Comments | Usage |
