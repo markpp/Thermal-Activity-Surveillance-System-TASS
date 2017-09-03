@@ -25,7 +25,7 @@ def read_annotations(anno_path):
 
     annotations = {}
     prev_nr = -1
-    print "Reading annotations..."
+    print("Reading annotations...")
     # read annotations line by line from file
     with open(anno_path) as anno_file:
         next(anno_file) # Skip header line

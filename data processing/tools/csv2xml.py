@@ -16,13 +16,13 @@ def mtb_annotation_check(annotation):
     # width check
     width = int(annotation[0].split(';')[5])-int(annotation[0].split(';')[3])
     if(width < 10):
-        print "Annotation: {}, failed width check - {}".format(annotation[0].split(';')[0], width)
+        print("Annotation: {}, failed width check - {}".format(annotation[0].split(';')[0], width))
         return False
 
     # height check
     height = int(annotation[0].split(';')[6])-int(annotation[0].split(';')[4])
     if(height < 10):
-        print "Annotation: {}, failed height check - {}".format(annotation[0].split(';')[0], height)
+        print("Annotation: {}, failed height check - {}".format(annotation[0].split(';')[0], height))
         return False
 
     # aspect ratio check
@@ -30,7 +30,7 @@ def mtb_annotation_check(annotation):
     if(ratio > 0.5 and ratio < 1.0): # MTB
         return True
     else:
-        print "Annotation: {}, failed ratio check - {}".format(annotation[0].split(';')[0], ratio)
+        print("Annotation: {}, failed ratio check - {}".format(annotation[0].split(';')[0], ratio))
         return False
 
 
@@ -43,13 +43,13 @@ def ped_annotation_check(annotation):
     # width check
     width = int(annotation[0].split(';')[5])-int(annotation[0].split(';')[3])
     if(width < 5):
-        print "Annotation: {}, failed width check - {}".format(annotation[0].split(';')[0], width)
+        print("Annotation: {}, failed width check - {}".format(annotation[0].split(';')[0], width))
         return False
 
     # height check
     height = int(annotation[0].split(';')[6])-int(annotation[0].split(';')[4])
     if(height < 10):
-        print "Annotation: {}, failed height check - {}".format(annotation[0].split(';')[0], height)
+        print("Annotation: {}, failed height check - {}".format(annotation[0].split(';')[0], height))
         return False
 
     # aspect ratio check
@@ -57,7 +57,7 @@ def ped_annotation_check(annotation):
     if(ratio >= 0.3 and ratio < 0.55): # PED
         return True
     else:
-        print "Annotation: {}, failed ratio check - {}".format(annotation[0].split(';')[0], ratio)
+        print("Annotation: {}, failed ratio check - {}".format(annotation[0].split(';')[0], ratio))
         return False
 
 # def write_header(csv_file):
@@ -66,7 +66,7 @@ def ped_annotation_check(annotation):
 
 
 def convert(csv_path, xml_path, scaling):
-    print "Converting csv to xml..."
+    print("Converting csv to xml...")
     csvData = csv.reader(open(csv_path))
     xmlData = open(xml_path, 'w')
 

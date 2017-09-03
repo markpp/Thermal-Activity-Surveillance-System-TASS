@@ -39,8 +39,7 @@ def activity(img8U, csvWriter):
     """
         
     histSize = [256]
-    range = [0, 256] 
-    histRange = range 
+    histRange = [0, 256] 
     uniform = True; accumulate = False
     hotPixelCount = 0
     
@@ -55,9 +54,9 @@ def activity(img8U, csvWriter):
     outThresholded = hsv.copy()
     rows, cols = outThresholded.shape
        
-    for i in xrange(0, rows):
-        for j in xrange(0, cols):
-          if outThresholded[i, j] > max_loc[1] + 25:  
+    for i in range(0, rows):
+        for j in range(0, cols):
+          if outThresholded[i, j] > max_loc[1]:  
             hotPixelCount += 1   
           else:
             outThresholded[i, j] = 0
@@ -113,7 +112,7 @@ if __name__ == "__main__":
     path = check_path(args["path"])
     csv_path = args["anno_path"]
         
-    with open(csv_path, 'w+') as csvFile:
+    with open(csv_path, 'w+', newline='') as csvFile:
         csvWriter = csv.writer(csvFile)
         # Loop through the folders to get frames
         for frame in range(0, len(os.listdir(path)) - 1):   

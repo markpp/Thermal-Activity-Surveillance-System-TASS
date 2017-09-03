@@ -41,4 +41,5 @@ if __name__ == "__main__":
                 os.remove(os.path.join(path, filename))
                 #new_filename = "frame_" + num.zfill(6) + ".png"
                 #os.rename(os.path.join(path, filename), os.path.join(path, new_filename))
-
+            
+            

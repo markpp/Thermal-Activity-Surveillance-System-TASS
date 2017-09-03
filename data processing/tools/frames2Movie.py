@@ -59,19 +59,20 @@ if __name__ == "__main__":
 
     # OpenCV 3.x
     if(check_opencv_version("3.")):
-      print "OpenCV 3.x"
-      #fourcc = cv2.VideoWriter_fourcc(*'MJPG')
-      #fourcc = cv2.VideoWriter_fourcc(*'XVID')
-      fourcc = cv2.VideoWriter_fourcc('H', '2', '6', '4')
+      print("OpenCV 3.x")
+      fourcc = cv2.VideoWriter_fourcc(*'XVID')
     # OpenCV 2.x
     else:
-      print "OpenCV 2.x"
-      fourcc = cv2.cv.CV_FOURCC(*'MJPG')
+      print("OpenCV 2.x")
+      fourcc = cv2.cv.CV_FOURCC(*'XVID')
       #fourcc = cv2.cv.CV_FOURCC(*'XVID')
+    image = os.path.join(path, "frame_{:06d}".format(0) + ".png")
+    frame_size = cv2.imread(image)
+    height, width, channels = frame_size.shape
 
-    videoOut = cv2.VideoWriter(args["video"],fourcc, 9, (80,60), False)
+    videoOut = cv2.VideoWriter(args["video"],fourcc, 9, (width, height), False)
     imageCount = len(mylistdir(path))
-    print imageCount
+    print(imageCount)
     for frame in range(0,imageCount):
         filename = '/frame_' + str(frame).zfill(6) + '.png'
         imagePath = path + filename
@@ -79,8 +80,8 @@ if __name__ == "__main__":
         if(hasattr(img, 'astype')):
             oldImg = img
         else:
-            print 'not image'
-            print imagePath
+            print('not image')
+            print(imagePath)
             _, postfix = imagePath[:].split('.')
             if(frame < imageCount and postfix == 'png'):
                 img = oldImg

@@ -34,17 +34,15 @@ if __name__ == "__main__":
     #path = '/Volumes/WD1TBNTFS/output/output27sep.csv'
     with open(path) as inputfile:
         for line in inputfile:
-            print line
+            print(line)
             startPoints.append(line[:-4].split('_')[1].split('.')[0])
 
-    with open(outpath, 'wb') as text_file:
+    with open(outpath, 'w') as text_file:
         for point in startPoints:
             timePointSec = startSeconds + float(int(point)) / 9
             #print timePoint
             timePoint = time.gmtime(timePointSec)
             timeString = str(timePoint.tm_year).zfill(4) + '-' + str(timePoint.tm_mon).zfill(2) + '-' + str(timePoint.tm_mday).zfill(2) + ' ' + str(timePoint.tm_hour).zfill(2) + ':' + str(timePoint.tm_min).zfill(2) + ':' + str(timePoint.tm_sec).zfill(2) + '\n'
-            #startTimes.append(timeString)
-            #print time.gmtime(timePointSec)
             text_file.write(timeString)
 
 

@@ -9,11 +9,11 @@ import nms
 class detector:
 
     def __init__(self):
-        print "Detector object initialized"
+        print("Detector object initialized")
 
 
     def load_dlib_detector(self):
-        print "Loading detector..."
+        print("Loading detector...")
         self.detectors = [dlib.fhog_object_detector("../data/models/detector_mtb.svm"), dlib.fhog_object_detector("../data/models/detector_ped.svm")]
 
     def show_learned_hog_filter(self):
