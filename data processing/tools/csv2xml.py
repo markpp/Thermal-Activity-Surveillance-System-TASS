@@ -8,20 +8,15 @@ import argparse
 
 
 def mtb_annotation_check(annotation):
-
-    # tag check
-    if(annotation[0].split(';')[2] != "MTB"):
-        return False
-
     # width check
     width = int(annotation[0].split(';')[5])-int(annotation[0].split(';')[3])
-    if(width < 10):
+    if(width < 8):
         print("Annotation: {}, failed width check - {}".format(annotation[0].split(';')[0], width))
         return False
 
     # height check
     height = int(annotation[0].split(';')[6])-int(annotation[0].split(';')[4])
-    if(height < 10):
+    if(height < 8):
         print("Annotation: {}, failed height check - {}".format(annotation[0].split(';')[0], height))
         return False
 
@@ -33,13 +28,7 @@ def mtb_annotation_check(annotation):
         print("Annotation: {}, failed ratio check - {}".format(annotation[0].split(';')[0], ratio))
         return False
 
-
 def ped_annotation_check(annotation):
-
-    # tag check
-    if(annotation[0].split(';')[2] != "PED"):
-        return False
-
     # width check
     width = int(annotation[0].split(';')[5])-int(annotation[0].split(';')[3])
     if(width < 5):
@@ -48,7 +37,7 @@ def ped_annotation_check(annotation):
 
     # height check
     height = int(annotation[0].split(';')[6])-int(annotation[0].split(';')[4])
-    if(height < 10):
+    if(height < 8):
         print("Annotation: {}, failed height check - {}".format(annotation[0].split(';')[0], height))
         return False
 
@@ -60,56 +49,70 @@ def ped_annotation_check(annotation):
         print("Annotation: {}, failed ratio check - {}".format(annotation[0].split(';')[0], ratio))
         return False
 
-# def write_header(csv_file):
+def write_header(xml_file):
+    xml_file.write('<?xml version="1.0" encoding="ISO-8859-1"?>' + "\n")
+    xml_file.write('<?xml-stylesheet type="text/xsl" href="image_metadata_stylesheet.xsl"?>' + "\n")
+    xml_file.write('<dataset>' + "\n")
+    xml_file.write('<name>Training faces</name>' + "\n")
+    xml_file.write('<comment>These are images from my thermal MTB dataset.</comment>' + "\n")
+    xml_file.write('<images>' + '\n')
 
-# def write_annotation(line, csv_file):
+def write_footer(xml_file):
+    xml_file.write('  ' + '<' + '/image' + '>' + "\n")
+    xml_file.write('</images>' + "\n")
+    xml_file.write('</dataset>' + "\n")
 
+def write_annotation(line, prev_nr, first, img_path, scaling, xml_file):
+    frame_nr = line[0].split('_')[1].split('.')[0]
+    #print frame_nr
+    if frame_nr != prev_nr:
+        if not first:
+            xml_file.write('  ' + '<' + '/image' + '>' + "\n")
+        first = False
 
-def convert(csv_path, xml_path, scaling):
+        xml_file.write('  ' + '<' + 'image' + ' ' + 'file' + '=' + '"' + img_path + '/' + line[0].split(';')[0] + '"' + '>' + "\n")
+        prev_nr = frame_nr
+
+    xml_file.write('    ' + '<' + 'box' + ' ' + 'top' + '=' + '"' + str(int(line[0].split(';')[4])*scaling) + '"' + ' ' +
+                  'left' + '=' + '"' + str(int(line[0].split(';')[3])*scaling) + '"' + ' ' +
+                  'width' + '=' + '"' + str((int(line[0].split(';')[5])-int(line[0].split(';')[3]))*scaling) + '"' + ' ' +
+                  'height' + '=' + '"' + str((int(line[0].split(';')[6])-int(line[0].split(';')[4]))*scaling) + '"' + '>' + "\n")
+
+    xml_file.write('      ' + '<' + 'label' + '>' + line[0].split(';')[2] + '<' + '/label' + '>' + '\n')
+
+    xml_file.write('    ' + '<' + '/box' + '>' + '\n')
+
+def convert(csv_path, img_path, scaling):
     print("Converting csv to xml...")
     csvData = csv.reader(open(csv_path))
-    xmlData = open(xml_path, 'w')
+
+    xml_ped_path = csv_path[:len(csv_path)-4] + '_ped.xml'
+    xml_ped = open(xml_ped_path, 'w')
+
+    xml_mtb_path = csv_path[:len(csv_path)-4] + '_mtb.xml'
+    xml_mtb = open(xml_mtb_path, 'w')
 
     # Write header
-    xmlData.write('<?xml version="1.0" encoding="ISO-8859-1"?>' + "\n")
-    xmlData.write('<?xml-stylesheet type="text/xsl" href="image_metadata_stylesheet.xsl"?>' + "\n")
-    xmlData.write('<dataset>' + "\n")
-    xmlData.write('<name>Training faces</name>' + "\n")
-    xmlData.write('<comment>These are images from my thermal MTB dataset.</comment>' + "\n")
-    xmlData.write('<images>' + '\n')
+    write_header(xml_ped)
+    write_header(xml_mtb)
 
     prev_nr = -1
     first = True
     next(csvData)  # Skip header line
     for line in csvData:
-        #if(mtb_annotation_check(line)):
-        if(ped_annotation_check(line)):
-            #write_annotation(line, csv_file_mtb)
-            frame_nr = line[0].split('_')[1].split('.')[0]
-            #print frame_nr
-            if frame_nr != prev_nr:
-                if not first:
-                    xmlData.write('  ' + '<' + '/image' + '>' + "\n")
-                first = False
-
-                xmlData.write('  ' + '<' + 'image' + ' ' + 'file' + '=' + '"' + "4x_44/" + line[0].split(';')[0] + '"' + '>' + "\n")
-                prev_nr = frame_nr
-
-            xmlData.write('    ' + '<' + 'box' + ' ' + 'top' + '=' + '"' + str(int(line[0].split(';')[4])*scaling) + '"' + ' ' +
-                          'left' + '=' + '"' + str(int(line[0].split(';')[3])*scaling) + '"' + ' ' +
-                          'width' + '=' + '"' + str((int(line[0].split(';')[5])-int(line[0].split(';')[3]))*scaling) + '"' + ' ' +
-                          'height' + '=' + '"' + str((int(line[0].split(';')[6])-int(line[0].split(';')[4]))*scaling) + '"' + '>' + "\n")
-
-            xmlData.write('      ' + '<' + 'label' + '>' + line[0].split(';')[2] + '<' + '/label' + '>' + '\n')
-
-            xmlData.write('    ' + '<' + '/box' + '>' + '\n')
-
+        # tag check
+        if(line[0].split(';')[2] == "PED"):
+            if(ped_annotation_check(line)):
+                write_annotation(line, prev_nr, first, img_path, scaling, xml_ped)
+        if(line[0].split(';')[2] == "MTB"):
+            if(mtb_annotation_check(line)):
+                write_annotation(line, prev_nr, first, img_path, scaling, xml_mtb)
+        else:
+            print("Unknown tag")
 
     # Finish file
-    xmlData.write('  ' + '<' + '/image' + '>' + "\n")
-    xmlData.write('</images>' + "\n")
-    xmlData.write('</dataset>' + "\n")
-    xmlData.close()
+    xml_ped.close()
+    xml_mtb.close()
 
 if __name__ == '__main__':
     """Main function for executing the run script.
@@ -133,4 +136,4 @@ if __name__ == '__main__':
                     help="Scale factor")
     args = vars(ap.parse_args())
 
-    convert(args["csv"], args["xml"], args["scale"])
+    convert(args["csv"], "4x_44/", args["scale"])
