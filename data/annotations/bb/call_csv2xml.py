@@ -25,4 +25,4 @@ if __name__ == '__main__':
     # test
     convert('testing/2015-09-30-06-23_bb.csv', '/home/markpp/Desktop/code/mtb/data/train/2015-09-30-06-23', 1)
     convert('testing/2015-10-05-15-56_bb.csv', '/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56', 1)
-    #convert('2016-08-09-14-58_bb.csv', '/home/markpp/Desktop/code/mtb/data/train/2016-08-09-14-58', 1)
+    convert('testing/2016-08-09-14-58_bb.csv', '/home/markpp/Desktop/code/mtb/data/train/2016-08-09-14-58', 1)
