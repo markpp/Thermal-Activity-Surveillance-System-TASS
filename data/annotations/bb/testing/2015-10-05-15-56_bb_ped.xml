@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="image_metadata_stylesheet.xsl"?>
+<dataset>
+<name>Training faces</name>
+<comment>These are images from my thermal MTB dataset.</comment>
+<images>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000001.png">
+    <box top="79" left="96" width="39" height="82">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000003.png">
+    <box top="81" left="100" width="40" height="81">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000004.png">
+    <box top="79" left="107" width="38" height="83">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000005.png">
+    <box top="79" left="111" width="36" height="83">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000006.png">
+    <box top="83" left="20" width="85" height="156">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000006.png">
+    <box top="79" left="115" width="32" height="83">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000007.png">
+    <box top="81" left="12" width="83" height="159">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000007.png">
+    <box top="79" left="117" width="32" height="82">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000008.png">
+    <box top="81" left="9" width="79" height="160">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000008.png">
+    <box top="79" left="117" width="32" height="82">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000009.png">
+    <box top="89" left="5" width="77" height="160">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000009.png">
+    <box top="79" left="120" width="32" height="82">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000010.png">
+    <box top="89" left="0" width="77" height="160">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000010.png">
+    <box top="77" left="125" width="32" height="82">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000011.png">
+    <box top="88" left="0" width="77" height="160">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000011.png">
+    <box top="75" left="128" width="32" height="82">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000012.png">
+    <box top="84" left="0" width="65" height="156">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000012.png">
+    <box top="75" left="130" width="32" height="82">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000013.png">
+    <box top="79" left="1" width="49" height="163">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000013.png">
+    <box top="75" left="133" width="38" height="82">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000014.png">
+    <box top="75" left="134" width="38" height="82">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000015.png">
+    <box top="75" left="139" width="35" height="81">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000016.png">
+    <box top="74" left="142" width="35" height="81">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000017.png">
+    <box top="74" left="146" width="38" height="81">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000018.png">
+    <box top="74" left="147" width="35" height="81">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000019.png">
+    <box top="74" left="147" width="35" height="81">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000020.png">
+    <box top="76" left="0" width="46" height="149">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000020.png">
+    <box top="78" left="156" width="30" height="69">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000021.png">
+    <box top="76" left="0" width="46" height="149">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000021.png">
+    <box top="77" left="156" width="30" height="69">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000022.png">
+    <box top="76" left="0" width="46" height="149">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000022.png">
+    <box top="77" left="156" width="30" height="69">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000023.png">
+    <box top="76" left="0" width="46" height="149">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000023.png">
+    <box top="77" left="160" width="31" height="69">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000024.png">
+    <box top="78" left="0" width="45" height="127">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000024.png">
+    <box top="77" left="160" width="31" height="69">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000025.png">
+    <box top="78" left="1" width="45" height="127">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000025.png">
+    <box top="75" left="167" width="32" height="69">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000026.png">
+    <box top="78" left="2" width="48" height="127">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000026.png">
+    <box top="75" left="169" width="33" height="69">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000027.png">
+    <box top="78" left="5" width="48" height="127">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000027.png">
+    <box top="75" left="169" width="33" height="69">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000028.png">
+    <box top="80" left="10" width="48" height="115">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000028.png">
+    <box top="75" left="174" width="36" height="69">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000029.png">
+    <box top="79" left="15" width="48" height="115">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000029.png">
+    <box top="75" left="176" width="36" height="69">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000030.png">
+    <box top="79" left="20" width="48" height="115">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000030.png">
+    <box top="75" left="176" width="36" height="69">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000031.png">
+    <box top="78" left="25" width="48" height="115">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000031.png">
+    <box top="75" left="185" width="30" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000032.png">
+    <box top="78" left="32" width="40" height="115">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000032.png">
+    <box top="75" left="189" width="30" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000033.png">
+    <box top="78" left="36" width="40" height="115">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000033.png">
+    <box top="77" left="193" width="30" height="63">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000034.png">
+    <box top="78" left="44" width="33" height="109">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000034.png">
+    <box top="77" left="196" width="30" height="63">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000035.png">
+    <box top="77" left="196" width="30" height="63">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000036.png">
+    <box top="78" left="48" width="53" height="109">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000036.png">
+    <box top="77" left="202" width="30" height="63">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000037.png">
+    <box top="78" left="48" width="53" height="109">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000037.png">
+    <box top="77" left="205" width="30" height="63">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000038.png">
+    <box top="78" left="70" width="35" height="109">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000038.png">
+    <box top="77" left="208" width="30" height="63">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000039.png">
+    <box top="74" left="75" width="35" height="109">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000039.png">
+    <box top="77" left="212" width="30" height="63">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000040.png">
+    <box top="74" left="78" width="38" height="109">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000040.png">
+    <box top="77" left="216" width="30" height="63">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000041.png">
+    <box top="74" left="80" width="39" height="109">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000041.png">
+    <box top="77" left="216" width="30" height="63">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000042.png">
+    <box top="73" left="80" width="39" height="109">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000043.png">
+    <box top="70" left="81" width="39" height="109">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000044.png">
+    <box top="70" left="82" width="39" height="109">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000045.png">
+    <box top="70" left="85" width="39" height="109">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000046.png">
+    <box top="76" left="90" width="39" height="92">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000047.png">
+    <box top="76" left="96" width="38" height="89">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000048.png">
+    <box top="76" left="100" width="37" height="89">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000049.png">
+    <box top="76" left="102" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000050.png">
+    <box top="76" left="102" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000050.png">
+    <box top="81" left="261" width="18" height="58">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000051.png">
+    <box top="76" left="109" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000051.png">
+    <box top="81" left="261" width="18" height="58">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000052.png">
+    <box top="76" left="113" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000052.png">
+    <box top="77" left="261" width="28" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000053.png">
+    <box top="76" left="113" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000053.png">
+    <box top="77" left="263" width="28" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000054.png">
+    <box top="71" left="120" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000054.png">
+    <box top="77" left="266" width="28" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000055.png">
+    <box top="71" left="123" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000055.png">
+    <box top="77" left="266" width="28" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000056.png">
+    <box top="71" left="126" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000056.png">
+    <box top="77" left="270" width="28" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000057.png">
+    <box top="71" left="130" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000057.png">
+    <box top="77" left="273" width="28" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000058.png">
+    <box top="71" left="133" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000058.png">
+    <box top="77" left="276" width="28" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000059.png">
+    <box top="71" left="135" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000059.png">
+    <box top="77" left="279" width="28" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000060.png">
+    <box top="71" left="138" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000060.png">
+    <box top="77" left="284" width="28" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000061.png">
+    <box top="71" left="138" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000061.png">
+    <box top="77" left="286" width="28" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000062.png">
+    <box top="69" left="143" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000062.png">
+    <box top="76" left="287" width="28" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000063.png">
+    <box top="69" left="145" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000063.png">
+    <box top="76" left="287" width="28" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000064.png">
+    <box top="69" left="145" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000064.png">
+    <box top="76" left="291" width="28" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000065.png">
+    <box top="69" left="151" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000065.png">
+    <box top="76" left="294" width="28" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000066.png">
+    <box top="69" left="157" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000066.png">
+    <box top="76" left="294" width="28" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000067.png">
+    <box top="69" left="165" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000067.png">
+    <box top="76" left="294" width="28" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000068.png">
+    <box top="69" left="167" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000069.png">
+    <box top="69" left="169" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000070.png">
+    <box top="69" left="173" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000071.png">
+    <box top="69" left="177" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000072.png">
+    <box top="69" left="182" width="37" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000076.png">
+    <box top="76" left="207" width="27" height="65">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000077.png">
+    <box top="75" left="209" width="27" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000078.png">
+    <box top="75" left="212" width="27" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000079.png">
+    <box top="75" left="218" width="25" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000080.png">
+    <box top="77" left="224" width="25" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000081.png">
+    <box top="77" left="224" width="25" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000082.png">
+    <box top="77" left="224" width="25" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000083.png">
+    <box top="77" left="224" width="25" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000084.png">
+    <box top="77" left="233" width="25" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000085.png">
+    <box top="77" left="233" width="25" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000086.png">
+    <box top="79" left="257" width="22" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000087.png">
+    <box top="79" left="260" width="22" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000088.png">
+    <box top="76" left="263" width="22" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000089.png">
+    <box top="76" left="266" width="22" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000090.png">
+    <box top="75" left="267" width="27" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000091.png">
+    <box top="75" left="271" width="27" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000092.png">
+    <box top="80" left="278" width="23" height="58">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000093.png">
+    <box top="78" left="281" width="25" height="58">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000094.png">
+    <box top="78" left="285" width="25" height="58">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000095.png">
+    <box top="78" left="288" width="25" height="58">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000096.png">
+    <box top="78" left="291" width="25" height="58">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_000097.png">
+    <box top="78" left="294" width="25" height="58">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113062.png">
+    <box top="87" left="280" width="29" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113063.png">
+    <box top="87" left="277" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113064.png">
+    <box top="87" left="275" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113065.png">
+    <box top="87" left="277" width="26" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113066.png">
+    <box top="87" left="277" width="24" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113067.png">
+    <box top="88" left="274" width="24" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113068.png">
+    <box top="88" left="272" width="24" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113069.png">
+    <box top="88" left="269" width="24" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113070.png">
+    <box top="88" left="267" width="24" height="61">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113071.png">
+    <box top="88" left="265" width="24" height="61">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113072.png">
+    <box top="88" left="258" width="28" height="61">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113071.png">
+    <box top="90" left="296" width="19" height="49">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113073.png">
+    <box top="88" left="255" width="28" height="62">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113074.png">
+    <box top="88" left="258" width="25" height="61">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113072.png">
+    <box top="90" left="296" width="19" height="49">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113073.png">
+    <box top="90" left="290" width="21" height="50">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113074.png">
+    <box top="90" left="290" width="21" height="50">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113075.png">
+    <box top="88" left="255" width="25" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113075.png">
+    <box top="90" left="288" width="21" height="50">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113076.png">
+    <box top="88" left="254" width="25" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113076.png">
+    <box top="90" left="288" width="21" height="50">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113077.png">
+    <box top="88" left="250" width="25" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113077.png">
+    <box top="90" left="287" width="21" height="50">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113078.png">
+    <box top="88" left="250" width="25" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113078.png">
+    <box top="90" left="285" width="21" height="50">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113079.png">
+    <box top="90" left="285" width="21" height="50">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113080.png">
+    <box top="90" left="280" width="24" height="52">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113081.png">
+    <box top="90" left="278" width="24" height="52">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113082.png">
+    <box top="90" left="277" width="24" height="52">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113083.png">
+    <box top="90" left="275" width="24" height="52">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113084.png">
+    <box top="90" left="272" width="25" height="55">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113085.png">
+    <box top="90" left="270" width="25" height="57">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113086.png">
+    <box top="90" left="268" width="25" height="57">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113087.png">
+    <box top="90" left="265" width="25" height="57">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113088.png">
+    <box top="90" left="264" width="25" height="57">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113088.png">
+    <box top="89" left="212" width="24" height="61">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113089.png">
+    <box top="90" left="264" width="25" height="57">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113089.png">
+    <box top="87" left="210" width="28" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113090.png">
+    <box top="90" left="259" width="27" height="59">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113090.png">
+    <box top="87" left="208" width="28" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113091.png">
+    <box top="90" left="255" width="27" height="59">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113091.png">
+    <box top="87" left="203" width="30" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113092.png">
+    <box top="90" left="255" width="27" height="59">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113092.png">
+    <box top="87" left="202" width="30" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113093.png">
+    <box top="90" left="252" width="27" height="59">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113093.png">
+    <box top="87" left="198" width="30" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113094.png">
+    <box top="90" left="249" width="27" height="59">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113094.png">
+    <box top="87" left="195" width="30" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113095.png">
+    <box top="90" left="249" width="27" height="59">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113095.png">
+    <box top="87" left="193" width="30" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113096.png">
+    <box top="90" left="249" width="27" height="59">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113096.png">
+    <box top="87" left="187" width="32" height="67">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113097.png">
+    <box top="90" left="249" width="27" height="59">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113097.png">
+    <box top="87" left="185" width="32" height="67">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113098.png">
+    <box top="87" left="181" width="32" height="67">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113099.png">
+    <box top="87" left="178" width="32" height="67">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113100.png">
+    <box top="87" left="175" width="32" height="67">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113101.png">
+    <box top="86" left="172" width="32" height="67">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113102.png">
+    <box top="86" left="169" width="32" height="67">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113103.png">
+    <box top="86" left="165" width="32" height="67">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113104.png">
+    <box top="86" left="162" width="32" height="67">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113105.png">
+    <box top="86" left="161" width="32" height="67">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113106.png">
+    <box top="86" left="160" width="32" height="67">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113107.png">
+    <box top="86" left="160" width="32" height="67">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113107.png">
+    <box top="88" left="213" width="24" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113108.png">
+    <box top="86" left="152" width="36" height="74">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113108.png">
+    <box top="88" left="209" width="28" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113109.png">
+    <box top="86" left="149" width="36" height="74">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113109.png">
+    <box top="88" left="209" width="28" height="64">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113110.png">
+    <box top="86" left="145" width="36" height="76">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113110.png">
+    <box top="87" left="204" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113111.png">
+    <box top="86" left="140" width="37" height="78">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113111.png">
+    <box top="87" left="201" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113112.png">
+    <box top="86" left="137" width="37" height="78">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113112.png">
+    <box top="87" left="201" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113113.png">
+    <box top="86" left="134" width="37" height="78">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113113.png">
+    <box top="87" left="195" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113114.png">
+    <box top="86" left="134" width="37" height="78">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113114.png">
+    <box top="87" left="192" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113115.png">
+    <box top="86" left="127" width="37" height="78">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113115.png">
+    <box top="87" left="191" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113116.png">
+    <box top="86" left="125" width="37" height="78">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113116.png">
+    <box top="87" left="191" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113117.png">
+    <box top="86" left="124" width="37" height="78">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113117.png">
+    <box top="87" left="186" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113118.png">
+    <box top="86" left="124" width="37" height="78">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113118.png">
+    <box top="87" left="183" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113119.png">
+    <box top="86" left="124" width="37" height="78">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113119.png">
+    <box top="87" left="180" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113120.png">
+    <box top="86" left="114" width="40" height="82">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113120.png">
+    <box top="87" left="177" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113121.png">
+    <box top="86" left="111" width="40" height="82">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113121.png">
+    <box top="87" left="177" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113122.png">
+    <box top="86" left="107" width="40" height="84">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113122.png">
+    <box top="87" left="177" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113123.png">
+    <box top="86" left="104" width="40" height="84">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113123.png">
+    <box top="87" left="170" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113124.png">
+    <box top="87" left="100" width="40" height="84">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113124.png">
+    <box top="87" left="168" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113125.png">
+    <box top="89" left="96" width="40" height="84">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113125.png">
+    <box top="87" left="168" width="31" height="66">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113126.png">
+    <box top="89" left="94" width="40" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113126.png">
+    <box top="87" left="165" width="32" height="70">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113127.png">
+    <box top="89" left="91" width="40" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113127.png">
+    <box top="87" left="162" width="32" height="74">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113128.png">
+    <box top="88" left="88" width="40" height="88">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113128.png">
+    <box top="87" left="162" width="32" height="74">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113129.png">
+    <box top="88" left="85" width="40" height="90">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113129.png">
+    <box top="87" left="159" width="32" height="74">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113130.png">
+    <box top="88" left="85" width="40" height="90">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113130.png">
+    <box top="87" left="156" width="32" height="74">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113131.png">
+    <box top="88" left="80" width="40" height="95">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113131.png">
+    <box top="87" left="153" width="32" height="74">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113132.png">
+    <box top="88" left="77" width="40" height="96">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113132.png">
+    <box top="87" left="153" width="32" height="74">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113133.png">
+    <box top="88" left="74" width="42" height="97">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113133.png">
+    <box top="87" left="146" width="35" height="77">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113134.png">
+    <box top="88" left="74" width="42" height="97">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113134.png">
+    <box top="87" left="143" width="35" height="77">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113135.png">
+    <box top="88" left="66" width="42" height="97">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113135.png">
+    <box top="87" left="142" width="35" height="77">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113136.png">
+    <box top="88" left="58" width="44" height="98">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113136.png">
+    <box top="87" left="142" width="35" height="77">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113137.png">
+    <box top="88" left="56" width="44" height="98">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113137.png">
+    <box top="87" left="136" width="35" height="81">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113138.png">
+    <box top="88" left="50" width="49" height="100">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113138.png">
+    <box top="87" left="133" width="35" height="81">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113139.png">
+    <box top="88" left="48" width="40" height="100">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113139.png">
+    <box top="87" left="127" width="35" height="81">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113140.png">
+    <box top="88" left="39" width="40" height="100">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113140.png">
+    <box top="87" left="125" width="35" height="81">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113141.png">
+    <box top="88" left="36" width="40" height="104">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113141.png">
+    <box top="87" left="116" width="44" height="82">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113142.png">
+    <box top="88" left="33" width="40" height="106">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113142.png">
+    <box top="87" left="114" width="44" height="83">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113143.png">
+    <box top="88" left="29" width="43" height="106">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113143.png">
+    <box top="87" left="114" width="44" height="83">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113144.png">
+    <box top="88" left="25" width="48" height="106">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113144.png">
+    <box top="87" left="108" width="42" height="86">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113145.png">
+    <box top="88" left="16" width="58" height="111">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113145.png">
+    <box top="87" left="104" width="42" height="86">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113146.png">
+    <box top="88" left="14" width="58" height="111">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113146.png">
+    <box top="87" left="98" width="42" height="89">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113147.png">
+    <box top="88" left="6" width="58" height="118">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113147.png">
+    <box top="87" left="95" width="42" height="89">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113148.png">
+    <box top="88" left="2" width="58" height="118">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113148.png">
+    <box top="87" left="92" width="42" height="91">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113149.png">
+    <box top="88" left="2" width="58" height="118">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113149.png">
+    <box top="87" left="87" width="42" height="91">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113150.png">
+    <box top="88" left="2" width="58" height="118">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113150.png">
+    <box top="87" left="85" width="42" height="91">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113151.png">
+    <box top="88" left="-1" width="41" height="120">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113151.png">
+    <box top="87" left="84" width="38" height="91">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113152.png">
+    <box top="87" left="82" width="37" height="91">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113153.png">
+    <box top="87" left="76" width="40" height="93">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113154.png">
+    <box top="87" left="76" width="40" height="93">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113155.png">
+    <box top="87" left="76" width="40" height="93">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113156.png">
+    <box top="87" left="66" width="38" height="93">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113157.png">
+    <box top="91" left="54" width="49" height="97">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113158.png">
+    <box top="91" left="51" width="49" height="97">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113159.png">
+    <box top="91" left="48" width="49" height="97">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113160.png">
+    <box top="91" left="45" width="49" height="97">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113161.png">
+    <box top="91" left="39" width="40" height="102">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113162.png">
+    <box top="91" left="36" width="39" height="102">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113163.png">
+    <box top="91" left="30" width="42" height="104">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113164.png">
+    <box top="91" left="30" width="42" height="104">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113165.png">
+    <box top="91" left="19" width="57" height="104">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113166.png">
+    <box top="91" left="15" width="57" height="104">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113167.png">
+    <box top="91" left="11" width="57" height="104">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113168.png">
+    <box top="91" left="4" width="57" height="108">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113169.png">
+    <box top="91" left="0" width="57" height="108">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113170.png">
+    <box top="92" left="0" width="49" height="113">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113171.png">
+    <box top="92" left="0" width="48" height="118">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113172.png">
+    <box top="92" left="0" width="47" height="122">
+      <label>PED</label>
+    </box>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-10-05-15-56/frame_113173.png">
+    <box top="92" left="0" width="37" height="122">
+      <label>PED</label>
+    </box>
