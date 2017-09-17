@@ -27,8 +27,8 @@ if __name__ == "__main__":
 
     # Construct the argument parser and parse the arguments
     ap = argparse.ArgumentParser()
-    ap.add_argument("-p", "--path", type=str,
-                    help="Path to frames")
+    ap.add_argument("-p", "--path", type=str, default='',
+                    help="(optional) Path to frames")
     ap.add_argument("-a", "--anno", type=str, default='',
                     help="(optional) path to annotations")
     ap.add_argument("-f", "--frame", type=int, default=0,
@@ -56,17 +56,17 @@ if __name__ == "__main__":
     start_frame = args["frame"]
 
     # Train the detectors
-    # detection.detect.train_detector()
+    detection.detect.train_detector()
 
     # Run the detectors on the provided data
     # detection.detect.detect_hog(frames_dir, start_frame, sorted(annotations))
-    detection.detect.detect_hog(frames_dir, start_frame, tools.list_frames_in_dir.list_frames(frames_dir))
+    #detection.detect.detect_hog(frames_dir, start_frame, tools.list_frames_in_dir.list_frames(frames_dir))
 
     # Run detctor with tracking enabled
     # detection.detect.detect_hog_tracked(frames_dir, start_frame, tools.list_frames_in_dir.list_frames(frames_dir))
 
     # Previews only frames with annotations
-    # presentation.preview.annotation_preview(frames_dir, annotations, start_frame)
+    #presentation.preview.annotation_preview(frames_dir, annotations, start_frame, 1.0)
 
     # Requires a continous list of frames
-    # presentation.continous_preview(frames_dir, annotations)
+    #presentation.preview.continous_preview(start_frame, frames_dir, annotations, 4.0)

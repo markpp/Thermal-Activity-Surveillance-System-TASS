@@ -58,7 +58,7 @@ def draw_tracks(frame, frame_number, tracks, scaling):
     return frame
 
 
-def scale_draw_annotations(frame, frame_number, annotations, scaling = 4.0):
+def scale_draw_annotations(frame, frame_number, annotations, scaling = 2.0):
     """Scale frame before preview and draw annotations.
 
     In order to make it easier to see what is going on, the preview

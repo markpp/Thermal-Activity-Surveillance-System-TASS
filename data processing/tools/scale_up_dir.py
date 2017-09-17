@@ -44,27 +44,28 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("-p", "--path", type=str,
                   help="Path to frames")
-    ap.add_argument("-s", "--scale", type=int, default=4,
+    ap.add_argument("-s", "--scale", type=int, default=2,
                   help="(optional) scale factor")
     args = vars(ap.parse_args())
 
     path = check_path(args["path"])
+    scaling_factor = args["scale"]
 
     imagePath = ""
     dir_list = mylistdir(path)
     imageCount = len(mylistdir(path))
     print(imageCount)
-    output_path = path.rsplit('/', 2)[0] + "/4x/"
+    output_path = path.rsplit('/', 2)[0] + "/" + str(scaling_factor) + "x/"
 
     if not os.path.exists(output_path):
         os.makedirs(output_path)
 
     for frame in dir_list:
         #print frame[:].split('.')
-        
-        if "." not in frame: 
+
+        if "." not in frame:
             continue
-        
+
         name, postfix = frame[:].split('.')
         if (postfix == 'png'):
           img_path = os.path.join(path, frame)
@@ -73,7 +74,7 @@ if __name__ == "__main__":
               print('not image')
               print(imagePath)
               continue
-          img = cv2.resize(img, dsize=(0, 0), fx=args["scale"], fy=args["scale"])
+          img = cv2.resize(img, dsize=(0, 0), fx=scaling_factor, fy=scaling_factor)
           img = np.clip(img, 0, 8191)
           img = (img/4).astype(np.uint8)
           cv2.imwrite(os.path.join(output_path, frame), img)

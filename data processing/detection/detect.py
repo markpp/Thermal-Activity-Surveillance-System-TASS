@@ -37,7 +37,8 @@ def detect_hog(frames_dir, start_frame, frame_list):
                 if img is not None:
                     img = np.clip(img, 0, 8191)
                     img = np.array(img / 4).astype(np.uint8)
-                    frame = cv2.resize(img, dsize=(0, 0), fx=4.0, fy=4.0)
+                    frame = img
+                    #frame = cv2.resize(img, dsize=(0, 0), fx=4.0, fy=4.0)
 
                     detections = []
                     rects, scores, det_types = hog_detector.execute_dlib_detector(frame)

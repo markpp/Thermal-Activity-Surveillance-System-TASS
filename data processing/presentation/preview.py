@@ -5,10 +5,10 @@ import tools
 import presentation
 
 
-def continous_preview(frames_dir, annotations):
+def continous_preview(frame_nr, frames_dir, annotations, scaling_factor):
     # Consecutive preview of frames
-    frame_nr_begin = args["frame"]
-    for frame_nr in range(frame_nr_begin, frame_nr_begin + 1000):
+    frame_nr_begin = frame_nr
+    for frame_nr in range(frame_nr_begin, frame_nr_begin + 100000):
         # for index in range(frameNumber, len(os.listdir(path))):
         frame_path = frames_dir + '/frame_' + str(frame_nr).zfill(6) + '.png'
         # print(frame_path
@@ -16,11 +16,11 @@ def continous_preview(frames_dir, annotations):
         if img is not None:
             img = np.clip(img, 0, 8191)
             img = np.array(img / 4).astype(np.uint8)
-            cv2.imshow('Preview', presentation.presenter.scale_draw_annotations(img, frame_nr, annotations, 4.0))
+            cv2.imshow('Preview', presentation.presenter.scale_draw_annotations(img, frame_nr, annotations, scaling_factor))
         else:
             print('read failed for: ')
             print(frame_path)
-        # cv2.waitKey()
+
         k = cv2.waitKey(33)
         if k == ord('q'):
             print("Quitting...")
@@ -31,11 +31,11 @@ def continous_preview(frames_dir, annotations):
             print("Unpaused.")
 
 
-def annotation_preview(frames_dir, annotations, start_frame):
+def annotation_preview(frames_dir, annotations, start_frame, scaling_factor):
     # Showing only frames with annotated objects
 
     frame_list = sorted(annotations)
-    output_dir = "../data/training/4x"
+    output_dir = "../data/training/" + str(scaling_factor) + "x/"
     # Sort the unordered dictionary and used the sorted keys to find relevant frames
     #for frame_nr in sorted(annotations):
     #for frame_nr in frame_list:
@@ -52,14 +52,15 @@ def annotation_preview(frames_dir, annotations, start_frame):
             if img is not None:
                 img = np.clip(img, 0, 8191)
                 img = np.array(img / 4).astype(np.uint8)
-                tools.file_handler.store_frame(img, frame_nr, 4.0, output_dir)
-                cv2.imshow('Preview', presentation.presenter.scale_draw_annotations(img, frame_nr, annotations, 4.0))
+                tools.file_handler.store_frame(img, frame_nr, scaling_factor, output_dir)
+                cv2.imshow('Preview', presentation.presenter.scale_draw_annotations(img, frame_nr, annotations, scaling_factor))
             else:
                 print('read failed for: ')
                 print(frame_path)
 
             k = cv2.waitKey(20)
-            #print(k
+            #cv2.waitKey()
+            #print(k)
             if k == 32:
                 index = index+1
                 print("Next frame -> {}".format(int(frame_nr)+1))

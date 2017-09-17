@@ -4182,5 +4182,3349 @@
       <label>MTB</label>
     </box>
   </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001214.png">
+    <box top="36" left="104" width="18"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001215.png">
+    <box top="36" left="102" width="18"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001216.png">
+    <box top="36" left="98" width="20"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001217.png">
+    <box top="36" left="94" width="20"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001218.png">
+    <box top="38" left="88" width="22"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001219.png">
+    <box top="38" left="80" width="26"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001220.png">
+    <box top="38" left="70" width="30"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001221.png">
+    <box top="38" left="58" width="34"  height="56">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001222.png">
+    <box top="40" left="40" width="42"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001223.png">
+    <box top="44" left="12" width="54"  height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001247.png">
+    <box top="36" left="112" width="14"  height="20">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001248.png">
+    <box top="36" left="110" width="14"  height="20">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001249.png">
+    <box top="36" left="108" width="14"  height="22">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001250.png">
+    <box top="36" left="106" width="16"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001251.png">
+    <box top="36" left="104" width="16"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001252.png">
+    <box top="36" left="102" width="16"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001253.png">
+    <box top="36" left="100" width="18"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001254.png">
+    <box top="38" left="96" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001255.png">
+    <box top="38" left="90" width="22"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001256.png">
+    <box top="38" left="86" width="22"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001257.png">
+    <box top="38" left="82" width="22"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001258.png">
+    <box top="38" left="76" width="24"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001259.png">
+    <box top="40" left="68" width="28"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001260.png">
+    <box top="40" left="58" width="32"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001261.png">
+    <box top="40" left="44" width="40"  height="58">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001262.png">
+    <box top="42" left="30" width="44"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_001263.png">
+    <box top="42" left="6" width="56"  height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_002299.png">
+    <box top="38" left="96" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_002300.png">
+    <box top="38" left="90" width="22"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_002301.png">
+    <box top="40" left="84" width="24"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_002302.png">
+    <box top="40" left="76" width="26"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_002303.png">
+    <box top="42" left="66" width="30"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_002304.png">
+    <box top="42" left="54" width="34"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_002305.png">
+    <box top="44" left="36" width="40"  height="58">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_002306.png">
+    <box top="46" left="12" width="52"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_007820.png">
+    <box top="38" left="110" width="12"  height="20">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_007821.png">
+    <box top="38" left="108" width="12"  height="22">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_007822.png">
+    <box top="38" left="104" width="16"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_007823.png">
+    <box top="38" left="102" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_007824.png">
+    <box top="38" left="98" width="18"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_007825.png">
+    <box top="38" left="92" width="20"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_007826.png">
+    <box top="40" left="86" width="22"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_007827.png">
+    <box top="40" left="78" width="26"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_007828.png">
+    <box top="42" left="68" width="28"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_007829.png">
+    <box top="44" left="52" width="34"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_007830.png">
+    <box top="46" left="32" width="40"  height="60">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_007831.png">
+    <box top="48" left="2" width="50"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_011432.png">
+    <box top="38" left="110" width="12"  height="22">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_011433.png">
+    <box top="38" left="108" width="12"  height="22">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_011434.png">
+    <box top="38" left="106" width="14"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_011435.png">
+    <box top="38" left="104" width="16"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_011436.png">
+    <box top="38" left="102" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_011437.png">
+    <box top="38" left="100" width="16"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_011438.png">
+    <box top="38" left="96" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_011439.png">
+    <box top="38" left="94" width="18"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_011440.png">
+    <box top="40" left="90" width="18"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_011441.png">
+    <box top="40" left="84" width="22"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_011442.png">
+    <box top="40" left="78" width="24"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_011443.png">
+    <box top="40" left="72" width="26"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_011444.png">
+    <box top="40" left="62" width="32"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_011445.png">
+    <box top="42" left="52" width="34"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_011446.png">
+    <box top="44" left="38" width="40"  height="60">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_011447.png">
+    <box top="46" left="20" width="48"  height="66">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_011448.png">
+    <box top="48" left="0" width="52"  height="71">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_013937.png">
+    <box top="40" left="96" width="18"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_013938.png">
+    <box top="40" left="90" width="22"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_013939.png">
+    <box top="40" left="82" width="26"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_013940.png">
+    <box top="40" left="76" width="26"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_013941.png">
+    <box top="40" left="66" width="30"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_013942.png">
+    <box top="44" left="54" width="34"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_013943.png">
+    <box top="44" left="38" width="42"  height="56">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_013944.png">
+    <box top="46" left="16" width="50"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_019520.png">
+    <box top="38" left="104" width="18"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_019521.png">
+    <box top="38" left="100" width="20"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_019522.png">
+    <box top="38" left="98" width="18"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_019523.png">
+    <box top="38" left="92" width="22"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_019524.png">
+    <box top="40" left="88" width="22"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_019525.png">
+    <box top="40" left="80" width="24"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_019526.png">
+    <box top="42" left="70" width="28"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_019527.png">
+    <box top="44" left="56" width="32"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_019528.png">
+    <box top="46" left="38" width="40"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_019529.png">
+    <box top="48" left="10" width="50"  height="54">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_025239.png">
+    <box top="38" left="100" width="18"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_025240.png">
+    <box top="38" left="96" width="20"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_025241.png">
+    <box top="38" left="94" width="20"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_025242.png">
+    <box top="40" left="90" width="20"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_025243.png">
+    <box top="40" left="82" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_025244.png">
+    <box top="40" left="74" width="26"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_025245.png">
+    <box top="42" left="64" width="30"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_025246.png">
+    <box top="42" left="52" width="34"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_025247.png">
+    <box top="44" left="38" width="38"  height="54">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_025248.png">
+    <box top="44" left="16" width="50"  height="62">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_025249.png">
+    <box top="46" left="0" width="46"  height="70">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_028243.png">
+    <box top="40" left="104" width="14"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_028244.png">
+    <box top="40" left="100" width="18"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_028245.png">
+    <box top="40" left="94" width="20"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_028246.png">
+    <box top="40" left="90" width="20"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_028247.png">
+    <box top="40" left="84" width="22"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_028248.png">
+    <box top="40" left="78" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_028249.png">
+    <box top="42" left="70" width="26"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_028250.png">
+    <box top="42" left="60" width="30"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_028251.png">
+    <box top="42" left="48" width="34"  height="56">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_028252.png">
+    <box top="44" left="32" width="40"  height="62">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_028253.png">
+    <box top="46" left="8" width="52"  height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_029414.png">
+    <box top="40" left="104" width="16"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_029415.png">
+    <box top="40" left="102" width="18"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_029416.png">
+    <box top="40" left="98" width="20"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_029417.png">
+    <box top="40" left="94" width="22"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_029418.png">
+    <box top="40" left="90" width="22"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_029419.png">
+    <box top="40" left="86" width="24"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_029420.png">
+    <box top="40" left="80" width="26"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_029421.png">
+    <box top="40" left="74" width="28"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_029422.png">
+    <box top="42" left="66" width="30"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_029423.png">
+    <box top="42" left="56" width="32"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_029424.png">
+    <box top="44" left="44" width="38"  height="56">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_029425.png">
+    <box top="46" left="26" width="46"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_029426.png">
+    <box top="46" left="4" width="56"  height="72">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_031524.png">
+    <box top="40" left="92" width="20"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_031525.png">
+    <box top="40" left="88" width="22"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_031526.png">
+    <box top="42" left="80" width="28"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_031527.png">
+    <box top="42" left="70" width="28"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_031528.png">
+    <box top="44" left="56" width="32"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_031529.png">
+    <box top="46" left="38" width="38"  height="58">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_031530.png">
+    <box top="48" left="14" width="48"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038220.png">
+    <box top="42" left="102" width="16"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038221.png">
+    <box top="42" left="98" width="16"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038222.png">
+    <box top="42" left="96" width="16"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038223.png">
+    <box top="42" left="92" width="18"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038224.png">
+    <box top="42" left="86" width="20"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038225.png">
+    <box top="44" left="78" width="24"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038226.png">
+    <box top="44" left="68" width="28"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038227.png">
+    <box top="44" left="56" width="34"  height="54">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038228.png">
+    <box top="46" left="40" width="42"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038229.png">
+    <box top="48" left="20" width="50"  height="66">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038230.png">
+    <box top="50" left="0" width="52"  height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038240.png">
+    <box top="40" left="100" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038241.png">
+    <box top="40" left="96" width="20"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038242.png">
+    <box top="40" left="92" width="22"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038243.png">
+    <box top="42" left="88" width="22"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038244.png">
+    <box top="42" left="82" width="24"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038245.png">
+    <box top="42" left="74" width="26"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038246.png">
+    <box top="44" left="64" width="30"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038247.png">
+    <box top="44" left="52" width="34"  height="58">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038248.png">
+    <box top="46" left="36" width="40"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_038249.png">
+    <box top="48" left="14" width="48"  height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_039214.png">
+    <box top="42" left="100" width="14"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_039215.png">
+    <box top="42" left="96" width="18"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_039216.png">
+    <box top="44" left="90" width="22"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_039217.png">
+    <box top="44" left="84" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_039218.png">
+    <box top="44" left="76" width="26"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_039219.png">
+    <box top="46" left="66" width="28"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_039220.png">
+    <box top="48" left="52" width="34"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_039221.png">
+    <box top="50" left="36" width="44"  height="54">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_039222.png">
+    <box top="54" left="10" width="52"  height="62">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_040122.png">
+    <box top="42" left="96" width="18"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_040123.png">
+    <box top="42" left="90" width="22"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_040124.png">
+    <box top="42" left="84" width="22"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_040125.png">
+    <box top="44" left="76" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_040126.png">
+    <box top="44" left="64" width="28"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_040127.png">
+    <box top="46" left="48" width="34"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_040128.png">
+    <box top="48" left="28" width="38"  height="62">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_040129.png">
+    <box top="50" left="0" width="46"  height="66">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_041347.png">
+    <box top="42" left="98" width="16"  height="22">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_041348.png">
+    <box top="42" left="92" width="18"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_041349.png">
+    <box top="42" left="86" width="20"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_041350.png">
+    <box top="44" left="76" width="26"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_041351.png">
+    <box top="44" left="68" width="28"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_041352.png">
+    <box top="46" left="56" width="32"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_041353.png">
+    <box top="48" left="38" width="42"  height="60">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_041354.png">
+    <box top="48" left="20" width="48"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_041355.png">
+    <box top="52" left="0" width="48"  height="66">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042213.png">
+    <box top="42" left="94" width="20"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042214.png">
+    <box top="42" left="88" width="22"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042215.png">
+    <box top="44" left="82" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042216.png">
+    <box top="44" left="72" width="28"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042217.png">
+    <box top="46" left="60" width="34"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042218.png">
+    <box top="46" left="44" width="40"  height="62">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042219.png">
+    <box top="50" left="22" width="46"  height="66">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042220.png">
+    <box top="50" left="0" width="46"  height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042432.png">
+    <box top="42" left="98" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042433.png">
+    <box top="42" left="94" width="20"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042434.png">
+    <box top="42" left="90" width="22"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042435.png">
+    <box top="44" left="84" width="24"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042436.png">
+    <box top="44" left="78" width="26"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042437.png">
+    <box top="44" left="70" width="28"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042438.png">
+    <box top="46" left="60" width="32"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042439.png">
+    <box top="46" left="44" width="40"  height="58">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042440.png">
+    <box top="50" left="24" width="48"  height="62">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042441.png">
+    <box top="50" left="0" width="54"  height="69">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042573.png">
+    <box top="42" left="96" width="18"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042574.png">
+    <box top="42" left="94" width="18"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042575.png">
+    <box top="42" left="90" width="18"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042576.png">
+    <box top="42" left="84" width="20"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042577.png">
+    <box top="42" left="76" width="24"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042578.png">
+    <box top="42" left="68" width="26"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042579.png">
+    <box top="44" left="56" width="32"  height="56">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042580.png">
+    <box top="44" left="44" width="36"  height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042581.png">
+    <box top="48" left="26" width="44"  height="70">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042582.png">
+    <box top="48" left="2" width="54"  height="70">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042594.png">
+    <box top="42" left="108" width="14"  height="22">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042595.png">
+    <box top="42" left="106" width="14"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042596.png">
+    <box top="42" left="102" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042597.png">
+    <box top="42" left="100" width="16"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042598.png">
+    <box top="44" left="96" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042599.png">
+    <box top="44" left="90" width="22"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042600.png">
+    <box top="44" left="86" width="22"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042601.png">
+    <box top="46" left="80" width="24"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042602.png">
+    <box top="46" left="74" width="26"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042603.png">
+    <box top="46" left="66" width="28"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042604.png">
+    <box top="48" left="54" width="34"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042605.png">
+    <box top="48" left="40" width="40"  height="58">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042606.png">
+    <box top="50" left="18" width="50"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_042607.png">
+    <box top="54" left="0" width="52"  height="65">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_043378.png">
+    <box top="44" left="88" width="22"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_043379.png">
+    <box top="44" left="82" width="24"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_043380.png">
+    <box top="46" left="72" width="26"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_043381.png">
+    <box top="46" left="58" width="32"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_043382.png">
+    <box top="50" left="40" width="36"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_043383.png">
+    <box top="52" left="12" width="46"  height="58">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045099.png">
+    <box top="42" left="98" width="18"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045100.png">
+    <box top="42" left="96" width="18"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045101.png">
+    <box top="42" left="92" width="20"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045102.png">
+    <box top="44" left="88" width="22"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045103.png">
+    <box top="44" left="82" width="24"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045104.png">
+    <box top="44" left="76" width="26"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045105.png">
+    <box top="46" left="68" width="28"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045106.png">
+    <box top="46" left="56" width="34"  height="56">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045107.png">
+    <box top="48" left="42" width="40"  height="60">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045108.png">
+    <box top="50" left="24" width="48"  height="66">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045109.png">
+    <box top="52" left="0" width="58"  height="67">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045149.png">
+    <box top="40" left="94" width="22"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045150.png">
+    <box top="40" left="90" width="22"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045151.png">
+    <box top="40" left="86" width="24"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045152.png">
+    <box top="42" left="82" width="24"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045153.png">
+    <box top="42" left="74" width="28"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045154.png">
+    <box top="42" left="66" width="30"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045155.png">
+    <box top="42" left="56" width="34"  height="56">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045156.png">
+    <box top="44" left="44" width="40"  height="62">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045157.png">
+    <box top="46" left="24" width="50"  height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_045158.png">
+    <box top="48" left="0" width="60"  height="71">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047916.png">
+    <box top="48" left="102" width="12"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047917.png">
+    <box top="48" left="98" width="14"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047918.png">
+    <box top="50" left="96" width="14"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047919.png">
+    <box top="50" left="94" width="12"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047920.png">
+    <box top="52" left="90" width="14"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047921.png">
+    <box top="52" left="86" width="16"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047922.png">
+    <box top="54" left="80" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047923.png">
+    <box top="54" left="74" width="20"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047924.png">
+    <box top="54" left="68" width="20"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047925.png">
+    <box top="56" left="60" width="22"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047926.png">
+    <box top="60" left="46" width="30"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047927.png">
+    <box top="64" left="34" width="32"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047928.png">
+    <box top="66" left="18" width="36"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047929.png">
+    <box top="72" left="0" width="40"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047932.png">
+    <box top="48" left="104" width="12"  height="20">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047933.png">
+    <box top="48" left="102" width="14"  height="22">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047934.png">
+    <box top="48" left="100" width="14"  height="22">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047935.png">
+    <box top="48" left="98" width="14"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047936.png">
+    <box top="48" left="96" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047937.png">
+    <box top="50" left="92" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047938.png">
+    <box top="50" left="92" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047939.png">
+    <box top="50" left="88" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047940.png">
+    <box top="52" left="84" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+    <box top="42" left="110" width="12"  height="20">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047941.png">
+    <box top="52" left="80" width="20"  height="32">
+      <label>MTB</label>
+    </box>
+    <box top="42" left="108" width="14"  height="20">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047942.png">
+    <box top="52" left="76" width="22"  height="34">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="108" width="12"  height="20">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047943.png">
+    <box top="54" left="70" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="106" width="14"  height="20">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047944.png">
+    <box top="56" left="64" width="24"  height="40">
+      <label>MTB</label>
+    </box>
+    <box top="40" left="104" width="14"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047945.png">
+    <box top="56" left="56" width="28"  height="44">
+      <label>MTB</label>
+    </box>
+    <box top="40" left="104" width="14"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047946.png">
+    <box top="56" left="48" width="30"  height="48">
+      <label>MTB</label>
+    </box>
+    <box top="42" left="102" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047947.png">
+    <box top="60" left="38" width="34"  height="54">
+      <label>MTB</label>
+    </box>
+    <box top="42" left="100" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047948.png">
+    <box top="62" left="26" width="38"  height="56">
+      <label>MTB</label>
+    </box>
+    <box top="42" left="98" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047949.png">
+    <box top="62" left="14" width="42"  height="56">
+      <label>MTB</label>
+    </box>
+    <box top="42" left="98" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047950.png">
+    <box top="62" left="0" width="44"  height="57">
+      <label>MTB</label>
+    </box>
+    <box top="42" left="94" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047951.png">
+    <box top="42" left="92" width="18"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047952.png">
+    <box top="42" left="92" width="18"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047953.png">
+    <box top="42" left="88" width="22"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047954.png">
+    <box top="42" left="84" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047955.png">
+    <box top="42" left="80" width="24"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047956.png">
+    <box top="42" left="76" width="26"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047957.png">
+    <box top="42" left="70" width="28"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047958.png">
+    <box top="44" left="64" width="30"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047959.png">
+    <box top="44" left="56" width="34"  height="56">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047960.png">
+    <box top="46" left="46" width="38"  height="62">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047961.png">
+    <box top="46" left="34" width="42"  height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047962.png">
+    <box top="48" left="20" width="48"  height="70">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_047963.png">
+    <box top="48" left="0" width="56"  height="71">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_051443.png">
+    <box top="42" left="102" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_051444.png">
+    <box top="42" left="96" width="20"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_051445.png">
+    <box top="44" left="94" width="18"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_051446.png">
+    <box top="44" left="88" width="22"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_051447.png">
+    <box top="44" left="82" width="24"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_051448.png">
+    <box top="44" left="74" width="26"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_051449.png">
+    <box top="46" left="64" width="30"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_051450.png">
+    <box top="48" left="50" width="36"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_051451.png">
+    <box top="50" left="34" width="42"  height="62">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_051452.png">
+    <box top="52" left="10" width="52"  height="66">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_055307.png">
+    <box top="42" left="94" width="20"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_055308.png">
+    <box top="42" left="88" width="22"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_055309.png">
+    <box top="44" left="82" width="22"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_055310.png">
+    <box top="44" left="72" width="26"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_055311.png">
+    <box top="46" left="58" width="32"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_055312.png">
+    <box top="50" left="42" width="36"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_055313.png">
+    <box top="52" left="16" width="44"  height="60">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_056114.png">
+    <box top="42" left="98" width="18"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_056115.png">
+    <box top="42" left="94" width="20"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_056116.png">
+    <box top="44" left="88" width="22"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_056117.png">
+    <box top="44" left="82" width="24"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_056118.png">
+    <box top="44" left="74" width="26"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_056119.png">
+    <box top="46" left="62" width="30"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_056120.png">
+    <box top="48" left="46" width="36"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_056121.png">
+    <box top="50" left="26" width="44"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_056122.png">
+    <box top="52" left="0" width="50"  height="67">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_056774.png">
+    <box top="42" left="102" width="14"  height="22">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_056775.png">
+    <box top="42" left="96" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_056776.png">
+    <box top="42" left="92" width="16"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_056777.png">
+    <box top="44" left="86" width="18"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_056778.png">
+    <box top="44" left="78" width="20"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_056779.png">
+    <box top="44" left="66" width="24"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_056780.png">
+    <box top="46" left="48" width="30"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_056781.png">
+    <box top="50" left="22" width="42"  height="56">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_058372.png">
+    <box top="42" left="100" width="18"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_058373.png">
+    <box top="42" left="96" width="20"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_058374.png">
+    <box top="42" left="92" width="22"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_058375.png">
+    <box top="44" left="88" width="22"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_058376.png">
+    <box top="44" left="84" width="22"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_058377.png">
+    <box top="44" left="76" width="24"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_058378.png">
+    <box top="44" left="68" width="28"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_058379.png">
+    <box top="44" left="56" width="34"  height="54">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_058380.png">
+    <box top="46" left="44" width="38"  height="60">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_058381.png">
+    <box top="48" left="26" width="46"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_058382.png">
+    <box top="46" left="0" width="60"  height="73">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064152.png">
+    <box top="46" left="98" width="18"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064153.png">
+    <box top="46" left="94" width="18"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064154.png">
+    <box top="46" left="90" width="20"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064155.png">
+    <box top="48" left="86" width="20"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064156.png">
+    <box top="48" left="78" width="24"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064157.png">
+    <box top="50" left="72" width="26"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064158.png">
+    <box top="50" left="62" width="30"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064159.png">
+    <box top="52" left="50" width="34"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064160.png">
+    <box top="56" left="34" width="38"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064161.png">
+    <box top="58" left="8" width="50"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064208.png">
+    <box top="44" left="98" width="18"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064209.png">
+    <box top="46" left="96" width="18"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064210.png">
+    <box top="48" left="92" width="18"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064211.png">
+    <box top="48" left="88" width="20"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064212.png">
+    <box top="48" left="82" width="22"  height="34">
+      <label>MTB</label>
+    </box>
+    <box top="42" left="108" width="14"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064213.png">
+    <box top="48" left="74" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="106" width="14"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064214.png">
+    <box top="48" left="64" width="28"  height="44">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="104" width="14"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064215.png">
+    <box top="52" left="52" width="34"  height="48">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="102" width="14"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064216.png">
+    <box top="56" left="34" width="42"  height="52">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="96" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064217.png">
+    <box top="56" left="16" width="46"  height="60">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="92" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064218.png">
+    <box top="58" left="0" width="46"  height="60">
+      <label>MTB</label>
+    </box>
+    <box top="46" left="88" width="20"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064219.png">
+    <box top="46" left="82" width="22"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064220.png">
+    <box top="50" left="74" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064221.png">
+    <box top="50" left="66" width="26"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064222.png">
+    <box top="52" left="56" width="30"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064223.png">
+    <box top="54" left="42" width="34"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064224.png">
+    <box top="56" left="24" width="42"  height="58">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064225.png">
+    <box top="58" left="4" width="50"  height="60">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064601.png">
+    <box top="42" left="96" width="20"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064602.png">
+    <box top="42" left="92" width="20"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064603.png">
+    <box top="42" left="86" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064604.png">
+    <box top="42" left="78" width="26"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064605.png">
+    <box top="44" left="68" width="30"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064606.png">
+    <box top="46" left="52" width="36"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064607.png">
+    <box top="48" left="34" width="42"  height="58">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064608.png">
+    <box top="50" left="8" width="50"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064708.png">
+    <box top="42" left="102" width="16"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064709.png">
+    <box top="42" left="96" width="20"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064710.png">
+    <box top="42" left="92" width="22"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064711.png">
+    <box top="42" left="88" width="22"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064712.png">
+    <box top="44" left="82" width="24"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064713.png">
+    <box top="44" left="76" width="26"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064714.png">
+    <box top="44" left="68" width="28"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064715.png">
+    <box top="44" left="58" width="32"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064716.png">
+    <box top="46" left="46" width="34"  height="58">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064717.png">
+    <box top="48" left="32" width="38"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_064718.png">
+    <box top="48" left="10" width="50"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068102.png">
+    <box top="46" left="94" width="16"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068103.png">
+    <box top="46" left="86" width="22"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068104.png">
+    <box top="46" left="78" width="22"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068105.png">
+    <box top="48" left="70" width="24"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068106.png">
+    <box top="50" left="56" width="30"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068107.png">
+    <box top="54" left="38" width="38"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068108.png">
+    <box top="58" left="14" width="48"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068114.png">
+    <box top="46" left="84" width="22"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068115.png">
+    <box top="46" left="76" width="24"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068116.png">
+    <box top="46" left="64" width="30"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068117.png">
+    <box top="48" left="46" width="40"  height="48">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="102" width="18"  height="24">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068118.png">
+    <box top="50" left="30" width="44"  height="54">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="100" width="18"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068119.png">
+    <box top="54" left="0" width="54"  height="60">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="96" width="18"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068120.png">
+    <box top="46" left="90" width="20"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068121.png">
+    <box top="46" left="84" width="22"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068122.png">
+    <box top="48" left="74" width="26"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068123.png">
+    <box top="50" left="62" width="28"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068124.png">
+    <box top="52" left="44" width="34"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068125.png">
+    <box top="54" left="20" width="42"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068464.png">
+    <box top="42" left="96" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068465.png">
+    <box top="42" left="94" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068466.png">
+    <box top="42" left="90" width="20"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068467.png">
+    <box top="42" left="88" width="20"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068468.png">
+    <box top="42" left="84" width="22"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068469.png">
+    <box top="42" left="80" width="22"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068470.png">
+    <box top="42" left="76" width="24"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068471.png">
+    <box top="44" left="70" width="24"  height="46">
+      <label>MTB</label>
+    </box>
+    <box top="40" left="108" width="12"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068472.png">
+    <box top="44" left="62" width="28"  height="52">
+      <label>MTB</label>
+    </box>
+    <box top="40" left="106" width="12"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068473.png">
+    <box top="44" left="50" width="36"  height="56">
+      <label>MTB</label>
+    </box>
+    <box top="40" left="104" width="14"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068474.png">
+    <box top="46" left="38" width="42"  height="64">
+      <label>MTB</label>
+    </box>
+    <box top="40" left="102" width="14"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068475.png">
+    <box top="48" left="20" width="50"  height="68">
+      <label>MTB</label>
+    </box>
+    <box top="40" left="98" width="16"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068476.png">
+    <box top="48" left="0" width="54"  height="70">
+      <label>MTB</label>
+    </box>
+    <box top="42" left="96" width="16"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068477.png">
+    <box top="42" left="94" width="18"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068478.png">
+    <box top="42" left="90" width="20"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068479.png">
+    <box top="44" left="86" width="20"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068480.png">
+    <box top="42" left="84" width="22"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068481.png">
+    <box top="42" left="80" width="22"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068482.png">
+    <box top="42" left="74" width="24"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068483.png">
+    <box top="42" left="66" width="28"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068484.png">
+    <box top="44" left="58" width="32"  height="54">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068485.png">
+    <box top="44" left="48" width="36"  height="58">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068486.png">
+    <box top="46" left="36" width="42"  height="66">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068487.png">
+    <box top="46" left="16" width="52"  height="70">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068488.png">
+    <box top="48" left="0" width="52"  height="70">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068672.png">
+    <box top="42" left="102" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068673.png">
+    <box top="42" left="102" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068674.png">
+    <box top="42" left="100" width="18"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068675.png">
+    <box top="42" left="98" width="18"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068676.png">
+    <box top="42" left="94" width="22"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068677.png">
+    <box top="42" left="92" width="22"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068678.png">
+    <box top="42" left="88" width="22"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068679.png">
+    <box top="44" left="84" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068680.png">
+    <box top="44" left="80" width="26"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068681.png">
+    <box top="44" left="76" width="26"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068682.png">
+    <box top="44" left="70" width="28"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068683.png">
+    <box top="44" left="66" width="28"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068684.png">
+    <box top="46" left="58" width="32"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068685.png">
+    <box top="46" left="50" width="34"  height="56">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068686.png">
+    <box top="46" left="40" width="38"  height="62">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068687.png">
+    <box top="48" left="30" width="42"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068688.png">
+    <box top="48" left="18" width="46"  height="70">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068689.png">
+    <box top="48" left="4" width="52"  height="70">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_068690.png">
+    <box top="50" left="0" width="44"  height="68">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_074659.png">
+    <box top="46" left="76" width="22"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_074660.png">
+    <box top="46" left="66" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_074661.png">
+    <box top="48" left="48" width="30"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_074662.png">
+    <box top="50" left="20" width="46"  height="54">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_079821.png">
+    <box top="46" left="94" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_079822.png">
+    <box top="46" left="88" width="20"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_079823.png">
+    <box top="48" left="84" width="20"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_079824.png">
+    <box top="48" left="76" width="24"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_079825.png">
+    <box top="50" left="68" width="28"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_079826.png">
+    <box top="50" left="60" width="28"  height="42">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="102" width="14"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_079827.png">
+    <box top="52" left="48" width="36"  height="56">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="98" width="16"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_079828.png">
+    <box top="56" left="30" width="44"  height="58">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="96" width="16"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_079829.png">
+    <box top="60" left="10" width="50"  height="58">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="90" width="20"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_079830.png">
+    <box top="44" left="84" width="22"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_079831.png">
+    <box top="46" left="76" width="24"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_079832.png">
+    <box top="48" left="66" width="26"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_079833.png">
+    <box top="50" left="56" width="30"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_079834.png">
+    <box top="52" left="38" width="40"  height="56">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_079835.png">
+    <box top="54" left="18" width="46"  height="62">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_083380.png">
+    <box top="48" left="86" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="102" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_083381.png">
+    <box top="48" left="84" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="100" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_083382.png">
+    <box top="48" left="78" width="20"  height="34">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="98" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_083383.png">
+    <box top="48" left="70" width="24"  height="42">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="94" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_083384.png">
+    <box top="52" left="56" width="32"  height="46">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="90" width="20"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_083385.png">
+    <box top="52" left="48" width="34"  height="52">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="86" width="22"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_083386.png">
+    <box top="54" left="36" width="38"  height="56">
+      <label>MTB</label>
+    </box>
+    <box top="48" left="80" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_083387.png">
+    <box top="56" left="20" width="40"  height="58">
+      <label>MTB</label>
+    </box>
+    <box top="48" left="72" width="26"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_083388.png">
+    <box top="58" left="0" width="50"  height="60">
+      <label>MTB</label>
+    </box>
+    <box top="50" left="64" width="30"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_083389.png">
+    <box top="50" left="52" width="36"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_083390.png">
+    <box top="52" left="42" width="38"  height="56">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_083391.png">
+    <box top="52" left="28" width="44"  height="60">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_083392.png">
+    <box top="52" left="10" width="52"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_085965.png">
+    <box top="44" left="90" width="22"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_085966.png">
+    <box top="46" left="86" width="22"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_085967.png">
+    <box top="46" left="80" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_085968.png">
+    <box top="46" left="74" width="26"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_085969.png">
+    <box top="48" left="66" width="28"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_085970.png">
+    <box top="48" left="56" width="32"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_085971.png">
+    <box top="50" left="44" width="36"  height="58">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_085972.png">
+    <box top="52" left="28" width="42"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_085973.png">
+    <box top="52" left="6" width="54"  height="66">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_086042.png">
+    <box top="46" left="88" width="18"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_086043.png">
+    <box top="46" left="78" width="24"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_086044.png">
+    <box top="48" left="70" width="26"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_086045.png">
+    <box top="48" left="58" width="30"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_086046.png">
+    <box top="50" left="44" width="34"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_086047.png">
+    <box top="52" left="24" width="44"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_086048.png">
+    <box top="54" left="2" width="50"  height="58">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_097950.png">
+    <box top="46" left="90" width="16"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_097951.png">
+    <box top="46" left="82" width="22"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_097952.png">
+    <box top="46" left="76" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_097953.png">
+    <box top="48" left="68" width="28"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_097954.png">
+    <box top="50" left="58" width="30"  height="46">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="96" width="16"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_097955.png">
+    <box top="50" left="44" width="38"  height="50">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="94" width="16"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_097956.png">
+    <box top="52" left="28" width="44"  height="56">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="88" width="18"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_097957.png">
+    <box top="54" left="6" width="52"  height="58">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="82" width="20"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_097958.png">
+    <box top="44" left="76" width="24"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_097959.png">
+    <box top="48" left="64" width="30"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_097960.png">
+    <box top="50" left="52" width="34"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_097961.png">
+    <box top="52" left="38" width="40"  height="56">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_097962.png">
+    <box top="52" left="18" width="46"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_097963.png">
+    <box top="54" left="0" width="46"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098528.png">
+    <box top="46" left="92" width="18"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098529.png">
+    <box top="46" left="88" width="20"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098530.png">
+    <box top="46" left="84" width="20"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098531.png">
+    <box top="48" left="80" width="20"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098532.png">
+    <box top="48" left="74" width="22"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098533.png">
+    <box top="50" left="66" width="26"  height="42">
+      <label>MTB</label>
+    </box>
+    <box top="46" left="100" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098534.png">
+    <box top="50" left="58" width="28"  height="48">
+      <label>MTB</label>
+    </box>
+    <box top="46" left="96" width="18"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098535.png">
+    <box top="52" left="48" width="34"  height="52">
+      <label>MTB</label>
+    </box>
+    <box top="46" left="94" width="18"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098536.png">
+    <box top="54" left="34" width="40"  height="56">
+      <label>MTB</label>
+    </box>
+    <box top="46" left="92" width="18"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098537.png">
+    <box top="56" left="20" width="44"  height="62">
+      <label>MTB</label>
+    </box>
+    <box top="46" left="88" width="20"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098538.png">
+    <box top="56" left="0" width="50"  height="62">
+      <label>MTB</label>
+    </box>
+    <box top="48" left="84" width="22"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098539.png">
+    <box top="48" left="78" width="26"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098540.png">
+    <box top="50" left="74" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098541.png">
+    <box top="50" left="66" width="28"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098542.png">
+    <box top="50" left="58" width="30"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098543.png">
+    <box top="52" left="48" width="34"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098544.png">
+    <box top="56" left="36" width="38"  height="54">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098545.png">
+    <box top="56" left="20" width="46"  height="62">
+      <label>MTB</label>
+    </box>
+    <box top="46" left="90" width="20"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098546.png">
+    <box top="58" left="0" width="54"  height="60">
+      <label>MTB</label>
+    </box>
+    <box top="46" left="88" width="20"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098547.png">
+    <box top="48" left="84" width="22"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098548.png">
+    <box top="48" left="80" width="22"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098549.png">
+    <box top="50" left="74" width="24"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098550.png">
+    <box top="50" left="68" width="26"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098551.png">
+    <box top="50" left="60" width="28"  height="48">
+      <label>MTB</label>
+    </box>
+    <box top="46" left="92" width="18"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098552.png">
+    <box top="52" left="48" width="34"  height="52">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="90" width="18"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098553.png">
+    <box top="54" left="34" width="40"  height="56">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="84" width="20"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098554.png">
+    <box top="54" left="18" width="46"  height="62">
+      <label>MTB</label>
+    </box>
+    <box top="46" left="82" width="20"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098555.png">
+    <box top="56" left="0" width="50"  height="62">
+      <label>MTB</label>
+    </box>
+    <box top="46" left="76" width="22"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098556.png">
+    <box top="46" left="70" width="26"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098557.png">
+    <box top="46" left="64" width="26"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098558.png">
+    <box top="48" left="56" width="28"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098559.png">
+    <box top="48" left="46" width="34"  height="54">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098560.png">
+    <box top="50" left="34" width="36"  height="58">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098561.png">
+    <box top="50" left="18" width="44"  height="64">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098562.png">
+    <box top="52" left="0" width="50"  height="66">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098580.png">
+    <box top="46" left="92" width="18"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098581.png">
+    <box top="46" left="88" width="18"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098582.png">
+    <box top="48" left="84" width="18"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098583.png">
+    <box top="48" left="80" width="20"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098584.png">
+    <box top="48" left="74" width="22"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098585.png">
+    <box top="50" left="68" width="24"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098586.png">
+    <box top="50" left="58" width="30"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098587.png">
+    <box top="52" left="50" width="32"  height="50">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="94" width="16"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098588.png">
+    <box top="52" left="36" width="40"  height="56">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="90" width="18"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098589.png">
+    <box top="54" left="24" width="42"  height="62">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="88" width="18"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098590.png">
+    <box top="54" left="6" width="48"  height="64">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="82" width="22"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098591.png">
+    <box top="46" left="78" width="22"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098592.png">
+    <box top="46" left="72" width="24"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098593.png">
+    <box top="46" left="64" width="26"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098594.png">
+    <box top="46" left="56" width="30"  height="48">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="94" width="16"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098595.png">
+    <box top="48" left="44" width="38"  height="52">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="92" width="16"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098596.png">
+    <box top="50" left="30" width="42"  height="60">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="88" width="18"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098597.png">
+    <box top="50" left="12" width="50"  height="62">
+      <label>MTB</label>
+    </box>
+    <box top="46" left="80" width="22"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098598.png">
+    <box top="52" left="0" width="50"  height="66">
+      <label>MTB</label>
+    </box>
+    <box top="46" left="76" width="22"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098599.png">
+    <box top="46" left="70" width="24"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098600.png">
+    <box top="48" left="62" width="26"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098601.png">
+    <box top="48" left="52" width="30"  height="54">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098602.png">
+    <box top="50" left="44" width="30"  height="58">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098603.png">
+    <box top="50" left="28" width="38"  height="64">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="90" width="18"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098604.png">
+    <box top="52" left="14" width="40"  height="66">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="88" width="18"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098605.png">
+    <box top="52" left="0" width="42"  height="66">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="86" width="18"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098606.png">
+    <box top="44" left="78" width="22"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098607.png">
+    <box top="46" left="72" width="24"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098608.png">
+    <box top="46" left="64" width="26"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098609.png">
+    <box top="48" left="56" width="28"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098610.png">
+    <box top="48" left="46" width="32"  height="56">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098611.png">
+    <box top="50" left="32" width="36"  height="60">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098612.png">
+    <box top="52" left="16" width="40"  height="66">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098613.png">
+    <box top="52" left="0" width="40"  height="66">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098614.png">
+    <box top="44" left="92" width="16"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098615.png">
+    <box top="46" left="88" width="16"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098616.png">
+    <box top="46" left="82" width="20"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098617.png">
+    <box top="48" left="76" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098618.png">
+    <box top="48" left="70" width="24"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098619.png">
+    <box top="50" left="60" width="30"  height="48">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="92" width="18"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098620.png">
+    <box top="50" left="48" width="34"  height="56">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="90" width="18"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098621.png">
+    <box top="52" left="32" width="42"  height="60">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="86" width="18"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098622.png">
+    <box top="52" left="12" width="50"  height="66">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="80" width="22"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098623.png">
+    <box top="54" left="0" width="46"  height="64">
+      <label>MTB</label>
+    </box>
+    <box top="44" left="74" width="24"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098624.png">
+    <box top="46" left="66" width="28"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098625.png">
+    <box top="48" left="56" width="32"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098626.png">
+    <box top="48" left="42" width="38"  height="60">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098627.png">
+    <box top="50" left="24" width="46"  height="66">
+      <label>MTB</label>
+    </box>
+    <box top="46" left="86" width="20"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098628.png">
+    <box top="52" left="4" width="50"  height="66">
+      <label>MTB</label>
+    </box>
+    <box top="46" left="82" width="20"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098629.png">
+    <box top="46" left="76" width="24"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098630.png">
+    <box top="48" left="70" width="26"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098631.png">
+    <box top="48" left="60" width="32"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098632.png">
+    <box top="50" left="48" width="38"  height="56">
+      <label>MTB</label>
+    </box>
+    <box top="46" left="88" width="20"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098633.png">
+    <box top="50" left="32" width="46"  height="64">
+      <label>MTB</label>
+    </box>
+    <box top="46" left="84" width="20"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098634.png">
+    <box top="52" left="14" width="52"  height="64">
+      <label>MTB</label>
+    </box>
+    <box top="48" left="80" width="20"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098635.png">
+    <box top="54" left="0" width="50"  height="64">
+      <label>MTB</label>
+    </box>
+    <box top="48" left="74" width="24"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098636.png">
+    <box top="48" left="66" width="26"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098637.png">
+    <box top="50" left="58" width="28"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098638.png">
+    <box top="52" left="46" width="36"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098639.png">
+    <box top="54" left="32" width="40"  height="48">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_098640.png">
+    <box top="56" left="10" width="50"  height="56">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109130.png">
+    <box top="42" left="96" width="24"  height="26">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109131.png">
+    <box top="42" left="94" width="26"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109132.png">
+    <box top="42" left="92" width="28"  height="28">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109133.png">
+    <box top="42" left="88" width="20"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109134.png">
+    <box top="44" left="84" width="22"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109135.png">
+    <box top="44" left="80" width="22"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109136.png">
+    <box top="44" left="74" width="24"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109137.png">
+    <box top="44" left="68" width="26"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109138.png">
+    <box top="46" left="60" width="28"  height="44">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109139.png">
+    <box top="46" left="50" width="34"  height="50">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109140.png">
+    <box top="46" left="38" width="38"  height="52">
+      <label>MTB</label>
+    </box>
+    <box top="48" left="82" width="20"  height="30">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109141.png">
+    <box top="48" left="26" width="42"  height="58">
+      <label>MTB</label>
+    </box>
+    <box top="48" left="78" width="20"  height="32">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109142.png">
+    <box top="48" left="8" width="50"  height="66">
+      <label>MTB</label>
+    </box>
+    <box top="48" left="72" width="22"  height="34">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109143.png">
+    <box top="50" left="66" width="24"  height="36">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109144.png">
+    <box top="52" left="58" width="28"  height="38">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109145.png">
+    <box top="54" left="50" width="30"  height="40">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109146.png">
+    <box top="56" left="40" width="34"  height="42">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109147.png">
+    <box top="58" left="26" width="40"  height="46">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109148.png">
+    <box top="60" left="10" width="46"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2015-09-28-12-39/2x/frame_109149.png">
+    <box top="64" left="0" width="46"  height="52">
+      <label>MTB</label>
+    </box>
+  </image>
 </images>
 </dataset>

@@ -6,7 +6,7 @@ import csv
 import os
 import argparse
 
-
+'''
 def mtb_annotation_check(annotation):
     # width check
     width = int(annotation[0].split(';')[5])-int(annotation[0].split(';')[3])
@@ -48,7 +48,7 @@ def ped_annotation_check(annotation):
     else:
         print("Annotation: {}, failed ratio check - {}".format(annotation[0].split(';')[0], ratio))
         return False
-
+'''
 def write_header(xml_file):
     xml_file.write('<?xml version="1.0" encoding="ISO-8859-1"?>' + "\n")
     xml_file.write('<?xml-stylesheet type="text/xsl" href="image_metadata_stylesheet.xsl"?>' + "\n")
@@ -62,55 +62,82 @@ def write_footer(xml_file):
     xml_file.write('</images>' + "\n")
     xml_file.write('</dataset>' + "\n")
 
-def write_annotation(line, prev_nr, first, img_path, scaling, xml_file):
-    frame_nr = line[0].split('_')[1].split('.')[0]
-    #print frame_nr
-    if frame_nr != prev_nr:
-        if not first:
+def write_annotation(line, prev_nr, img_path, scaling, xml_file, first_annotation):
+    frame_name = line[0].split(';')[0]
+    frame_nr = int(line[0].split('_')[1].split('.')[0])
+    label = line[0].split(';')[2]
+    x_min = int(line[0].split(';')[3])
+    x_max = int(line[0].split(';')[5])
+    y_min = int(line[0].split(';')[4])
+    y_max = int(line[0].split(';')[6])
+
+
+    if frame_nr != prev_nr: # If new frame, end previous image entry and add new beginning to next image entry
+        if not first_annotation: # Add end to previous image entry, except if this is the first annotation
             xml_file.write('  ' + '<' + '/image' + '>' + "\n")
-        first = False
+        first_annotation = False # Set to false at first run
 
-        xml_file.write('  ' + '<' + 'image' + ' ' + 'file' + '=' + '"' + img_path + '/' + line[0].split(';')[0] + '"' + '>' + "\n")
-        prev_nr = frame_nr
+        xml_file.write('  ' + '<' + 'image' + ' ' + 'file' + '=' + '"' + img_path + '/' + frame_name + '"' + '>' + "\n")
 
-    xml_file.write('    ' + '<' + 'box' + ' ' + 'top' + '=' + '"' + str(int(line[0].split(';')[4])*scaling) + '"' + ' ' +
-                  'left' + '=' + '"' + str(int(line[0].split(';')[3])*scaling) + '"' + ' ' +
-                  'width' + '=' + '"' + str((int(line[0].split(';')[5])-int(line[0].split(';')[3]))*scaling) + '"' + ' ' +
-                  'height' + '=' + '"' + str((int(line[0].split(';')[6])-int(line[0].split(';')[4]))*scaling) + '"' + '>' + "\n")
+    xml_file.write('    ' + '<' + 'box' + ' ' +
+                   'top' + '=' + '"' + str(y_min*scaling) + '"' + ' ' +
+                   'left' + '=' + '"' + str(x_min*scaling) + '"' + ' ' +
+                   'width' + '=' + '"' + str((x_max-x_min)*scaling) + '"' + ' ' +
+                  ' height' + '=' + '"' + str((y_max-y_min)*scaling) + '"' + '>' + "\n")
 
-    xml_file.write('      ' + '<' + 'label' + '>' + line[0].split(';')[2] + '<' + '/label' + '>' + '\n')
-
+    xml_file.write('      ' + '<' + 'label' + '>' + label + '<' + '/label' + '>' + '\n')
     xml_file.write('    ' + '<' + '/box' + '>' + '\n')
+
+    return frame_nr, first_annotation
 
 def convert(csv_path, img_path, scaling):
     print("Converting csv to xml...")
     csvData = csv.reader(open(csv_path))
 
-    xml_ped_path = csv_path[:len(csv_path)-4] + '_ped.xml'
+    xml_all_path = csv_path[:len(csv_path)-10] + '_all.xml'
+    xml_all = open(xml_all_path, 'w')
+
+    xml_ped_path = csv_path[:len(csv_path)-10] + '_ped.xml'
     xml_ped = open(xml_ped_path, 'w')
 
-    xml_mtb_path = csv_path[:len(csv_path)-4] + '_mtb.xml'
+    xml_mtb_path = csv_path[:len(csv_path)-10] + '_mtb.xml'
     xml_mtb = open(xml_mtb_path, 'w')
 
+    first_annotation_all = True
+    first_annotation_ped = True
+    first_annotation_mtb = True
     # Write header
+    write_header(xml_all)
     write_header(xml_ped)
     write_header(xml_mtb)
 
     prev_nr = -1
-    first = True
+    prev_nr_all = -1
     next(csvData)  # Skip header line
     for line in csvData:
         # tag check
-        if(line[0].split(';')[2] == "PED"):
-            if(ped_annotation_check(line)):
-                write_annotation(line, prev_nr, first, img_path, scaling, xml_ped)
-        if(line[0].split(';')[2] == "MTB"):
-            if(mtb_annotation_check(line)):
-                write_annotation(line, prev_nr, first, img_path, scaling, xml_mtb)
+        tag = line[0].split(';')[2]
+        if(tag == "PED" or tag == "MTB"):
+            prev_nr_all, first_annotation_all = write_annotation(line, prev_nr_all, img_path, scaling, xml_all, first_annotation_all)
         else:
-            print("Unknown tag")
+            print("Unknown tag: {}".format(tag))
+            print("Line: {}".format(line))
+
+        if(tag == "PED"):
+            #if(ped_annotation_check(line)):
+            prev_nr, first_annotation_ped = write_annotation(line, prev_nr, img_path, scaling, xml_ped, first_annotation_ped)
+        if(tag == "MTB"):
+            #if(mtb_annotation_check(line)):
+            prev_nr, first_annotation_mtb = write_annotation(line, prev_nr, img_path, scaling, xml_mtb, first_annotation_mtb)
+
+
+    # Write header
+    write_footer(xml_all)
+    write_footer(xml_ped)
+    write_footer(xml_mtb)
 
     # Finish file
+    xml_all.close()
     xml_ped.close()
     xml_mtb.close()
 
@@ -130,10 +157,10 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument("-c", "--csv", type=str,
                     help="Path csv file")
-    ap.add_argument("-x", "--xml", type=str,
-                    help="Path xml file")
+    ap.add_argument("-p", "--path", type=str,
+                    help="Path to image files")
     ap.add_argument("-s", "--scale", type=int,
                     help="Scale factor")
     args = vars(ap.parse_args())
 
-    convert(args["csv"], "4x_44/", args["scale"])
+    convert(args["csv"], args["path"], args["scale"])

@@ -32,7 +32,7 @@ if __name__ == "__main__":
     Upsacle images by a scaling factor and save a grayscale image.
 
     python scale_up_bb_anno.py -p /Users/markpp/Documents/github/Thermal-Activity-Surveillance-System-TASS/data/training/2015-09-28-12-39 -a /Users/markpp/Documents/github/Thermal-Activity-Surveillance-System-TASS/data/annotations/bb/2015-09-28-12-39_bb.csv -s 4
-    
+
     Command:
         -p path/to/images [-s #]
         -p '/home/louise/Documents/MountainBike/datasets/thermal_mtb/2015-09-02-12-44/'
@@ -50,11 +50,12 @@ if __name__ == "__main__":
                   help="Path to frames")
     ap.add_argument("-a", "--anno", type=str,
                   help="Path to bb annotations")
-    ap.add_argument("-s", "--scale", type=int, default=4,
+    ap.add_argument("-s", "--scale", type=int, default=2,
                   help="(optional) scale factor")
     args = vars(ap.parse_args())
 
     path = check_path(args["path"])
+    scaling_factor = args["scale"]
 
     annotations = {}
     if args["anno"]:
@@ -64,7 +65,7 @@ if __name__ == "__main__":
 
     imagePath = ""
 
-    output_path = path.rsplit('/', 2)[0] + "/4x/"
+    output_path = path.rsplit('/', 2)[0] + "/" + str(scaling_factor) + "x/"
 
     if not os.path.exists(output_path):
         os.makedirs(output_path)
@@ -72,13 +73,13 @@ if __name__ == "__main__":
     for frame in sorted(annotations):
         frame = "frame_"+ frame + ".png"
         img_path = os.path.join(path, frame)
-        print(img_path)
+        #print(img_path)
         img = cv2.imread(img_path,-1)
         if not hasattr(img, 'astype'):
           print('not image')
           print(imagePath)
           break
-        img = cv2.resize(img, dsize=(0, 0), fx=args["scale"], fy=args["scale"])
+        img = cv2.resize(img, dsize=(0, 0), fx=scaling_factor, fy=scaling_factor)
         img = np.clip(img, 0, 8191)
         img = (img/4).astype(np.uint8)
         cv2.imwrite(os.path.join(output_path, frame), img)

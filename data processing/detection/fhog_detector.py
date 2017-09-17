@@ -82,7 +82,6 @@ class detector:
         # Tell the code how many CPU cores your computer has for the fastest training.
         options.num_threads = 4
         options.be_verbose = True
-        options.detection_window_size = 60 * 80
         options.upsample_limit = 2
 
         # This function does the actual training.  It will save the final detector to
@@ -93,10 +92,12 @@ class detector:
         # images with boxes.  To see how to use it read the tools/imglab/README.txt
         # file.  But for this example, we just use the training.xml file included with
         # dlib.
-        dlib.train_simple_object_detector("../data/training/training_mtb.xml", "../data/models/detector_mtb.svm", options)
+        #options.detection_window_size = 60 * 80
+        options.detection_window_size = int((18 * 26)) # 468, 1.44
+        dlib.train_simple_object_detector("../data/annotations/bb/training/combined_mtb.xml", "../data/models/detector_mtb.svm", options)
 
-        options.detection_window_size = 40 * 80
-        dlib.train_simple_object_detector("../data/training/training_ped.xml", "../data/models/detector_ped.svm", options)
+        options.detection_window_size = int((14 * 32)) # 448, 2.29
+        dlib.train_simple_object_detector("../data/annotations/bb/training/combined_ped.xml", "../data/models/detector_ped.svm", options)
 
     def evaluate_dlib_detector(self):
         # Now that we have a face detector we can test it.  The first statement tests
@@ -104,12 +105,9 @@ class detector:
         # average precision.
         print("")  # Print blank line to create gap from previous output
         print("MTB detector evaluation:")
-        print("Training accuracy: {}".format(dlib.test_simple_object_detector("../data/training/training_mtb.xml", "../data/models/detector_mtb.svm")))
-        # However, to get an idea if it really worked without overfitting we need to
-        # run it on images it wasn't trained on.  The next line does this.  Happily, we
-        # see that the object detector works perfectly on the testing images.
-        print("Testing accuracy: {}".format(dlib.test_simple_object_detector("../data/testing/testing_mtb.xml", "../data/models/detector_mtb.svm")))
+        print("Training accuracy: {}".format(dlib.test_simple_object_detector("../data/annotations/bb/training/combined_mtb.xml", "../data/models/detector_mtb.svm")))
+        print("Testing accuracy: {}".format(dlib.test_simple_object_detector("../data/annotations/bb/testing/combined_mtb.xml", "../data/models/detector_mtb.svm")))
 
         print("PED detector evaluation:")
-        print("Training accuracy: {}".format(dlib.test_simple_object_detector("../data/training/training_ped.xml", "../data/models/detector_ped.svm")))
-        print("Testing accuracy: {}".format(dlib.test_simple_object_detector("../data/testing/testing_ped.xml", "../data/models/detector_ped.svm")))
+        print("Training accuracy: {}".format(dlib.test_simple_object_detector("../data/annotations/bb/training/combined_ped.xml", "../data/models/detector_ped.svm")))
+        print("Testing accuracy: {}".format(dlib.test_simple_object_detector("../data/annotations/bb/testing/combined_ped.xml", "../data/models/detector_ped.svm")))
