@@ -1,11 +1,9 @@
 cmake_minimum_required(VERSION 2.8)
 project(main)
 
-
 add_definitions(-DDLIB_PNG_SUPPORT)
 
-#include(libs/dlib191/dlib/cmake)
-include(libs/dlib194/dlib/cmake)
+include(/home/markpp/Documents/github/dlib/dlib/cmake)
 
 # use sse3 instruction set
 SET(CMAKE_CXX_FLAGS "-msse3")
@@ -28,6 +26,7 @@ ADD_EXECUTABLE(main
 	       src/Tracking/CTracker.cpp
 	       src/Presentation/presenter.cpp
               )
+
 target_link_libraries(main dlib::dlib ${OpenCV_LIBS} ${PNG_LIBRARY})
 
 ADD_DEFINITIONS(

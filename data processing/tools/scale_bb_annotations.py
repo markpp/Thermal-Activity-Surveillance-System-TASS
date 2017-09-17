@@ -8,12 +8,14 @@ import cv2
 import scipy
 import sys
 
-def check_value(number, axis_max):
+def check_value(number, axis_max, frame_name):
     if number < 0:
+        print("{} failed check".format(frame_name))
         number = 0
     if number > axis_max-1:
+        print("{} failed check".format(frame_name))
         number = axis_max-1
-    return number
+    return int(number)
 
 def read_annotations(anno_path, scale, x_axis_max, y_axis_max):
     """Read csv file with annotations into dictionary structure.
@@ -28,10 +30,9 @@ def read_annotations(anno_path, scale, x_axis_max, y_axis_max):
         (dict): Returns dictionary of annotations.
     """
 
-    annotations = []
     print("Reading annotations...")
-
-    csv_path = anno_path[:len(anno_path)-4] + '_fixed.csv'
+    print(anno_path)
+    csv_path = anno_path[:len(anno_path)-4] + '_scaled.csv'
 
     # read annotations line by line from file
     with open(anno_path) as anno_file:
@@ -40,11 +41,11 @@ def read_annotations(anno_path, scale, x_axis_max, y_axis_max):
             next(anno_file) # Skip header line
             csvWriter.writerow(['Filename;Object ID;Annotation tag;Upper left corner X;Upper left corner Y;Lower right corner X;Lower right corner Y;'])
             for line in anno_file:
-		anno = line.split(';')
-                left = check_value(int(int(anno[3])*scale), x_axis_max*scale)
-                top = check_value(int(int(anno[4])*scale), y_axis_max*scale)
-                right = check_value(int(int(anno[5])*scale), x_axis_max*scale)
-                bottom = check_value(int(int(anno[6])*scale), y_axis_max*scale)
+                anno = line.split(';')
+                left = check_value(int(int(anno[3])*scale), x_axis_max*scale, anno[0])
+                top = check_value(int(int(anno[4])*scale), y_axis_max*scale, anno[0])
+                right = check_value(int(int(anno[5])*scale), x_axis_max*scale, anno[0])
+                bottom = check_value(int(int(anno[6])*scale), y_axis_max*scale, anno[0])
 
                 csvWriter.writerow([anno[0] + ';' + \
                                     anno[1] + ';' + \

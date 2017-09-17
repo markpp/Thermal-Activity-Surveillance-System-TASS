@@ -6,49 +6,61 @@ import csv
 import os
 import argparse
 
-'''
-def mtb_annotation_check(annotation):
+def mtb_annotation_check(annotation, scale):
     # width check
     width = int(annotation[0].split(';')[5])-int(annotation[0].split(';')[3])
-    if(width < 8):
+    if(width < 8*scale):
         print("Annotation: {}, failed width check - {}".format(annotation[0].split(';')[0], width))
         return False
 
     # height check
     height = int(annotation[0].split(';')[6])-int(annotation[0].split(';')[4])
-    if(height < 8):
+    if(height < 10*scale):
         print("Annotation: {}, failed height check - {}".format(annotation[0].split(';')[0], height))
         return False
 
+    # area check
+    area = height*width*scale*scale
+    if(area < 400):
+        print("Annotation: {}, failed area check - {}".format(annotation[0].split(';')[0], area))
+        return False
+
     # aspect ratio check
-    ratio = float(width)/float(height)
-    if(ratio > 0.5 and ratio < 1.0): # MTB
+    ratio = float(height)/float(width)
+    if(ratio > 1.1 and ratio < 1.7): # MTB
         return True
     else:
         print("Annotation: {}, failed ratio check - {}".format(annotation[0].split(';')[0], ratio))
         return False
 
-def ped_annotation_check(annotation):
+def ped_annotation_check(annotation, scale):
     # width check
     width = int(annotation[0].split(';')[5])-int(annotation[0].split(';')[3])
-    if(width < 5):
+    if(width < 8*scale):
         print("Annotation: {}, failed width check - {}".format(annotation[0].split(';')[0], width))
         return False
 
     # height check
     height = int(annotation[0].split(';')[6])-int(annotation[0].split(';')[4])
-    if(height < 8):
+    if(height < 12*scale):
         print("Annotation: {}, failed height check - {}".format(annotation[0].split(';')[0], height))
         return False
 
+    # area check
+    area = height*width*scale*scale
+    if(area < 400):
+        print("Annotation: {}, failed area check - {}".format(annotation[0].split(';')[0], area))
+        return False
+
     # aspect ratio check
-    ratio = float(width)/float(height)
-    if(ratio >= 0.3 and ratio < 0.55): # PED
+    ratio = float(height)/float(width)
+    if(ratio > 1.8 and ratio < 2.6): # PED
         return True
     else:
         print("Annotation: {}, failed ratio check - {}".format(annotation[0].split(';')[0], ratio))
         return False
-'''
+
+
 def write_header(xml_file):
     xml_file.write('<?xml version="1.0" encoding="ISO-8859-1"?>' + "\n")
     xml_file.write('<?xml-stylesheet type="text/xsl" href="image_metadata_stylesheet.xsl"?>' + "\n")
@@ -83,10 +95,11 @@ def write_annotation(line, prev_nr, img_path, scaling, xml_file, first_annotatio
                    'top' + '=' + '"' + str(y_min*scaling) + '"' + ' ' +
                    'left' + '=' + '"' + str(x_min*scaling) + '"' + ' ' +
                    'width' + '=' + '"' + str((x_max-x_min)*scaling) + '"' + ' ' +
-                  ' height' + '=' + '"' + str((y_max-y_min)*scaling) + '"' + '>' + "\n")
+                   #'height' + '=' + '"' + str((y_max-y_min)*scaling) + '"' + '>' + "\n")
+                   'height' + '=' + '"' + str((y_max-y_min)*scaling) + '"' + '/>' + "\n")
 
-    xml_file.write('      ' + '<' + 'label' + '>' + label + '<' + '/label' + '>' + '\n')
-    xml_file.write('    ' + '<' + '/box' + '>' + '\n')
+    #xml_file.write('      ' + '<' + 'label' + '>' + label + '<' + '/label' + '>' + '\n')
+    #xml_file.write('    ' + '<' + '/box' + '>' + '\n')
 
     return frame_nr, first_annotation
 
@@ -94,13 +107,13 @@ def convert(csv_path, img_path, scaling):
     print("Converting csv to xml...")
     csvData = csv.reader(open(csv_path))
 
-    xml_all_path = csv_path[:len(csv_path)-10] + '_all.xml'
+    xml_all_path = csv_path[:len(csv_path)-17] + '_all.xml'
     xml_all = open(xml_all_path, 'w')
 
-    xml_ped_path = csv_path[:len(csv_path)-10] + '_ped.xml'
+    xml_ped_path = csv_path[:len(csv_path)-17] + '_ped.xml'
     xml_ped = open(xml_ped_path, 'w')
 
-    xml_mtb_path = csv_path[:len(csv_path)-10] + '_mtb.xml'
+    xml_mtb_path = csv_path[:len(csv_path)-17] + '_mtb.xml'
     xml_mtb = open(xml_mtb_path, 'w')
 
     first_annotation_all = True
@@ -124,11 +137,11 @@ def convert(csv_path, img_path, scaling):
             print("Line: {}".format(line))
 
         if(tag == "PED"):
-            #if(ped_annotation_check(line)):
-            prev_nr, first_annotation_ped = write_annotation(line, prev_nr, img_path, scaling, xml_ped, first_annotation_ped)
+            if(ped_annotation_check(line,2)):
+                prev_nr, first_annotation_ped = write_annotation(line, prev_nr, img_path, scaling, xml_ped, first_annotation_ped)
         if(tag == "MTB"):
-            #if(mtb_annotation_check(line)):
-            prev_nr, first_annotation_mtb = write_annotation(line, prev_nr, img_path, scaling, xml_mtb, first_annotation_mtb)
+            if(mtb_annotation_check(line,2)):
+                prev_nr, first_annotation_mtb = write_annotation(line, prev_nr, img_path, scaling, xml_mtb, first_annotation_mtb)
 
 
     # Write header

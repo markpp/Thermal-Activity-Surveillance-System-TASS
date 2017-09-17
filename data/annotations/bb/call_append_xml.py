@@ -54,4 +54,4 @@ if __name__ == '__main__':
     """Main function for executing the run script.
 
     """
-    merge_two()
+    merge_three()

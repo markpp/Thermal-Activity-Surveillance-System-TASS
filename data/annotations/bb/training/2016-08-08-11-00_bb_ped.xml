@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="image_metadata_stylesheet.xsl"?>
+<dataset>
+<name>Training faces</name>
+<comment>These are images from my thermal MTB dataset.</comment>
+<images>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2016-08-08-11-00/2x/frame_100969.png">
+    <box top="38" left="122" width="26" height="56"/>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2016-08-08-11-00/2x/frame_100970.png">
+    <box top="38" left="120" width="26" height="56"/>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2016-08-08-11-00/2x/frame_100971.png">
+    <box top="36" left="118" width="24" height="54"/>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2016-08-08-11-00/2x/frame_100974.png">
+    <box top="32" left="102" width="26" height="58"/>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2016-08-08-11-00/2x/frame_100975.png">
+    <box top="32" left="98" width="26" height="58"/>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2016-08-08-11-00/2x/frame_100978.png">
+    <box top="28" left="80" width="28" height="60"/>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2016-08-08-11-00/2x/frame_100980.png">
+    <box top="26" left="72" width="32" height="60"/>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2016-08-08-11-00/2x/frame_100983.png">
+    <box top="24" left="54" width="28" height="60"/>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2016-08-08-11-00/2x/frame_100984.png">
+    <box top="24" left="52" width="30" height="60"/>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2016-08-08-11-00/2x/frame_100985.png">
+    <box top="22" left="50" width="26" height="58"/>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2016-08-08-11-00/2x/frame_100988.png">
+    <box top="20" left="28" width="30" height="60"/>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2016-08-08-11-00/2x/frame_100989.png">
+    <box top="20" left="26" width="32" height="60"/>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2016-08-08-11-00/2x/frame_100990.png">
+    <box top="18" left="26" width="24" height="60"/>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2016-08-08-11-00/2x/frame_100992.png">
+    <box top="16" left="14" width="24" height="60"/>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2016-08-08-11-00/2x/frame_100993.png">
+    <box top="16" left="6" width="28" height="60"/>
+  </image>
+  <image file="/home/markpp/Desktop/code/mtb/data/train/2016-08-08-11-00/2x/frame_100994.png">
+    <box top="16" left="4" width="28" height="56"/>
+  </image>
+</images>
+</dataset>

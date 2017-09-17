@@ -11,7 +11,6 @@ class detector:
     def __init__(self):
         print("Detector object initialized")
 
-
     def load_dlib_detector(self):
         print("Loading detector...")
         self.detectors = [dlib.fhog_object_detector("../data/models/detector_mtb.svm"), dlib.fhog_object_detector("../data/models/detector_ped.svm")]
@@ -25,14 +24,18 @@ class detector:
 
         # We can look at the HOG filter we learned.  It should look like a face.  Neat!
         win_det = dlib.image_window()
-        win_det.set_image(self.detector)
+        print("MTB filter")
+        win_det.set_image(self.detectors[0])
+        dlib.hit_enter_to_continue()
+        print("PED filter")
+        win_det.set_image(self.detectors[1])
         dlib.hit_enter_to_continue()
 
     # '''
-    def det_bound_check(self, dets):
+    def det_bound_check(self, dets, scale):
         output_dets = []
         for det in dets:
-            if det.left() > 0 and det.top() > 0 and det.right() < 80*4 and det.bottom() < 60*4:
+            if det.left() > 0 and det.top() > 0 and det.right() < 80*scale and det.bottom() < 60*scale:
                 output_dets.append(det)
         return output_dets
     # '''
@@ -44,7 +47,7 @@ class detector:
         #dets, scores, weights = self.detectors[1].run(img)
         dets, scores, weights = dlib.fhog_object_detector.run_multiple(self.detectors, img, upsample_num_times=0, adjust_threshold=0.1)
 
-        # dets = self.det_bound_check(dets)
+        # dets = self.det_bound_check(dets, 2)
 
         if len(dets) > 1:
             nms_dets, nms_scores, nms_det_types = nms.non_max_suppression_fast(dets, scores, weights, overlapThresh=0.5)
@@ -71,14 +74,14 @@ class detector:
         # Since faces are left/right symmetric we can tell the trainer to train a
         # symmetric detector.  This helps it get the most value out of the training
         # data.
-        options.add_left_right_image_flips = True
+        #options.add_left_right_image_flips = True # seems to degrade performance in this case
         # The trainer is a kind of support vector machine and therefore has the usual
         # SVM C parameter.  In general, a bigger C encourages it to fit the training
         # data better but might lead to overfitting.  You must find the best C value
         # empirically by checking how well the trained detector works on a test set of
         # images you haven't trained on.  Don't just leave the value set at 5.  Try a
         # few different C values and see what works best for your data.
-        options.C = 5
+        options.C = 9
         # Tell the code how many CPU cores your computer has for the fastest training.
         options.num_threads = 4
         options.be_verbose = True
@@ -93,10 +96,10 @@ class detector:
         # file.  But for this example, we just use the training.xml file included with
         # dlib.
         #options.detection_window_size = 60 * 80
-        options.detection_window_size = int((18 * 26)) # 468, 1.44
+        options.detection_window_size = int((50 * 70)) # 468, 1.44
         dlib.train_simple_object_detector("../data/annotations/bb/training/combined_mtb.xml", "../data/models/detector_mtb.svm", options)
 
-        options.detection_window_size = int((14 * 32)) # 448, 2.29
+        options.detection_window_size = int((40 * 90)) # 448, 2.29
         dlib.train_simple_object_detector("../data/annotations/bb/training/combined_ped.xml", "../data/models/detector_ped.svm", options)
 
     def evaluate_dlib_detector(self):

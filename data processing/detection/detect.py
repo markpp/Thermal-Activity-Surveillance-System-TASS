@@ -212,9 +212,7 @@ def detect_hog_tracked_anno(frames_dir, annotations):
 def train_detector():
 
     hog_detector = detection.fhog_detector.detector()
-
-    #hog_detector.load_dlib_detector()
-    #hog_detector.show_learned_hog_filter()
-
     hog_detector.train_dlib_detector()
+    hog_detector.load_dlib_detector()
+    #hog_detector.show_learned_hog_filter()
     hog_detector.evaluate_dlib_detector()

@@ -66,18 +66,8 @@ int main( int argc, char** argv )
   Dlib_fhog dlib_fhog;
   CTracker tracker;
 
-  cv::VideoWriter outputVideo; //CV_FOURCC('M','J','P','G')
-  outputVideo.open( "../../data/video/output.avi", CV_FOURCC('M','J','P','G'), 7, cv::Size (IMAGEWIDTH_SCALE, IMAGEHEIGHT_SCALE), true );
-
-  ofstream track_file;
-  track_file.open ("../../data/tracks/log.csv");
-
-  ofstream det_file;
-  det_file.open ("../../data/detections/log.csv");
-
-  cv::Mat in_img;
-
-  if(argv[3]>0)
+  //if(argv[3]>0)
+  if(1)
   {
     train = true;
   }
@@ -88,6 +78,18 @@ int main( int argc, char** argv )
   }
   else
   {
+    cv::VideoWriter outputVideo; //CV_FOURCC('M','J','P','G')
+    outputVideo.open( "../../data/video/output.avi", CV_FOURCC('M','J','P','G'), 7, cv::Size (IMAGEWIDTH_SCALE, IMAGEHEIGHT_SCALE), true );
+
+    ofstream track_file;
+    track_file.open ("../../data/tracks/log.csv");
+
+    ofstream det_file;
+    det_file.open ("../../data/detections/log.csv");
+
+    cv::Mat in_img;
+
+
     dlib_fhog.load_dlib_detector();
 
     std::vector<std::vector<std::string> > annotations;
