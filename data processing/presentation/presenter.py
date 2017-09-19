@@ -30,8 +30,8 @@ def draw_rects(frame, frame_number, rects, scaling):
 
 
 def draw_detections(frame, frame_number, detections, scaling):
-    cv2.putText(frame, str(frame_number), (int(60 * scaling), 20),
-            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1, cv2.LINE_AA)
+    cv2.putText(frame, str(frame_number), (10, 20),
+            cv2.FONT_HERSHEY_SIMPLEX, 0.25, 255, 1, cv2.LINE_AA)
 
     for det_index, det in enumerate(detections):
         #print("Detection {}: Left: {} Top: {} Right: {} Bottom: {}".format(k, d.left(), d.top(), d.right(), d.bottom()))

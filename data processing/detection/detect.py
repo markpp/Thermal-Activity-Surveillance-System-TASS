@@ -33,11 +33,11 @@ def detect_hog(frames_dir, start_frame, frame_list):
                 index = index+1
             else:
                 frame_path = frames_dir + '/frame_' + str(frame_nr).zfill(6) + '.png'
-                img = cv2.imread(frame_path, -1)
-                if img is not None:
-                    img = np.clip(img, 0, 8191)
-                    img = np.array(img / 4).astype(np.uint8)
-                    frame = img
+                frame = cv2.imread(frame_path, -1)
+                if frame is not None:
+                    #img = np.clip(img, 0, 8191)
+                    #img = np.array(img / 4).astype(np.uint8)
+                    #frame = img
                     #frame = cv2.resize(img, dsize=(0, 0), fx=4.0, fy=4.0)
 
                     detections = []
@@ -51,10 +51,7 @@ def detect_hog(frames_dir, start_frame, frame_list):
 
                         # Sort tracks
                         # track_writer.writerow([int(frame_nr), -1, rect.left(), rect.top(), rect.height(), rect.width(), score, -1, -1])
-
-                        track_writer.writerow([int(frame_nr), int(det_type), score, int(rect.center().x/4), int(rect.center().y/4)])
-
-
+                        track_writer.writerow([int(frame_nr), int(det_type), score, int(rect.center().x), int(rect.center().y)])
                         #print("frame_nr: {:d}; type: {:d}; score: {:0.2f}; center_x: {:d}; center_y: {:d}; height: {:d}; width: {:d}".format(int(frame_nr), int(det_type), score, rect.left()+rect.width()/2, rect.top()+rect.height()/2, rect.height(), rect.width()))
 
                     cv2.imshow('Preview', presentation.presenter.draw_detections(frame, frame_nr, detections, 4.0))
@@ -62,16 +59,12 @@ def detect_hog(frames_dir, start_frame, frame_list):
                     print('read failed for: ')
                     print(frame_path)
                 # For continous processing
-                k = 32
-                cv2.waitKey(30)
+
                 # For stepping through
-                # k = cv2.waitKey()
-                if k == 32:
-                    index = index + 1
-                    print("Next frame -> {}".format(int(frame_nr) + 1))
+                k = cv2.waitKey(20)
                 if k == ord('b'):
                     index = index - 1
-                    print("Next frame <- {}".format(int(frame_nr) - 1))
+                    #print("Next frame <- {}".format(int(frame_nr) - 1))
                 elif k == ord('q'):
                     print("Quitting...")
                     break
@@ -79,7 +72,9 @@ def detect_hog(frames_dir, start_frame, frame_list):
                     print("Paused.")
                     cv2.waitKey()
                     print("Unpaused.")
-                print('\n')
+                else:
+                    index = index + 1
+                    #print("Next frame -> {}".format(int(frame_nr) + 1))
 
 
 def detect_hog_tracked(frames_dir, start_frame, frame_list):
@@ -117,9 +112,9 @@ def detect_hog_tracked(frames_dir, start_frame, frame_list):
                         detections.append(current_det)
 
                     # Update tracker with new detections
-                    detections.append([7.0, 7.0, 59.0, 88.0])
-                    print(detections)
-                    mtb_tracker.update(detections)
+                    #detections.append([7.0, 7.0, 59.0, 88.0])
+                    #print(detections)
+                    mtb_tracker.update(detections, frame_nr)
 
                     #cv2.imshow('Preview', presentation.presenter.draw_tracks(frame, frame_nr, mtb_tracker.track_bbs_ids, 4.0))
                 else:
@@ -143,7 +138,6 @@ def detect_hog_tracked(frames_dir, start_frame, frame_list):
                     print("Paused.")
                     cv2.waitKey()
                     print("Unpaused.")
-                print('\n')
 
 
 # Process only frames with annotated objects

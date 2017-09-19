@@ -56,14 +56,15 @@ if __name__ == "__main__":
     start_frame = args["frame"]
 
     # Train the detectors
-    detection.detect.train_detector()
+    #detection.detect.train_detector()
 
+    #print(sorted(tools.list_frames_in_dir.list_frames(frames_dir)))
     # Run the detectors on the provided data
     # detection.detect.detect_hog(frames_dir, start_frame, sorted(annotations))
-    #detection.detect.detect_hog(frames_dir, start_frame, tools.list_frames_in_dir.list_frames(frames_dir))
+    detection.detect.detect_hog(frames_dir, start_frame, sorted(tools.list_frames_in_dir.list_frames(frames_dir)))
 
     # Run detctor with tracking enabled
-    # detection.detect.detect_hog_tracked(frames_dir, start_frame, tools.list_frames_in_dir.list_frames(frames_dir))
+    #detection.detect.detect_hog_tracked(frames_dir, start_frame, tools.list_frames_in_dir.list_frames(frames_dir))
 
     # Previews only frames with annotations
     #presentation.preview.annotation_preview(frames_dir, annotations, start_frame, 1.0)

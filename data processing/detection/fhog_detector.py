@@ -45,16 +45,17 @@ class detector:
         #http://dlib.net/python/index.html#dlib.fhog_object_detector
         #dets, scores, weights = self.detectors[0].run(img)
         #dets, scores, weights = self.detectors[1].run(img)
-        dets, scores, weights = dlib.fhog_object_detector.run_multiple(self.detectors, img, upsample_num_times=0, adjust_threshold=0.1)
+        dets, scores, weights = dlib.fhog_object_detector.run_multiple(self.detectors, img, upsample_num_times=1, adjust_threshold=0.01)
 
         # dets = self.det_bound_check(dets, 2)
 
         if len(dets) > 1:
             nms_dets, nms_scores, nms_det_types = nms.non_max_suppression_fast(dets, scores, weights, overlapThresh=0.5)
+            print("Number of objects detected: {}".format(len(nms_dets)))
         else:
             nms_dets, nms_scores, nms_det_types = dets, scores, weights
 
-        print("Number of objects detected: {}".format(len(nms_dets)))
+
 
         #print new_dets
         #win.clear_overlay()
