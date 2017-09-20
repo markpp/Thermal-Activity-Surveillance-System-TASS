@@ -23,6 +23,18 @@ present results:
 # Detector
 The current detector is implemented in [dlib](https://github.com/davisking/dlib) and is described in this [paper](https://arxiv.org/abs/1502.00046). Because of the special loss function proposed in the paper, the detector can achieve great performance using a very limited number training samples. Recently, the same detector has been made available using CNN features instead of HoG. It could be interesting to try the CNN features.
 
+Current performance 
+
+c 9
+
+MTB detector evaluation:
+- Training accuracy: precision: 0.94032, recall: 0.941005, average precision: 0.931985
+- Testing accuracy: precision: 0.939781, recall: 0.770189, average precision: 0.746143
+PED detector evaluation:
+- Training accuracy: precision: 0.898455, recall: 0.962175, average precision: 0.94484
+- Testing accuracy: precision: 0.879433, recall: 0.709924, average precision: 0.682731
+
+
 # Tracking
 
 
