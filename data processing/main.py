@@ -63,7 +63,7 @@ if __name__ == "__main__":
     #print(sorted(tools.list_frames_in_dir.list_frames(frames_dir)))
     # Run the detectors on the provided data
     # detection.detect.detect_hog(frames_dir, start_frame, sorted(annotations))
-    #detection.detect.detect_hog(frames_dir, start_frame, sorted(tools.list_frames_in_dir.list_frames(frames_dir)))
+    detection.detect.detect_hog(frames_dir, start_frame, sorted(tools.list_frames_in_dir.list_frames(frames_dir)))
 
     # Run detctor with tracking enabled
     #detection.detect.detect_hog_tracked(frames_dir, start_frame, sorted(tools.list_frames_in_dir.list_frames(frames_dir)))
@@ -75,4 +75,4 @@ if __name__ == "__main__":
     #presentation.preview.continous_preview(start_frame, frames_dir, annotations, 4.0)
 
     # Previews only tracks
-    presentation.preview.track_preview(frames_dir, args["tracks"], start_frame, 4.0)
+    #presentation.preview.track_preview(frames_dir, args["tracks"], start_frame, 4.0)

@@ -18,6 +18,7 @@ def detect_hog(frames_dir, start_frame, frame_list):
     hog_detector = detection.fhog_detector.detector()
     hog_detector.load_dlib_detector()
 
+    preview_img = 0
     index = 0
     with open('../data/tracks/log.csv', 'wb') as csvfile:
         track_writer = csv.writer(csvfile, delimiter=';')
@@ -54,15 +55,15 @@ def detect_hog(frames_dir, start_frame, frame_list):
 
                         track_writer.writerow([int(frame_nr), int(det_type), score, int(rect.center().x), int(rect.center().y)])
                         #print("frame_nr: {:d}; type: {:d}; score: {:0.2f}; center_x: {:d}; center_y: {:d}; height: {:d}; width: {:d}".format(int(frame_nr), int(det_type), score, rect.left()+rect.width()/2, rect.top()+rect.height()/2, rect.height(), rect.width()))
-
-                    cv2.imshow('Preview', presentation.presenter.draw_detections(frame, frame_nr, detections, 4.0))
+                    preview_img = presentation.presenter.draw_detections(frame, frame_nr, detections, 4.0)
+                    cv2.imshow('Preview', preview_img)
                 else:
                     print('read failed for: ')
                     print(frame_path)
                 # For continous processing
 
                 # For stepping through
-                k = cv2.waitKey(20)
+                k = cv2.waitKey()
                 if k == ord('b'):
                     index = index - 1
                     #print("Next frame <- {}".format(int(frame_nr) - 1))
@@ -73,6 +74,8 @@ def detect_hog(frames_dir, start_frame, frame_list):
                     print("Paused.")
                     cv2.waitKey()
                     print("Unpaused.")
+                elif k == ord('s'):
+                    cv2.imwrite("preview_img.png",preview_img)
                 else:
                     index = index + 1
                     #print("Next frame -> {}".format(int(frame_nr) + 1))
@@ -87,6 +90,7 @@ def detect_hog_tracked(frames_dir, start_frame, frame_list):
 
     # Initialize tracker
     mtb_tracker = tracking.tracker.Tracker()
+    preview_img = 0
 
     index = 0
     with open('../data/tracks/dets.csv', 'wb') as csvfile:
@@ -120,8 +124,8 @@ def detect_hog_tracked(frames_dir, start_frame, frame_list):
                     mtb_tracker.update(detections, frame_nr, debug=False)
 
                     #print("%s" % (time.time() - start_time))
-                    #cv2.imshow('Preview', presentation.presenter.draw_tracks(frame, frame_nr, mtb_tracker.track_bbs_ids, 4.0))
-                    cv2.imshow('Preview', presentation.presenter.draw_tracks(frame, frame_nr, mtb_tracker.tracks, 4.0))
+                    preview_img = presentation.presenter.draw_tracks(frame, frame_nr, mtb_tracker.tracks, 4.0)
+                    cv2.imshow('Preview', preview_img)
                 else:
                     print('read failed for: ')
                     print(frame_path)
@@ -129,7 +133,7 @@ def detect_hog_tracked(frames_dir, start_frame, frame_list):
                 #k = 32
                 #cv2.waitKey(30)
                 # For stepping through
-                k = cv2.waitKey(30)
+                k = cv2.waitKey()
                 if k == ord('b'):
                     index = index - 1
                 elif k == ord('q'):
@@ -139,6 +143,8 @@ def detect_hog_tracked(frames_dir, start_frame, frame_list):
                     print("Paused.")
                     cv2.waitKey()
                     print("Unpaused.")
+                elif k == ord('s'):
+                    cv2.imwrite("preview_img.png",preview_img)
                 else:
                     index = index + 1
 
