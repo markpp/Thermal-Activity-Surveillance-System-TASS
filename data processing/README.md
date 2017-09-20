@@ -35,6 +35,8 @@ PED detector evaluation:
 - Training accuracy: precision: 0.898455, recall: 0.962175, average precision: 0.94484
 - Testing accuracy: precision: 0.879433, recall: 0.709924, average precision: 0.682731
 
+0.82s no optimization, 1 upsampling
+0.44s with optimization, 1 upsampling
 
 # Tracking
 
