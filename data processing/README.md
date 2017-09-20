@@ -18,6 +18,7 @@ present results:
 - Cumulative graph - count vs. frame_nr
 - Prgram timing
 
+On the raspberry pi, install dlib using this - sudo python setup.py install --yes USE_AVXINSTRUCTIONS --compiler-flags "-O3 -mfpu=neon" to fully utilize the arm in the pi
 # Method
 
 # Detector
