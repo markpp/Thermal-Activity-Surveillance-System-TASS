@@ -41,7 +41,7 @@ def detect_hog(frames_dir, start_frame, frame_list):
                     #frame = cv2.resize(img, dsize=(0, 0), fx=4.0, fy=4.0)
 
                     rects, scores, det_types = hog_detector.execute_dlib_detector(frame)
-
+                    detections = []
                     for det_num, (rect, score, det_type) in enumerate(zip(rects, scores, det_types)):
                         #print(str(rect.left()) + " " + str(score)
                         current_det = persons.person.Person(det_num, rect.left(), rect.top(), rect.right(), rect.bottom(), score, det_type)
@@ -101,6 +101,8 @@ def detect_hog_tracked(frames_dir, start_frame, frame_list):
                 frame_path = frames_dir + '/frame_' + str(frame_nr).zfill(6) + '.png'
                 frame = cv2.imread(frame_path, -1)
                 if frame is not None:
+                    #import time
+                    #start_time = time.time()
 
                     rects, scores, det_types = hog_detector.execute_dlib_detector(frame)
                     detections = []
@@ -117,6 +119,7 @@ def detect_hog_tracked(frames_dir, start_frame, frame_list):
                     #print(detections)
                     mtb_tracker.update(detections, frame_nr, debug=False)
 
+                    #print("%s" % (time.time() - start_time))
                     #cv2.imshow('Preview', presentation.presenter.draw_tracks(frame, frame_nr, mtb_tracker.track_bbs_ids, 4.0))
                     cv2.imshow('Preview', presentation.presenter.draw_tracks(frame, frame_nr, mtb_tracker.tracks, 4.0))
                 else:

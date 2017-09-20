@@ -16,7 +16,6 @@ import persons
 import tracking
 
 
-
 if __name__ == "__main__":
     """Main function for executing the primary components of the program.
 

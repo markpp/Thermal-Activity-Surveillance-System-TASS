@@ -45,8 +45,10 @@ class detector:
         #http://dlib.net/python/index.html#dlib.fhog_object_detector
         #dets, scores, weights = self.detectors[0].run(img)
         #dets, scores, weights = self.detectors[1].run(img)
+        #import time
+        #start_time = time.time()
         dets, scores, weights = dlib.fhog_object_detector.run_multiple(self.detectors, img, upsample_num_times=1, adjust_threshold=0.01)
-
+        #print("%s" % (time.time() - start_time))
         #print(dets)
         #print(scores)
         #print(weights)
