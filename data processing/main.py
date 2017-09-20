@@ -16,6 +16,7 @@ import persons
 import tracking
 
 
+
 if __name__ == "__main__":
     """Main function for executing the primary components of the program.
 
@@ -61,10 +62,10 @@ if __name__ == "__main__":
     #print(sorted(tools.list_frames_in_dir.list_frames(frames_dir)))
     # Run the detectors on the provided data
     # detection.detect.detect_hog(frames_dir, start_frame, sorted(annotations))
-    detection.detect.detect_hog(frames_dir, start_frame, sorted(tools.list_frames_in_dir.list_frames(frames_dir)))
+    #detection.detect.detect_hog(frames_dir, start_frame, sorted(tools.list_frames_in_dir.list_frames(frames_dir)))
 
     # Run detctor with tracking enabled
-    #detection.detect.detect_hog_tracked(frames_dir, start_frame, tools.list_frames_in_dir.list_frames(frames_dir))
+    detection.detect.detect_hog_tracked(frames_dir, start_frame, sorted(tools.list_frames_in_dir.list_frames(frames_dir)))
 
     # Previews only frames with annotations
     #presentation.preview.annotation_preview(frames_dir, annotations, start_frame, 1.0)

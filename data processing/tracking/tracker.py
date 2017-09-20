@@ -14,9 +14,12 @@ class Tracker:
         self.max_skipped_frames = 15
         self.unassigned_dets = []
         self.unassigned_tracks = []
-        
+        self.f = open('../data/tracks/tracks.csv','w')
 
-    def update(self, dets, frame_num):
+    def close():
+        self.f.close()
+
+    def update(self, dets, frame_num, debug):
         """Update tracks.
 
         Matches detections and tracks:
@@ -32,7 +35,7 @@ class Tracker:
         track_num = 0
         # Create new tracks
         if len(self.tracks) is 0:
-            if __debug__:
+            if debug:
                 print "Create new tracks"
             for det in dets:
                 det.first_frame = frame_num
@@ -46,7 +49,7 @@ class Tracker:
         N = len(self.tracks) # Number of existing tracks
         M = len(dets) # Number of detections to assign
 
-        if __debug__:   
+        if debug:
             print "Num dets: {} num tracks: {}".format(M, N)
         # Calculate cost
         # Make cost mat square
@@ -84,9 +87,9 @@ class Tracker:
             my_hungarian = tracking.hungarian.Hungarian(np.transpose(cost_mat))
             my_hungarian.calculate()
             result = my_hungarian.get_results()
-            if __debug__:
+            if debug:
                 print("result: {}".format(result))
-            
+
             if result:
                 lst1, lst2 = zip(*result)
                 self.assignments = list(lst1)
@@ -98,14 +101,14 @@ class Tracker:
         assign_index = 0
         while assign_index < len(self.assignments):
             if self.assignments[assign_index] != -1:
-                if __debug__:
+                if debug:
                     print("lowest cost: {}").format(min(cost_mat[assign_index][:]))
                 if min(cost_mat[assign_index][:]) > self.cost_thres:
                     self.assignments[assign_index] = -1
                     # mark as unassigned
                     self.unassigned_tracks.append(assign_index)
             else:
-                if __debug__:
+                if debug:
                     print "skipped_frames + 1"
                 self.tracks[assign_index].skipped_frames += 1
             assign_index += 1
@@ -127,7 +130,7 @@ class Tracker:
             mylist.append(int(e))
         print mylist
         '''
-        if __debug__:    
+        if debug:
             print self.assignments
         # Search for unassigned detections
         for det_index, det in enumerate(dets):
@@ -139,7 +142,7 @@ class Tracker:
 
         # Start new tracks for unassigned detections
         if len(self.unassigned_dets) > 0:
-            if __debug__:
+            if debug:
                 print "Start new tracks for unassigned detections"
             for det in self.unassigned_dets:
                 det.first_frame = frame_num
@@ -166,11 +169,11 @@ class Tracker:
                 self.tracks[assign_index].y_min = dets[assign_index].y_min
                 self.tracks[assign_index].x_max = dets[assign_index].x_max
                 self.tracks[assign_index].y_max = dets[assign_index].y_max
-                
+
                 if dets[assign_index].det_type == 1:
                     self.tracks[assign_index].ped_det_count += 1
                 else:
-                    self.tracks[assign_index].mtb_det_count += 1                                
+                    self.tracks[assign_index].mtb_det_count += 1
 
                 # Predict next location based on newest detection
                 self.tracks[assign_index].km_update(dets[assign_index].p_detect[-1])
@@ -188,31 +191,30 @@ class Tracker:
 
             self.tracks[assign_index].lifetime =+ 1
 
-        # Remove tracks with not detections after max_skipped_frames
+        # Remove tracks with no detections after max_skipped_frames
         for track in self.tracks:
             track.remove_track = False
             if track.skipped_frames > self.max_skipped_frames:
                 track.remove_track = True
-                if __debug__:
+                if debug:
                     print("track {} has died".format(track.track_id))
-                
+
                 type_tag = 'B'
                 if track.mtb_det_count < track.ped_det_count:
                     type_tag = 'P'
-                    
-                with open('../data/tracks/tracks.csv', 'a') as csvfile:
-                    track_writer = csv.writer(csvfile, delimiter=';')
-                    track_writer.writerow([frame_num, type_tag, '\n'])
+
+                #track_writer.writerow([frame_num, type_tag])
+                self.f.write('{};{};{};{}\n'.format(frame_num,type_tag,track.x_max-track.x_min,track.y_max-track.y_min))
                 # Look at the track and determine what it was
                 # TODO
 
             # Check if track moved out side of frame and remove
 
             #if(track.remove_track == True):
-        if __debug__:
+        if debug:
             print("Track length: {}".format(len(self.tracks)))
-            
+
         self.tracks = [x for x in self.tracks if not x.remove_track]
-        
-        if __debug__:
+
+        if debug:
             print("Track length after cleanup: {}".format(len(self.tracks)))

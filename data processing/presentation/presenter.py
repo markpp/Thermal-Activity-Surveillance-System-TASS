@@ -30,7 +30,7 @@ def draw_rects(frame, frame_number, rects, scaling):
 
 
 def draw_detections(frame, frame_number, detections, scaling):
-    cv2.putText(frame, str(frame_number), (10, 20),
+    cv2.putText(frame, str(frame_number), (10, 10),
             cv2.FONT_HERSHEY_SIMPLEX, 0.25, 255, 1, cv2.LINE_AA)
 
     for det_index, det in enumerate(detections):
@@ -41,8 +41,8 @@ def draw_detections(frame, frame_number, detections, scaling):
 
 
 def draw_tracks(frame, frame_number, tracks, scaling):
-    cv2.putText(frame, str(frame_number), (int(60 * scaling), 20),
-            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1, cv2.LINE_AA)
+    cv2.putText(frame, str(frame_number), (10, 10),
+            cv2.FONT_HERSHEY_SIMPLEX, 0.25, 255, 1, cv2.LINE_AA)
 
     for track_index, track in enumerate(tracks):
         cv2.putText(frame, str(track.det_num), (int(track.p_predict[-1][0]), int(track.p_predict[-1][1])-10),

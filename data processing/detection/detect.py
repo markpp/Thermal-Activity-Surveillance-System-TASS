@@ -91,9 +91,9 @@ def detect_hog_tracked(frames_dir, start_frame, frame_list):
     index = 0
     with open('../data/tracks/dets.csv', 'wb') as csvfile:
         track_writer = csv.writer(csvfile, delimiter=';')
-        track_writer.writerow(['frame_nr', 'type', 'score', 'center_x', 'center_y', 'height', 'width'])
+        track_writer.writerow(['frame_nr', 'type', 'score', 'left', 'top', 'right', 'bottom'])
 
-        while index < frame_list[-1]:
+        while index < len(frame_list):
             frame_nr = frame_list[index]
             if int(frame_nr) < start_frame:
                 index = index+1
@@ -103,19 +103,19 @@ def detect_hog_tracked(frames_dir, start_frame, frame_list):
                 if frame is not None:
 
                     rects, scores, det_types = hog_detector.execute_dlib_detector(frame)
-
+                    detections = []
                     for det_num, (rect, score, det_type) in enumerate(zip(rects, scores, det_types)):
                         #print(str(rect.left()) + " " + str(score)
                         current_det = persons.person.Person(det_num, rect.left(), rect.top(), rect.right(), rect.bottom(), score, det_type)
 
                         detections.append(current_det)
 
-                        track_writer.writerow([int(frame_nr), int(det_type), score, int(rect.center().x), int(rect.center().y)])
+                        track_writer.writerow([int(frame_nr), int(det_type), "{:.4f}".format(score), int(rect.left()), int(rect.top()), int(rect.right()), int(rect.bottom())])
 
                     # Update tracker with new detections
                     #detections.append([7.0, 7.0, 59.0, 88.0])
                     #print(detections)
-                    mtb_tracker.update(detections, frame_nr)
+                    mtb_tracker.update(detections, frame_nr, debug=False)
 
                     #cv2.imshow('Preview', presentation.presenter.draw_tracks(frame, frame_nr, mtb_tracker.track_bbs_ids, 4.0))
                     cv2.imshow('Preview', presentation.presenter.draw_tracks(frame, frame_nr, mtb_tracker.tracks, 4.0))
@@ -129,7 +129,6 @@ def detect_hog_tracked(frames_dir, start_frame, frame_list):
                 k = cv2.waitKey(30)
                 if k == ord('b'):
                     index = index - 1
-                    print("Next frame <- {}".format(int(frame_nr) - 1))
                 elif k == ord('q'):
                     print("Quitting...")
                     break
@@ -139,7 +138,6 @@ def detect_hog_tracked(frames_dir, start_frame, frame_list):
                     print("Unpaused.")
                 else:
                     index = index + 1
-                    print("Next frame -> {}".format(int(frame_nr) + 1))
 
 
 # Process only frames with annotated objects
@@ -194,12 +192,13 @@ def detect_hog_tracked_anno(frames_dir, annotations):
                 print("Next frame <- {}".format(int(frame_nr) - 1))
             elif k == ord('q'):
                 print("Quitting...")
+
                 break
             elif k == ord('p'):
                 print("Paused.")
                 cv2.waitKey()
                 print("Unpaused.")
-
+    mtb_tracker.close()
 
 def train_detector():
 

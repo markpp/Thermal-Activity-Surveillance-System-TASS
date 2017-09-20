@@ -8,10 +8,13 @@ import numpy as np
 
 class Person:
 
-    def __init__(self, det_num, x_min, y_min, x_max, y_max, score):
+    def __init__(self, det_num, x_min, y_min, x_max, y_max, score, det_type):
         self.track_num = -1
         self.id = -1
         self.det_num = det_num
+        self.det_type = det_type
+        self.ped_det_count = 0
+        self.mtb_det_count = 0
         self.x_min = x_min
         self.y_min = y_min
         self.x_max = x_max
