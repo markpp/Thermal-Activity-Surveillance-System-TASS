@@ -31,6 +31,8 @@ if __name__ == "__main__":
                     help="(optional) Path to frames")
     ap.add_argument("-a", "--anno", type=str, default='',
                     help="(optional) path to annotations")
+    ap.add_argument("-t", "--tracks", type=str, default='',
+                    help="(optional) path to annotations")
     ap.add_argument("-f", "--frame", type=int, default=0,
                     help="(optional) start frame number")
     args = vars(ap.parse_args())
@@ -64,10 +66,13 @@ if __name__ == "__main__":
     #detection.detect.detect_hog(frames_dir, start_frame, sorted(tools.list_frames_in_dir.list_frames(frames_dir)))
 
     # Run detctor with tracking enabled
-    detection.detect.detect_hog_tracked(frames_dir, start_frame, sorted(tools.list_frames_in_dir.list_frames(frames_dir)))
+    #detection.detect.detect_hog_tracked(frames_dir, start_frame, sorted(tools.list_frames_in_dir.list_frames(frames_dir)))
 
     # Previews only frames with annotations
     #presentation.preview.annotation_preview(frames_dir, annotations, start_frame, 1.0)
 
     # Requires a continous list of frames
     #presentation.preview.continous_preview(start_frame, frames_dir, annotations, 4.0)
+
+    # Previews only tracks
+    presentation.preview.track_preview(frames_dir, args["tracks"], start_frame, 4.0)

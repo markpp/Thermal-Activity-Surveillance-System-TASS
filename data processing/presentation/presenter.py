@@ -99,6 +99,27 @@ def scale_draw_annotations(frame, frame_number, annotations, scaling = 2.0):
 
     return frame
 
+def scale_present(frame, frame_number, scaling = 2.0):
+    """Scale frame before preview and draw annotations.
+
+    In order to make it easier to see what is going on, the preview
+    frames are scaled before the annotations are added:
+
+    Args:
+        frame (np.array): Input frame.
+        frame_number (int): Frame number.
+        scaling (float): Scaling constant.
+
+    Returns:
+        (np.array): Returns scaled frame with annotations.
+    """
+    frame = cv2.resize(frame, dsize=(0,0), fx=scaling, fy=scaling)
+    # draw current frame number to frame
+    cv2.putText(frame, str(frame_number), (10, 10),
+                cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1, cv2.LINE_AA)
+
+    return frame
+
 
 def show_hog(frame):
     #frame = color.rgb2gray(data.astronaut())
