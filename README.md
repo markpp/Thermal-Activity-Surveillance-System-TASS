@@ -49,7 +49,7 @@ sudo python3 setup.py install --compiler-flags "-mpfu=neon"
 | 2015-09-29-12-43 |             | Kongshøj      |          |                    |                    | Poor view|       |
 | 2015-09-30-06-23 | Fri 2 Oct   |               | 11:00:00 |                    |                    | ok       | test  |
 | 2015-09-30-11-17 | Sat 3 Oct   | Hammer Bakker | 11:00:00 |                    |                    | difficult|       |
-| 2015-10-05-15-56 | Man 5 Oct   | Kongshøj      | 11:00:00 |                    |                    | ok       | test  |
+| 2015-10-05-15-56 | Man 5 Oct   | Kongshøj      | 11:00:00 |                    |                    | occlusion| test  |
 | 2016-08-08-11-00 | Man 8 Aug   | Hammer Bakker | 11:00:00 | :heavy_check_mark: | :heavy_check_mark: | ok       | train | 
 | 2016-08-09-14-58 | Wed 10 Aug  | Hammer Bakker | 11:00:00 | :heavy_check_mark: | :heavy_check_mark: | ok       | test  |
 |                  | Sun 14 Aug  | Månedalen     | 11:00:00 |                    |                    |          |       |
