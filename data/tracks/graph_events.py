@@ -200,33 +200,76 @@ def convert_events(events):
     return sorted(event_list,key=lambda l:l[0]), sorted(mtb_events), sorted(ped_events)
 
 
-def plot_hist(mtb_events, mtb_tracks, name):
+def plot_hist(mtb_events, mtb_tracks, ped_events, ped_tracks, name):
 
-    event_hist = np.histogram(mtb_events, 10)
-    event_cumsum = np.cumsum(event_hist[0])
+    #'''
+    m_max = 0
+    if(np.max(mtb_events) > np.max(mtb_tracks)):
+        m_max = np.max(mtb_events)
+    else:
+        m_max = np.max(mtb_tracks)
 
-    track_hist = np.histogram(mtb_tracks, 10)
-    track_cumsum = np.cumsum(track_hist[0])
+    print m_max
+    bs = [0, 0.1*m_max, 0.2*m_max, 0.3*m_max, 0.4*m_max, 0.5*m_max, 0.6*m_max, 0.7*m_max, 0.8*m_max, 0.9*m_max, 1*m_max]
+    #'''
+
+    mtb_event_hist = np.histogram(mtb_events, bs)
+    mtb_event_cumsum = np.cumsum(mtb_event_hist[0])
+
+    mtb_track_hist = np.histogram(mtb_tracks, bs)
+    mtb_track_cumsum = np.cumsum(mtb_track_hist[0])
+
+    ped_event_hist = np.histogram(ped_events, bs)
+    ped_event_cumsum = np.cumsum(ped_event_hist[0])
+
+    ped_track_hist = np.histogram(ped_tracks, bs)
+    ped_track_cumsum = np.cumsum(ped_track_hist[0])
 
     fig = plt.figure()
-    bins = 20
-    plt.hist(mtb_events, bins, alpha=0.5, label='GT', color='m')
-    plt.hist(mtb_tracks, bins, alpha=0.5, label='tracks', color='c')
-    plt.plot(event_hist[1][1:], event_cumsum, label='GT cumsum', color='r')
-    plt.plot(track_hist[1][1:], track_cumsum, label='tracks cumsum', color='b')
 
 
-    plt.legend(loc='upper right')
-    fig.suptitle('Distribution of {} in annotations'.format(name), fontsize=20)
-    plt.xlabel(name, fontsize=16)
+    #'''
+    mtb_gt_hist = np.minimum(mtb_event_hist[0], mtb_track_hist[0])
+
+    print('MTB')
+    print('TPs : {}'.format(np.sum(mtb_gt_hist)))
+    print('FNs : {}'.format(np.sum(mtb_event_hist[0] - mtb_gt_hist)))
+    print('FPs : {}'.format(np.sum(mtb_track_hist[0] - mtb_gt_hist)))
+
+
+    ped_gt_hist = np.minimum(ped_event_hist[0], ped_track_hist[0])
+    print('PED')
+    print('TPs : {}'.format(np.sum(ped_gt_hist)))
+    print('FNs : {}'.format(np.sum(ped_event_hist[0] - ped_gt_hist)))
+    print('FPs : {}'.format(np.sum(ped_track_hist[0] - ped_gt_hist)))
+
+    #bins = 20
+    #plt.hist(event_hist[0], bs, alpha=0.8, label='FN')
+    #plt.hist(mtb_tracks[0], bs, alpha=0.8, label='FP')
+    #plt.plot(bs[1:], gt_hist, 'r--', linewidth=1)
+
+    #plt.hist(gt_hist, bs, alpha=0.8, label='TP')
+    #plt.bar(event_hist[0], event_hist[1], width=1, label='TP', color='b')
+    #'''
+
+
+    plt.plot(mtb_event_hist[1][1:], mtb_event_cumsum, 'b-', label='MTB GT')
+    plt.plot(mtb_track_hist[1][1:], mtb_track_cumsum, 'c--', label='MTB System')
+
+    plt.plot(ped_event_hist[1][1:], ped_event_cumsum, 'r-', label='PED GT')
+    plt.plot(ped_track_hist[1][1:], ped_track_cumsum, 'm--', label='PED System')
+
+    plt.legend(loc='upper left')
+    fig.suptitle('MTB counting', fontsize=20)
+    plt.xlabel('Frame #', fontsize=16)
     plt.ylabel('Frequency', fontsize=16)
     #plt.show()
     fig_name = 'Graphs/{}_distribution.png'.format(name)
     plt.savefig(fig_name)
 
-def plot_events(mtb_events, mtb_tracks):
+def plot_events(mtb_events, mtb_tracks, ped_events, ped_tracks):
 
-    plot_hist(mtb_events, mtb_tracks, 'GT vs. tracks')
+    plot_hist(mtb_events, mtb_tracks, ped_events, ped_tracks, 'GT vs. tracks')
 
 
 if __name__ == "__main__":
@@ -251,12 +294,20 @@ if __name__ == "__main__":
         reader = csv.reader(f)
         event_list = list(reader)
 
+    events, mtb_events, ped_events = split_tracks(event_list)
+
+    '''
+    with open(args["events"], 'rb') as f:
+        reader = csv.reader(f)
+        event_list = list(reader)
+
     events, mtb_events, ped_events = convert_events(event_list)
 
     with open(args["events"][:-4]+"_tracks.csv", 'wb') as csvfile:
         event_tracks = csv.writer(csvfile, delimiter=';')
         for event in events:
             event_tracks.writerow(event)
+    '''
 
     track_list = []
     with open(args["tracks"], 'rb') as f:
@@ -265,8 +316,7 @@ if __name__ == "__main__":
 
     tracks, mtb_tracks, ped_tracks = split_tracks(track_list)
     #frame_nr_to_time(track_list)
-
-    plot_events(mtb_events, mtb_tracks)
+    plot_events(mtb_events, mtb_tracks, ped_events, ped_tracks)
 
     '''
     #
